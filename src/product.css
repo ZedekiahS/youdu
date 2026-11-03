@@ -18,3 +18,5 @@
 
 .follow-clock{font-size:72px;font-weight:650;color:#45634d;text-align:center;font-variant-numeric:tabular-nums}.follow-clock small{font-size:18px;margin-left:10px}.follow-panel>p{text-align:center}.follow-panel .motion-player video{max-height:380px}.follow-panel>.workflow-actions{position:sticky;bottom:75px;background:#fff;padding:12px;border-radius:14px;z-index:2}
 .follow-panel{scroll-margin-top:78px}.follow-panel .motion-player>.muted{font-size:11px}.follow-panel .motion-player details{margin-top:8px;padding:8px}@media(max-width:600px){.follow-panel .section-heading{margin-bottom:5px}.follow-clock{font-size:48px;line-height:1.3}.follow-panel .motion-player video{max-height:32vh}.follow-panel .workflow-actions{margin:10px 0}.follow-panel .motion-player>.muted{display:none}}
+
+.food-categories{display:flex;flex-wrap:wrap;margin-bottom:14px}.food-categories button{min-height:40px}

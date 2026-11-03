@@ -1,0 +1,1037 @@
+[
+  {
+    "fdcId": "168409",
+    "id": "cucumber",
+    "name": "黄瓜",
+    "group": "蔬菜",
+    "state": "生，带皮",
+    "originalName": "Cucumber, with peel, raw",
+    "aliases": [
+      "黄瓜"
+    ]
+  },
+  {
+    "fdcId": "168878",
+    "id": "rice",
+    "name": "长粒白米饭",
+    "group": "主食",
+    "state": "熟，强化长粒白米",
+    "originalName": "Rice, white, long-grain, regular, enriched, cooked",
+    "aliases": [
+      "长粒白米饭",
+      "米饭",
+      "大米"
+    ]
+  },
+  {
+    "fdcId": "170379",
+    "id": "broccoli",
+    "name": "西兰花",
+    "group": "蔬菜",
+    "state": "生，可食部分",
+    "originalName": "Broccoli, raw",
+    "aliases": [
+      "西兰花"
+    ]
+  },
+  {
+    "fdcId": "170457",
+    "id": "tomato",
+    "name": "番茄",
+    "group": "蔬菜",
+    "state": "生，成熟红番茄",
+    "originalName": "Tomatoes, red, ripe, raw, year round average",
+    "aliases": [
+      "番茄"
+    ]
+  },
+  {
+    "fdcId": "171287",
+    "id": "egg",
+    "name": "鸡蛋",
+    "group": "蛋奶豆",
+    "state": "生，全蛋，可食部分",
+    "originalName": "Egg, whole, raw, fresh",
+    "aliases": [
+      "鸡蛋",
+      "鸡蛋"
+    ]
+  },
+  {
+    "fdcId": "171413",
+    "id": "oil",
+    "name": "橄榄油",
+    "group": "调味",
+    "state": "烹调用橄榄油",
+    "originalName": "Oil, olive, salad or cooking",
+    "aliases": [
+      "橄榄油"
+    ]
+  },
+  {
+    "fdcId": "172217",
+    "id": "milk",
+    "name": "全脂牛奶",
+    "group": "蛋奶豆",
+    "state": "3.25% 脂肪，未添加维生素 A/D",
+    "originalName": "Milk, whole, 3.25% milkfat, without added vitamin A and vitamin D",
+    "aliases": [
+      "全脂牛奶",
+      "牛奶"
+    ]
+  },
+  {
+    "fdcId": "172476",
+    "id": "tofu",
+    "name": "普通豆腐",
+    "group": "蛋奶豆",
+    "state": "生，硫酸钙凝固",
+    "originalName": "Tofu, raw, regular, prepared with calcium sulfate",
+    "aliases": [
+      "普通豆腐",
+      "豆腐"
+    ]
+  },
+  {
+    "fdcId": "173468",
+    "id": "salt",
+    "name": "食盐",
+    "group": "调味",
+    "state": "餐桌盐",
+    "originalName": "Salt, table",
+    "aliases": [
+      "食盐"
+    ]
+  },
+  {
+    "fdcId": "173944",
+    "id": "banana",
+    "name": "香蕉",
+    "group": "水果",
+    "state": "生，可食部分",
+    "originalName": "Bananas, raw",
+    "aliases": [
+      "香蕉"
+    ]
+  },
+  {
+    "fdcId": "173424",
+    "id": "egg-boiled",
+    "name": "水煮全蛋",
+    "group": "蛋奶豆",
+    "state": "熟，硬煮，全蛋，可食部分",
+    "originalName": "Egg, whole, cooked, hard-boiled",
+    "aliases": [
+      "水煮全蛋",
+      "鸡蛋",
+      "水煮蛋",
+      "煮鸡蛋",
+      "熟鸡蛋"
+    ]
+  },
+  {
+    "fdcId": "171477",
+    "id": "chicken-roasted",
+    "name": "烤鸡胸肉",
+    "group": "肉类",
+    "state": "熟，烤制，仅肉，不含皮",
+    "originalName": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+    "aliases": [
+      "烤鸡胸肉",
+      "鸡胸肉",
+      "鸡肉"
+    ]
+  },
+  {
+    "fdcId": "169756",
+    "id": "rice-white-raw",
+    "name": "长粒白米（未强化，生）",
+    "group": "主食",
+    "state": "生，未强化，普通长粒白米；不是熟饭",
+    "originalName": "Rice, white, long-grain, regular, raw, unenriched",
+    "aliases": [
+      "长粒白米（未强化，生）",
+      "大米",
+      "米饭",
+      "白米"
+    ]
+  },
+  {
+    "fdcId": "169757",
+    "id": "rice-white-cooked",
+    "name": "长粒白米饭（未强化，无盐）",
+    "group": "主食",
+    "state": "熟，未强化，普通长粒白米，无盐；按熟饭重量",
+    "originalName": "Rice, white, long-grain, regular, unenriched, cooked without salt",
+    "aliases": [
+      "长粒白米饭（未强化，无盐）",
+      "大米",
+      "米饭",
+      "白米饭"
+    ]
+  },
+  {
+    "fdcId": "168877",
+    "id": "rice-enriched-raw",
+    "name": "长粒白米（强化，生）",
+    "group": "主食",
+    "state": "生，强化，普通长粒白米；与原有强化米饭区分",
+    "originalName": "Rice, white, long-grain, regular, raw, enriched",
+    "aliases": [
+      "长粒白米（强化，生）",
+      "大米",
+      "白米"
+    ]
+  },
+  {
+    "fdcId": "169703",
+    "id": "brown-rice-raw",
+    "name": "长粒糙米（生）",
+    "group": "主食",
+    "state": "生，长粒糙米；按干米重量",
+    "originalName": "Rice, brown, long-grain, raw (Includes foods for USDA's Food Distribution Program)",
+    "aliases": [
+      "长粒糙米（生）",
+      "糙米",
+      "大米"
+    ]
+  },
+  {
+    "fdcId": "169704",
+    "id": "brown-rice-cooked",
+    "name": "长粒糙米饭（熟）",
+    "group": "主食",
+    "state": "熟，长粒糙米；按熟饭重量",
+    "originalName": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+    "aliases": [
+      "长粒糙米饭（熟）",
+      "糙米",
+      "糙米饭",
+      "米饭"
+    ]
+  },
+  {
+    "fdcId": "173904",
+    "id": "oats-dry",
+    "name": "燕麦片（未强化，干）",
+    "group": "主食",
+    "state": "干，普通或快熟燕麦片，未强化；非加糖冲饮配方",
+    "originalName": "Cereals, oats, regular and quick, not fortified, dry",
+    "aliases": [
+      "燕麦片（未强化，干）",
+      "燕麦",
+      "燕麦片",
+      "麦片"
+    ]
+  },
+  {
+    "fdcId": "173905",
+    "id": "oats-cooked",
+    "name": "燕麦粥（清水煮，无盐）",
+    "group": "主食",
+    "state": "熟，未强化燕麦片加水煮制，无盐；未加奶或糖",
+    "originalName": "Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",
+    "aliases": [
+      "燕麦粥（清水煮，无盐）",
+      "燕麦",
+      "燕麦片",
+      "燕麦粥",
+      "麦片"
+    ]
+  },
+  {
+    "fdcId": "169702",
+    "id": "millet-raw",
+    "name": "小米（生）",
+    "group": "主食",
+    "state": "生，干燥谷粒；不是小米粥",
+    "originalName": "Millet, raw",
+    "aliases": [
+      "小米（生）",
+      "小米"
+    ]
+  },
+  {
+    "fdcId": "168871",
+    "id": "millet-cooked",
+    "name": "小米（熟）",
+    "group": "主食",
+    "state": "熟；原条目未指定稀稠度，不能等同任意小米粥",
+    "originalName": "Millet, cooked",
+    "aliases": [
+      "小米（熟）",
+      "小米"
+    ]
+  },
+  {
+    "fdcId": "168874",
+    "id": "quinoa-raw",
+    "name": "藜麦（生）",
+    "group": "主食",
+    "state": "未烹调，按干谷粒重量",
+    "originalName": "Quinoa, uncooked",
+    "aliases": [
+      "藜麦（生）",
+      "藜麦"
+    ]
+  },
+  {
+    "fdcId": "168917",
+    "id": "quinoa-cooked",
+    "name": "藜麦（熟）",
+    "group": "主食",
+    "state": "熟，按烹调后重量",
+    "originalName": "Quinoa, cooked",
+    "aliases": [
+      "藜麦（熟）",
+      "藜麦"
+    ]
+  },
+  {
+    "fdcId": "168927",
+    "id": "pasta-dry",
+    "name": "意大利面（未强化，干）",
+    "group": "主食",
+    "state": "干，未强化；不是中式面条",
+    "originalName": "Pasta, dry, unenriched",
+    "aliases": [
+      "意大利面（未强化，干）",
+      "意面",
+      "意大利面"
+    ]
+  },
+  {
+    "fdcId": "168928",
+    "id": "pasta-cooked",
+    "name": "意大利面（未强化，熟）",
+    "group": "主食",
+    "state": "熟，未强化，无添加盐；按沥水后重量",
+    "originalName": "Pasta, cooked, unenriched, without added salt",
+    "aliases": [
+      "意大利面（未强化，熟）",
+      "意面",
+      "意大利面"
+    ]
+  },
+  {
+    "fdcId": "170026",
+    "id": "potato-raw",
+    "name": "土豆（生，带皮）",
+    "group": "薯类与玉米",
+    "state": "生，肉与皮；不适用于去皮重量",
+    "originalName": "Potatoes, flesh and skin, raw",
+    "aliases": [
+      "土豆（生，带皮）",
+      "土豆",
+      "马铃薯"
+    ]
+  },
+  {
+    "fdcId": "170438",
+    "id": "potato-boiled",
+    "name": "土豆（水煮，去皮可食部）",
+    "group": "薯类与玉米",
+    "state": "带皮水煮后仅计肉，无盐；按熟可食部重量",
+    "originalName": "Potatoes, boiled, cooked in skin, flesh, without salt",
+    "aliases": [
+      "土豆（水煮，去皮可食部）",
+      "土豆",
+      "马铃薯"
+    ]
+  },
+  {
+    "fdcId": "168482",
+    "id": "sweet-potato-raw",
+    "name": "红薯（生）",
+    "group": "薯类与玉米",
+    "state": "生，未烹调；按可食部分重量",
+    "originalName": "Sweet potato, raw, unprepared (Includes foods for USDA's Food Distribution Program)",
+    "aliases": [
+      "红薯（生）",
+      "红薯",
+      "甘薯",
+      "地瓜"
+    ]
+  },
+  {
+    "fdcId": "168484",
+    "id": "sweet-potato-boiled",
+    "name": "红薯（水煮，去皮）",
+    "group": "薯类与玉米",
+    "state": "熟，水煮，无皮；原条目未标加盐",
+    "originalName": "Sweet potato, cooked, boiled, without skin",
+    "aliases": [
+      "红薯（水煮，去皮）",
+      "红薯",
+      "甘薯",
+      "地瓜"
+    ]
+  },
+  {
+    "fdcId": "169998",
+    "id": "corn-raw",
+    "name": "黄色甜玉米（生）",
+    "group": "薯类与玉米",
+    "state": "生，黄色甜玉米，可食玉米粒；不含玉米芯",
+    "originalName": "Corn, sweet, yellow, raw",
+    "aliases": [
+      "黄色甜玉米（生）",
+      "玉米",
+      "甜玉米"
+    ]
+  },
+  {
+    "fdcId": "169999",
+    "id": "corn-boiled",
+    "name": "黄色甜玉米（水煮，无盐）",
+    "group": "薯类与玉米",
+    "state": "熟，黄色甜玉米，水煮沥水，无盐；不含玉米芯",
+    "originalName": "Corn, sweet, yellow, cooked, boiled, drained, without salt",
+    "aliases": [
+      "黄色甜玉米（水煮，无盐）",
+      "玉米",
+      "甜玉米"
+    ]
+  },
+  {
+    "fdcId": "170393",
+    "id": "carrot-raw",
+    "name": "胡萝卜（生）",
+    "group": "蔬菜",
+    "state": "生，按可食部分重量",
+    "originalName": "Carrots, raw",
+    "aliases": [
+      "胡萝卜（生）",
+      "胡萝卜"
+    ]
+  },
+  {
+    "fdcId": "170394",
+    "id": "carrot-boiled",
+    "name": "胡萝卜（水煮，无盐）",
+    "group": "蔬菜",
+    "state": "熟，水煮，沥水，无盐",
+    "originalName": "Carrots, cooked, boiled, drained, without salt",
+    "aliases": [
+      "胡萝卜（水煮，无盐）",
+      "胡萝卜"
+    ]
+  },
+  {
+    "fdcId": "168462",
+    "id": "spinach-raw",
+    "name": "菠菜（生）",
+    "group": "蔬菜",
+    "state": "生，按可食部分重量",
+    "originalName": "Spinach, raw",
+    "aliases": [
+      "菠菜（生）",
+      "菠菜"
+    ]
+  },
+  {
+    "fdcId": "168463",
+    "id": "spinach-boiled",
+    "name": "菠菜（水煮，无盐）",
+    "group": "蔬菜",
+    "state": "熟，水煮，沥水，无盐",
+    "originalName": "Spinach, cooked, boiled, drained, without salt",
+    "aliases": [
+      "菠菜（水煮，无盐）",
+      "菠菜"
+    ]
+  },
+  {
+    "fdcId": "169967",
+    "id": "broccoli-boiled",
+    "name": "西兰花（水煮，无盐）",
+    "group": "蔬菜",
+    "state": "熟，水煮，沥水，无盐",
+    "originalName": "Broccoli, cooked, boiled, drained, without salt",
+    "aliases": [
+      "西兰花（水煮，无盐）",
+      "西兰花",
+      "绿花椰菜"
+    ]
+  },
+  {
+    "fdcId": "169975",
+    "id": "cabbage-raw",
+    "name": "结球甘蓝（生）",
+    "group": "蔬菜",
+    "state": "生，普通结球甘蓝；不是大白菜",
+    "originalName": "Cabbage, raw",
+    "aliases": [
+      "结球甘蓝（生）",
+      "包菜",
+      "卷心菜",
+      "圆白菜",
+      "甘蓝"
+    ]
+  },
+  {
+    "fdcId": "169976",
+    "id": "cabbage-boiled",
+    "name": "结球甘蓝（水煮，无盐）",
+    "group": "蔬菜",
+    "state": "熟，水煮，沥水，无盐",
+    "originalName": "Cabbage, cooked, boiled, drained, without salt",
+    "aliases": [
+      "结球甘蓝（水煮，无盐）",
+      "包菜",
+      "卷心菜",
+      "圆白菜",
+      "甘蓝"
+    ]
+  },
+  {
+    "fdcId": "169979",
+    "id": "napa-raw",
+    "name": "大白菜（生）",
+    "group": "蔬菜",
+    "state": "生，pe-tsai 类型；美国采集数据",
+    "originalName": "Cabbage, chinese (pe-tsai), raw",
+    "aliases": [
+      "大白菜（生）",
+      "白菜",
+      "大白菜"
+    ]
+  },
+  {
+    "fdcId": "169980",
+    "id": "napa-boiled",
+    "name": "大白菜（水煮，无盐）",
+    "group": "蔬菜",
+    "state": "熟，pe-tsai 类型，水煮沥水，无盐",
+    "originalName": "Cabbage, chinese (pe-tsai), cooked, boiled, drained, without salt",
+    "aliases": [
+      "大白菜（水煮，无盐）",
+      "白菜",
+      "大白菜"
+    ]
+  },
+  {
+    "fdcId": "170390",
+    "id": "pakchoi-raw",
+    "name": "小白菜（生）",
+    "group": "蔬菜",
+    "state": "生，pak-choi 类型；不代表所有青菜品种",
+    "originalName": "Cabbage, chinese (pak-choi), raw",
+    "aliases": [
+      "小白菜（生）",
+      "小白菜",
+      "青菜",
+      "油菜"
+    ]
+  },
+  {
+    "fdcId": "170391",
+    "id": "pakchoi-boiled",
+    "name": "小白菜（水煮，无盐）",
+    "group": "蔬菜",
+    "state": "熟，pak-choi 类型，水煮沥水，无盐",
+    "originalName": "Cabbage, chinese (pak-choi), cooked, boiled, drained, without salt",
+    "aliases": [
+      "小白菜（水煮，无盐）",
+      "小白菜",
+      "青菜",
+      "油菜"
+    ]
+  },
+  {
+    "fdcId": "169986",
+    "id": "cauliflower-raw",
+    "name": "花椰菜（生）",
+    "group": "蔬菜",
+    "state": "生，普通花椰菜",
+    "originalName": "Cauliflower, raw",
+    "aliases": [
+      "花椰菜（生）",
+      "菜花",
+      "花菜",
+      "花椰菜"
+    ]
+  },
+  {
+    "fdcId": "170397",
+    "id": "cauliflower-boiled",
+    "name": "花椰菜（水煮，无盐）",
+    "group": "蔬菜",
+    "state": "熟，水煮，沥水，无盐",
+    "originalName": "Cauliflower, cooked, boiled, drained, without salt",
+    "aliases": [
+      "花椰菜（水煮，无盐）",
+      "菜花",
+      "花菜",
+      "花椰菜"
+    ]
+  },
+  {
+    "fdcId": "169291",
+    "id": "zucchini-raw",
+    "name": "西葫芦（生，带皮）",
+    "group": "蔬菜",
+    "state": "生，带皮，夏南瓜类型",
+    "originalName": "Squash, summer, zucchini, includes skin, raw",
+    "aliases": [
+      "西葫芦（生，带皮）",
+      "西葫芦",
+      "角瓜"
+    ]
+  },
+  {
+    "fdcId": "169988",
+    "id": "celery-raw",
+    "name": "芹菜（生）",
+    "group": "蔬菜",
+    "state": "生，普通芹菜；品种差异未核对",
+    "originalName": "Celery, raw",
+    "aliases": [
+      "芹菜（生）",
+      "芹菜",
+      "西芹"
+    ]
+  },
+  {
+    "fdcId": "170000",
+    "id": "onion-raw",
+    "name": "洋葱（生）",
+    "group": "蔬菜",
+    "state": "生，按可食部分重量",
+    "originalName": "Onions, raw",
+    "aliases": [
+      "洋葱（生）",
+      "洋葱"
+    ]
+  },
+  {
+    "fdcId": "169251",
+    "id": "mushroom-white",
+    "name": "白蘑菇（生）",
+    "group": "蔬菜",
+    "state": "生，白色双孢蘑菇；不是所有蘑菇的平均值",
+    "originalName": "Mushrooms, white, raw",
+    "aliases": [
+      "白蘑菇（生）",
+      "蘑菇",
+      "口蘑",
+      "白蘑菇"
+    ]
+  },
+  {
+    "fdcId": "169242",
+    "id": "shiitake-raw",
+    "name": "香菇（鲜，生）",
+    "group": "蔬菜",
+    "state": "鲜，生；不能用于干香菇或泡发重量",
+    "originalName": "Mushrooms, shiitake, raw",
+    "aliases": [
+      "香菇（鲜，生）",
+      "香菇",
+      "鲜香菇"
+    ]
+  },
+  {
+    "fdcId": "171688",
+    "id": "apple-raw",
+    "name": "苹果（生，带皮）",
+    "group": "水果",
+    "state": "生，带皮，可食部分；不含果核",
+    "originalName": "Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",
+    "aliases": [
+      "苹果（生，带皮）",
+      "苹果"
+    ]
+  },
+  {
+    "fdcId": "167762",
+    "id": "strawberry-raw",
+    "name": "草莓（生）",
+    "group": "水果",
+    "state": "生，按可食部分重量",
+    "originalName": "Strawberries, raw",
+    "aliases": [
+      "草莓（生）",
+      "草莓"
+    ]
+  },
+  {
+    "fdcId": "169097",
+    "id": "orange-raw",
+    "name": "橙子（生）",
+    "group": "水果",
+    "state": "生，商业品种综合，可食部分；不含果皮",
+    "originalName": "Oranges, raw, all commercial varieties",
+    "aliases": [
+      "橙子（生）",
+      "橙子",
+      "橙"
+    ]
+  },
+  {
+    "fdcId": "169118",
+    "id": "pear-raw",
+    "name": "梨（生）",
+    "group": "水果",
+    "state": "生，按可食部分重量；品种差异未核对",
+    "originalName": "Pears, raw",
+    "aliases": [
+      "梨（生）",
+      "梨"
+    ]
+  },
+  {
+    "fdcId": "167765",
+    "id": "watermelon-raw",
+    "name": "西瓜（生）",
+    "group": "水果",
+    "state": "生，按可食果肉重量；不含瓜皮",
+    "originalName": "Watermelon, raw",
+    "aliases": [
+      "西瓜（生）",
+      "西瓜"
+    ]
+  },
+  {
+    "fdcId": "168153",
+    "id": "kiwi-green",
+    "name": "绿心猕猴桃（生）",
+    "group": "水果",
+    "state": "生，绿心品种，可食部分",
+    "originalName": "Kiwifruit, green, raw",
+    "aliases": [
+      "绿心猕猴桃（生）",
+      "猕猴桃",
+      "奇异果"
+    ]
+  },
+  {
+    "fdcId": "169910",
+    "id": "mango-raw",
+    "name": "芒果（生）",
+    "group": "水果",
+    "state": "生，按可食果肉重量；不含皮核",
+    "originalName": "Mangos, raw",
+    "aliases": [
+      "芒果（生）",
+      "芒果"
+    ]
+  },
+  {
+    "fdcId": "174683",
+    "id": "grapes-raw",
+    "name": "红或绿葡萄（生）",
+    "group": "水果",
+    "state": "生，欧洲种类型（如无籽汤普森），可食部分",
+    "originalName": "Grapes, red or green (European type, such as Thompson seedless), raw",
+    "aliases": [
+      "红或绿葡萄（生）",
+      "葡萄",
+      "提子"
+    ]
+  },
+  {
+    "fdcId": "169124",
+    "id": "pineapple-raw",
+    "name": "菠萝（生）",
+    "group": "水果",
+    "state": "生，各品种综合，按可食果肉重量",
+    "originalName": "Pineapple, raw, all varieties",
+    "aliases": [
+      "菠萝（生）",
+      "菠萝",
+      "凤梨"
+    ]
+  },
+  {
+    "fdcId": "171077",
+    "id": "chicken-raw",
+    "name": "鸡胸肉（生，去皮去骨）",
+    "group": "肉类",
+    "state": "生，肉鸡胸肉，去皮去骨，仅肉；非盐水注入条目",
+    "originalName": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+    "aliases": [
+      "鸡胸肉（生，去皮去骨）",
+      "鸡胸肉",
+      "鸡肉"
+    ]
+  },
+  {
+    "fdcId": "168249",
+    "id": "pork-tenderloin-raw",
+    "name": "猪里脊（生，仅瘦肉）",
+    "group": "肉类",
+    "state": "生，里脊，分离瘦肉；不是肥瘦相间猪肉",
+    "originalName": "Pork, fresh, loin, tenderloin, separable lean only, raw",
+    "aliases": [
+      "猪里脊（生，仅瘦肉）",
+      "猪里脊",
+      "里脊肉",
+      "猪肉"
+    ]
+  },
+  {
+    "fdcId": "168250",
+    "id": "pork-tenderloin-roasted",
+    "name": "猪里脊（烤熟，仅瘦肉）",
+    "group": "肉类",
+    "state": "熟，烤制，里脊，分离瘦肉",
+    "originalName": "Pork, fresh, loin, tenderloin, separable lean only, cooked, roasted",
+    "aliases": [
+      "猪里脊（烤熟，仅瘦肉）",
+      "猪里脊",
+      "里脊肉",
+      "猪肉"
+    ]
+  },
+  {
+    "fdcId": "175167",
+    "id": "salmon-raw",
+    "name": "大西洋鲑（养殖，生）",
+    "group": "鱼虾",
+    "state": "生，养殖大西洋鲑；不等同所有三文鱼",
+    "originalName": "Fish, salmon, Atlantic, farmed, raw",
+    "aliases": [
+      "大西洋鲑（养殖，生）",
+      "三文鱼",
+      "鲑鱼",
+      "鱼"
+    ]
+  },
+  {
+    "fdcId": "175168",
+    "id": "salmon-cooked",
+    "name": "大西洋鲑（养殖，干热熟制）",
+    "group": "鱼虾",
+    "state": "熟，养殖大西洋鲑，干热烹调；非油炸或酱汁配方",
+    "originalName": "Fish, salmon, Atlantic, farmed, cooked, dry heat",
+    "aliases": [
+      "大西洋鲑（养殖，干热熟制）",
+      "三文鱼",
+      "鲑鱼",
+      "鱼"
+    ]
+  },
+  {
+    "fdcId": "175176",
+    "id": "tilapia-raw",
+    "name": "罗非鱼（生）",
+    "group": "鱼虾",
+    "state": "生，按可食鱼肉重量",
+    "originalName": "Fish, tilapia, raw",
+    "aliases": [
+      "罗非鱼（生）",
+      "罗非鱼",
+      "鱼"
+    ]
+  },
+  {
+    "fdcId": "175177",
+    "id": "tilapia-cooked",
+    "name": "罗非鱼（干热熟制）",
+    "group": "鱼虾",
+    "state": "熟，干热烹调；非油炸或酱汁配方",
+    "originalName": "Fish, tilapia, cooked, dry heat",
+    "aliases": [
+      "罗非鱼（干热熟制）",
+      "罗非鱼",
+      "鱼"
+    ]
+  },
+  {
+    "fdcId": "171790",
+    "id": "beef-ground-raw",
+    "name": "牛肉馅（95%瘦肉，生）",
+    "group": "肉类",
+    "state": "生，95%瘦肉/5%脂肪；不是任意部位牛肉",
+    "originalName": "Beef, ground, 95% lean meat / 5% fat, raw",
+    "aliases": [
+      "牛肉馅（95%瘦肉，生）",
+      "牛肉",
+      "牛肉馅",
+      "牛肉末"
+    ]
+  },
+  {
+    "fdcId": "172183",
+    "id": "egg-white-raw",
+    "name": "蛋清（生，鲜）",
+    "group": "蛋奶豆",
+    "state": "生，鲜鸡蛋蛋清；不含蛋黄或蛋壳",
+    "originalName": "Egg, white, raw, fresh",
+    "aliases": [
+      "蛋清（生，鲜）",
+      "鸡蛋",
+      "蛋清",
+      "蛋白"
+    ]
+  },
+  {
+    "fdcId": "172475",
+    "id": "tofu-firm",
+    "name": "硬豆腐（硫酸钙凝固，生）",
+    "group": "蛋奶豆",
+    "state": "生，硬质，硫酸钙凝固；不等同所有北豆腐",
+    "originalName": "Tofu, raw, firm, prepared with calcium sulfate",
+    "aliases": [
+      "硬豆腐（硫酸钙凝固，生）",
+      "豆腐",
+      "硬豆腐"
+    ]
+  },
+  {
+    "fdcId": "168411",
+    "id": "edamame-cooked",
+    "name": "毛豆（冷冻后制备）",
+    "group": "蛋奶豆",
+    "state": "冷冻毛豆制备后，按可食豆粒重量；不含豆荚",
+    "originalName": "Edamame, frozen, prepared",
+    "aliases": [
+      "毛豆（冷冻后制备）",
+      "毛豆"
+    ]
+  },
+  {
+    "fdcId": "172421",
+    "id": "lentils-boiled",
+    "name": "小扁豆（水煮，无盐）",
+    "group": "蛋奶豆",
+    "state": "成熟小扁豆种子，水煮，无盐；不是鲜扁豆豆荚",
+    "originalName": "Lentils, mature seeds, cooked, boiled, without salt",
+    "aliases": [
+      "小扁豆（水煮，无盐）",
+      "小扁豆",
+      "兵豆"
+    ]
+  },
+  {
+    "fdcId": "173432",
+    "id": "milk-skim",
+    "name": "脱脂牛奶（未添加维生素A/D）",
+    "group": "蛋奶豆",
+    "state": "液态，脱脂，未添加维生素A/D；按克，不按毫升",
+    "originalName": "Milk, nonfat, fluid, without added vitamin A and vitamin D (fat free or skim)",
+    "aliases": [
+      "脱脂牛奶（未添加维生素A/D）",
+      "牛奶",
+      "脱脂牛奶"
+    ]
+  },
+  {
+    "fdcId": "170872",
+    "id": "milk-lowfat",
+    "name": "低脂牛奶（1%脂肪，强化A/D）",
+    "group": "蛋奶豆",
+    "state": "液态，1%乳脂，添加维生素A/D；按克",
+    "originalName": "Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",
+    "aliases": [
+      "低脂牛奶（1%脂肪，强化A/D）",
+      "牛奶",
+      "低脂牛奶"
+    ]
+  },
+  {
+    "fdcId": "171284",
+    "id": "yogurt-whole",
+    "name": "全脂原味酸奶（通用条目）",
+    "group": "蛋奶豆",
+    "state": "原味，全脂；非具体品牌，不能代替加糖风味酸奶标签",
+    "originalName": "Yogurt, plain, whole milk",
+    "aliases": [
+      "全脂原味酸奶（通用条目）",
+      "酸奶",
+      "原味酸奶"
+    ]
+  },
+  {
+    "fdcId": "170886",
+    "id": "yogurt-lowfat",
+    "name": "低脂原味酸奶（通用条目）",
+    "group": "蛋奶豆",
+    "state": "原味，低脂；非具体品牌，配方以实际标签为准",
+    "originalName": "Yogurt, plain, low fat",
+    "aliases": [
+      "低脂原味酸奶（通用条目）",
+      "酸奶",
+      "原味酸奶"
+    ]
+  },
+  {
+    "fdcId": "170567",
+    "id": "almonds",
+    "name": "扁桃仁（通用条目）",
+    "group": "坚果种子",
+    "state": "按可食坚果仁；不能代替带壳或调味产品标签",
+    "originalName": "Nuts, almonds",
+    "aliases": [
+      "扁桃仁（通用条目）",
+      "扁桃仁",
+      "巴旦木"
+    ]
+  },
+  {
+    "fdcId": "170187",
+    "id": "walnuts",
+    "name": "核桃仁（英国核桃类型）",
+    "group": "坚果种子",
+    "state": "可食坚果仁，English walnut 类型；不含壳",
+    "originalName": "Nuts, walnuts, english",
+    "aliases": [
+      "核桃仁（英国核桃类型）",
+      "核桃",
+      "核桃仁"
+    ]
+  },
+  {
+    "fdcId": "172430",
+    "id": "peanuts-raw",
+    "name": "花生仁（生）",
+    "group": "坚果种子",
+    "state": "生，各类型综合，可食部分；不含壳",
+    "originalName": "Peanuts, all types, raw",
+    "aliases": [
+      "花生仁（生）",
+      "花生",
+      "花生仁"
+    ]
+  },
+  {
+    "fdcId": "173806",
+    "id": "peanuts-roasted",
+    "name": "花生仁（干烤，无盐）",
+    "group": "坚果种子",
+    "state": "干烤，无盐；不是油炸花生",
+    "originalName": "Peanuts, all types, dry-roasted, without salt",
+    "aliases": [
+      "花生仁（干烤，无盐）",
+      "花生",
+      "花生仁"
+    ]
+  },
+  {
+    "fdcId": "171016",
+    "id": "sesame-oil",
+    "name": "芝麻油（通用条目）",
+    "group": "调味",
+    "state": "沙拉或烹调用芝麻油；非具体品牌",
+    "originalName": "Oil, sesame, salad or cooking",
+    "aliases": [
+      "芝麻油（通用条目）",
+      "芝麻油",
+      "香油"
+    ]
+  },
+  {
+    "fdcId": "171411",
+    "id": "soybean-oil",
+    "name": "大豆油（通用条目）",
+    "group": "调味",
+    "state": "沙拉或烹调用大豆油；非具体品牌",
+    "originalName": "Oil, soybean, salad or cooking",
+    "aliases": [
+      "大豆油（通用条目）",
+      "大豆油",
+      "豆油"
+    ]
+  }
+]

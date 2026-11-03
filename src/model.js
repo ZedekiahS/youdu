@@ -1,3 +1,4 @@
+import extraRecipes from './recipes-extra.json';
 import {migrateState} from './storage-core.js';
 import {calculate,revisionOf} from './nutrition-core.js';
 import foods from './foods.json';
@@ -16,6 +17,7 @@ export const recipes = [
  {id:'tomato-tofu',name:'番茄炖豆腐',subtitle:'热乎乎的家常滋味',type:'家常菜',time:20,servings:2,ingredients:[{foodId:'tomato',grams:300},{foodId:'tofu',grams:300},{foodId:'oil',grams:8},{foodId:'salt',grams:2}],steps:['番茄洗净切块，豆腐切成小块。','锅内加入油，炒软番茄，加入少量水。','加入豆腐煮熟，加入盐调味。'],note:'自编演示配方；水不计入营养加总，成品重量需另行称量。'},
  {id:'banana-milk',name:'香蕉牛奶',subtitle:'两种食材，简单准备',type:'早餐',time:5,servings:1,ingredients:[{foodId:'banana',grams:100},{foodId:'milk',grams:200}],steps:['香蕉去皮，称量可食部分；准备牛奶。','放入料理机搅打均匀，也可以分开食用。'],note:'自编演示配方；牛奶按克计量，没有把毫升直接当成克。'},
  {id:'broccoli-rice',name:'西兰花豆腐饭',subtitle:'把主食、蔬菜和豆腐放在一餐',type:'一人食',time:20,servings:1,ingredients:[{foodId:'rice',grams:150},{foodId:'broccoli',grams:150},{foodId:'tofu',grams:150},{foodId:'oil',grams:5},{foodId:'salt',grams:1}],steps:['准备熟米饭；西兰花洗净切小朵，豆腐切块。','西兰花和豆腐分别烹调至熟，加入橄榄油和盐调味。','与熟米饭搭配，按实际吃掉的份量记录。'],note:'自编演示组合。米饭采用熟重条目，西兰花和豆腐采用原料条目；未计烹调损耗。'},
+...extraRecipes,
 ];
 export const recipeById = Object.fromEntries(recipes.map(r=>[r.id,r]));
 const legacyExercises = [

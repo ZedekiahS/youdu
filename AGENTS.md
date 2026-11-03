@@ -21,3 +21,7 @@ Prioritize prototype flow clarity: preserve conversations and context across lin
 ## Personal MVP authorized 2026-11-03
 
 The complete current brief is docs/YOUDU_CODEX_PROMPT.txt. It supersedes the previous prototype-only scope. Preserve existing UI and nine modules. User explicitly prioritizes minimal implementation, minimal meaningful tests, reuse, exact food provenance, and hands-free follow-along inspired by established training apps. Keep five verified clips rather than padding the library. Timer completion is not actual completion. Personal profiles must not apply demo adjustment thresholds. Use sandbox=1 for QA; never clear real records. Private report originals stay local and out of public repositories. Public GitHub repository creation/source publication was explicitly requested; public website deployment was not. Distinguish real data, examples, local rules, model integration, desktop responsive testing and physical-phone acceptance.
+
+## Library coverage feedback 2026-11-03
+
+The user finds the small sample library insufficient. Expand useful food/recipe coverage while preserving provenance and reusing existing calculation/history flows. Use the explicit scripts/food-selection.json mapping and pinned source archive; preserve existing facts and revisions. Clearly distinguish raw/cooked and regional/generic versus branded foods. Recipe additions are self-authored examples, not externally measured dishes. Current coverage: 80 food records, 12 recipes, 5 verified motion clips.
