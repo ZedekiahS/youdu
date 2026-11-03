@@ -1,0 +1,33 @@
+{
+  "clipId": "glute-bridge",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 4.1,
+  "fps": 30,
+  "frames": 123,
+  "keyTimes": [
+    0,
+    2.8,
+    4.066666666666666
+  ],
+  "bounds": {
+    "min": [
+      -0.30743300914764404,
+      -0.49801063537597656,
+      -4.3213367462158203e-07
+    ],
+    "max": [
+      0.30743300914764404,
+      0.8132835030555725,
+      0.5508387088775635
+    ]
+  },
+  "files": {
+    "glute-bridge-key-0.png": "43577b3fe65cdff5f2c3d102da6e0870baaa331b96fb6a81be1cd6d61304a150",
+    "glute-bridge-key-1.png": "1d2fd61ab656b3170f98499783089e76dd012306c6a2fedc3e79dfb36ee788a7",
+    "glute-bridge-key-2.png": "8d659ba71b81537e5051681a1adb63f8dc24b0c2200aeb989534b95a7a9ecd94",
+    "glute-bridge-poster.png": "43577b3fe65cdff5f2c3d102da6e0870baaa331b96fb6a81be1cd6d61304a150",
+    "glute-bridge.mp4": "68c9a61b32d496c9024f8b16f1e8c3fc2d20c6690b66d228e25ddb7e08080b12"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

@@ -4,15 +4,17 @@ export const trainingFor = minutes => ({
   moves: (minutes <= 10 ? ['chair', 'wall'] : ['chair', 'wall', 'calf'])
     .map(exerciseId => ({exerciseId, sets: minutes <= 10 ? 1 : minutes >= 30 ? 3 : 2, reps: 5})),
 });
-export const isStructuredPlan = plan => plan?.templateId === 'home-basic' || plan?.id === 'demo-workout';
+export const isStructuredPlan = plan => !!plan?.training || plan?.templateId === 'home-basic' || plan?.id === 'demo-workout';
 export const planTraining = plan => structuredClone(plan.training || trainingFor(plan.minutes || 20));
-export const trainingSummary = training => `${training.minutes} 分钟 · ${training.moves.length} 个动作 · ${training.moves.reduce((n,m)=>n+m.sets,0)} 组`;
+export const trainingSummary = training => `${training.minutes?training.minutes+' 分钟':'未设定预留时长'} · ${training.moves.length} 个动作 · ${training.moves.reduce((n,m)=>n+m.sets,0)} 组`;
 const stamp = plan => JSON.stringify({minutes:plan.minutes,training:planTraining(plan),revision:plan.revision||0});
 
 function blockedReason(state, plan) {
+  if(state.demo===false)return '当前个人档案不使用原型的固定时长规则；请自行编辑计划。';
   if (!state.settings.ai) return 'AI 演示已关闭，计划未改变。';
   if (state.settings.adjustmentHold) return state.settings.adjustmentHold;
   if (!plan || !isStructuredPlan(plan)) return '没有可调整的居家示例训练，请先在计划中添加。';
+  if(plan.skipped)return '这次安排已跳过，请先恢复安排。';
   if (plan.done) return '这次训练已经完成，保留实际记录，不再调整。';
   if (state.activeWorkout?.planId === plan.id) return '这次训练已经开始，请结束当前训练后再调整。';
   if (state.workouts.some(w=>w.planId===plan.id)) return '这项安排已有执行记录，演示暂不改动它。';
@@ -80,7 +82,7 @@ export function finishTraining(state,date) {
   const prescription=sessionPrescription(s);
   const completedSets=prescription.flatMap(m=>Array.from({length:m.sets},(_,i)=>({exerciseId:m.exerciseId,set:i+1,reps:m.reps,key:m.exerciseId+'-'+i}))).filter(m=>s.checked.includes(m.key));
   state.workouts.push({id:s.id,planId:s.planId||null,planRevision:s.planRevision||0,date,title:s.title||'居家基础练习',
-    duration:Math.max(1,Math.round((Date.now()-s.startedAt)/60000)),targetMinutes:s.targetMinutes||20,
+    duration:Math.max(1,Math.round((Date.now()-s.startedAt)/60000)),targetMinutes:s.targetMinutes??20,
     prescription:structuredClone(prescription),completedSets,sets:completedSets.length,moves:[...new Set(completedSets.map(m=>m.exerciseId))],source:'逐组记录'});
   const plan=state.plans.find(p=>p.id===s.planId);
   if(plan && (plan.revision||0)===(s.planRevision||0)) {

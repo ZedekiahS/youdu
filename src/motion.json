@@ -1,0 +1,171 @@
+{
+  "march": {
+    "clipId": "march-in-place",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 1.0,
+    "fps": 30,
+    "frames": 30,
+    "keyTimes": [
+      0,
+      0.5,
+      0.9666666666666667
+    ],
+    "bounds": {
+      "min": [
+        -0.29046350717544556,
+        -0.5884364247322083,
+        -9.279697366082473e-08
+      ],
+      "max": [
+        0.29046350717544556,
+        0.17815929651260376,
+        1.75294029712677
+      ]
+    },
+    "files": {
+      "march-in-place-key-0.png": "147c694a03d5bcab274809370055718ca04e6ea4b97303f0dacc9f78944f1287",
+      "march-in-place-key-1.png": "bf41ffd983d3f3a9afee0c14e7fb71a9c65fbea14d628e4dc23d99563c11146b",
+      "march-in-place-key-2.png": "c9b444c1d9a6c15162af504acb630002aa7cd8aee33d9fec6e4faca2c7d01ade",
+      "march-in-place-poster.png": "147c694a03d5bcab274809370055718ca04e6ea4b97303f0dacc9f78944f1287",
+      "march-in-place.mp4": "b186c9a249b7af658afcd91f053d1bf925d26b0e020ce5eb25ccfaef3f1cb58f"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  },
+  "mini-squat-free": {
+    "clipId": "mini-squat",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 2.4,
+    "fps": 30,
+    "frames": 72,
+    "keyTimes": [
+      0,
+      1.4,
+      2.3666666666666667
+    ],
+    "bounds": {
+      "min": [
+        -0.7233334183692932,
+        -0.4430893659591675,
+        -7.119961082935333e-07
+      ],
+      "max": [
+        0.14937645196914673,
+        0.2774943709373474,
+        1.750940203666687
+      ]
+    },
+    "files": {
+      "mini-squat-key-0.png": "83ca2e0c8da60dabc9dfb2f5ab894532d3200f8acb9963d6001a21c57a97f257",
+      "mini-squat-key-1.png": "4a4d6a82bb1bc54d59a075c3341ad7ec495b7c087c549e6185cd124c6093f49c",
+      "mini-squat-key-2.png": "ad3700b98984e2ec5e9ccb66cb1774bbb0ada0d74aed75283e175c124787a9ed",
+      "mini-squat-poster.png": "83ca2e0c8da60dabc9dfb2f5ab894532d3200f8acb9963d6001a21c57a97f257",
+      "mini-squat.mp4": "3573b17417c5e479b64a71efaaddc8ae557ef20194a3924c933d7e044d38d60c"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  },
+  "bridge": {
+    "clipId": "glute-bridge",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 4.1,
+    "fps": 30,
+    "frames": 123,
+    "keyTimes": [
+      0,
+      2.8,
+      4.066666666666666
+    ],
+    "bounds": {
+      "min": [
+        -0.30743300914764404,
+        -0.49801063537597656,
+        -4.3213367462158203e-07
+      ],
+      "max": [
+        0.30743300914764404,
+        0.8132835030555725,
+        0.5508387088775635
+      ]
+    },
+    "files": {
+      "glute-bridge-key-0.png": "43577b3fe65cdff5f2c3d102da6e0870baaa331b96fb6a81be1cd6d61304a150",
+      "glute-bridge-key-1.png": "1d2fd61ab656b3170f98499783089e76dd012306c6a2fedc3e79dfb36ee788a7",
+      "glute-bridge-key-2.png": "8d659ba71b81537e5051681a1adb63f8dc24b0c2200aeb989534b95a7a9ecd94",
+      "glute-bridge-poster.png": "43577b3fe65cdff5f2c3d102da6e0870baaa331b96fb6a81be1cd6d61304a150",
+      "glute-bridge.mp4": "68c9a61b32d496c9024f8b16f1e8c3fc2d20c6690b66d228e25ddb7e08080b12"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  },
+  "bird-dog": {
+    "clipId": "bird-dog",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 6.8,
+    "fps": 30,
+    "frames": 204,
+    "keyTimes": [
+      0,
+      2.2,
+      3.4,
+      5.6,
+      6.766666666666667
+    ],
+    "bounds": {
+      "min": [
+        -0.25099998712539673,
+        -1.1255319118499756,
+        0.0
+      ],
+      "max": [
+        0.2510000169277191,
+        1.053604245185852,
+        0.8826221823692322
+      ]
+    },
+    "files": {
+      "bird-dog-key-0.png": "2c47f6dd453058ba12162917ec180fb22b02db274bef818baef6ef686d6a4d10",
+      "bird-dog-key-1.png": "bee51c5b859619277fca8c477b2aef3d86caa0fa9955d7ad8d6d6430cfeca4a5",
+      "bird-dog-key-2.png": "27b22332ab761cd75849f409349f7fa6b1cb7fb2b60456b75a6ef8e40c25b21d",
+      "bird-dog-key-3.png": "e486939b8c233da2fb0208868108bc9b9480c43276c418d5aa508e3b4b331764",
+      "bird-dog-key-4.png": "15b81173a553e121c1e70c10c070f6627a2a905c766eb0bd175b6f3223bec9e8",
+      "bird-dog-poster.png": "2c47f6dd453058ba12162917ec180fb22b02db274bef818baef6ef686d6a4d10",
+      "bird-dog.mp4": "f43f2bb878476e7a10afad8b5fa7b10e4d07042cace78c0b260e75dbf7c027bd"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  },
+  "calf": {
+    "clipId": "calf-raise",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 2.6,
+    "fps": 30,
+    "frames": 78,
+    "keyTimes": [
+      0,
+      1.6,
+      2.566666666666667
+    ],
+    "bounds": {
+      "min": [
+        -0.7320476174354553,
+        -0.48314550518989563,
+        -1.0526273399591446e-06
+      ],
+      "max": [
+        0.11767540872097015,
+        0.23830687999725342,
+        1.81999671459198
+      ]
+    },
+    "files": {
+      "calf-raise-key-0.png": "b0cfeee01e47cc05fb9233fc1638382ae7a9abf528b38b5b353af283dcdcfd88",
+      "calf-raise-key-1.png": "9989eab16084b88772ed6a5910f9fca18071546f11d78d04e2ad78dfe33862a8",
+      "calf-raise-key-2.png": "b9a39d775ae25a71f9ed537c1bff701f6c76ad8fa9bc5d9212e31404117b34b0",
+      "calf-raise-poster.png": "b0cfeee01e47cc05fb9233fc1638382ae7a9abf528b38b5b353af283dcdcfd88",
+      "calf-raise.mp4": "be728786b9dd332529045d4260b5164c26759717e684bcd572505883143b82f2"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  }
+}

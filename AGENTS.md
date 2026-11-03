@@ -17,3 +17,7 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 ## Interaction iteration approved 2026-11-03
 
 Prioritize prototype flow clarity: preserve conversations and context across linked objects; connect plan adjustments to the actual exercise prescription and linked execution record; demonstrate automatic, pending-confirmation, and paused adjustment states; separate recipe, preparation batch, and actual intake. Keep all nine modules. Do not expand this iteration into real-model, cloud, native-app, or production database work. The user approved implementation after reviewing the other conversation’s interaction feedback.
+
+## Personal MVP authorized 2026-11-03
+
+The complete current brief is docs/YOUDU_CODEX_PROMPT.txt. It supersedes the previous prototype-only scope. Preserve existing UI and nine modules. User explicitly prioritizes minimal implementation, minimal meaningful tests, reuse, exact food provenance, and hands-free follow-along inspired by established training apps. Keep five verified clips rather than padding the library. Timer completion is not actual completion. Personal profiles must not apply demo adjustment thresholds. Use sandbox=1 for QA; never clear real records. Private report originals stay local and out of public repositories. Public GitHub repository creation/source publication was explicitly requested; public website deployment was not. Distinguish real data, examples, local rules, model integration, desktop responsive testing and physical-phone acceptance.

@@ -1,0 +1,33 @@
+{
+  "clipId": "calf-raise",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 2.6,
+  "fps": 30,
+  "frames": 78,
+  "keyTimes": [
+    0,
+    1.6,
+    2.566666666666667
+  ],
+  "bounds": {
+    "min": [
+      -0.7320476174354553,
+      -0.48314550518989563,
+      -1.0526273399591446e-06
+    ],
+    "max": [
+      0.11767540872097015,
+      0.23830687999725342,
+      1.81999671459198
+    ]
+  },
+  "files": {
+    "calf-raise-key-0.png": "b0cfeee01e47cc05fb9233fc1638382ae7a9abf528b38b5b353af283dcdcfd88",
+    "calf-raise-key-1.png": "9989eab16084b88772ed6a5910f9fca18071546f11d78d04e2ad78dfe33862a8",
+    "calf-raise-key-2.png": "b9a39d775ae25a71f9ed537c1bff701f6c76ad8fa9bc5d9212e31404117b34b0",
+    "calf-raise-poster.png": "b0cfeee01e47cc05fb9233fc1638382ae7a9abf528b38b5b353af283dcdcfd88",
+    "calf-raise.mp4": "be728786b9dd332529045d4260b5164c26759717e684bcd572505883143b82f2"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "march",
+    "name": "原地踏步",
+    "en": "March in place",
+    "group": "全身",
+    "equipment": "无需器械",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "站稳，目视前方。",
+      "双腿交替抬起再落地。",
+      "手臂与对侧腿自然交替摆动。"
+    ],
+    "mistakes": "避免身体明显后仰或急促落脚。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 动作库英文说明的中文转述",
+    "reviewStatus": "已核对变式；未经专业审核"
+  },
+  {
+    "id": "mini-squat-free",
+    "name": "徒手浅蹲",
+    "en": "Mini squat",
+    "group": "下肢",
+    "equipment": "无需器械",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "双脚与肩同宽，双臂前伸。",
+      "髋部略向后，缓慢下蹲一小段。",
+      "在舒适范围内返回站立。"
+    ],
+    "mistakes": "膝盖朝脚尖方向，避免内扣；这不是扶椅浅蹲。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 动作库英文说明的中文转述",
+    "reviewStatus": "已核对变式；未经专业审核"
+  },
+  {
+    "id": "bridge",
+    "name": "臀桥",
+    "en": "Glute bridge",
+    "group": "下肢",
+    "equipment": "防滑垫",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "仰卧屈膝，双脚和双手放在地面。",
+      "脚跟稳定着地，抬起骨盆。",
+      "控制下降，回到起始位置。"
+    ],
+    "mistakes": "避免以过度弓腰代替抬髋。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 动作库英文说明的中文转述",
+    "reviewStatus": "已核对变式；未经专业审核"
+  },
+  {
+    "id": "bird-dog",
+    "name": "鸟狗式",
+    "en": "Bird-dog",
+    "group": "核心",
+    "equipment": "防滑垫",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "四点跪撑，保持背部稳定。",
+      "伸出一侧手臂和对侧腿。",
+      "回到支撑姿势，再换另一侧。"
+    ],
+    "mistakes": "避免身体扭转或过度塌腰；膝下可加软垫。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 动作库英文说明的中文转述",
+    "reviewStatus": "已核对变式；未经专业审核"
+  },
+  {
+    "id": "calf",
+    "name": "扶椅提踵",
+    "en": "Calf raise",
+    "group": "下肢",
+    "equipment": "稳固椅背",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "双手轻扶稳固椅背，双脚着地。",
+      "有控制地抬起脚跟。",
+      "缓慢放下脚跟，回到起点。"
+    ],
+    "mistakes": "不要借助弹跳完成，不使用会滑动的椅子。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 动作库英文说明的中文转述",
+    "reviewStatus": "已核对变式；未经专业审核"
+  }
+]

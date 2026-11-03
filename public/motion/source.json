@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/shlomorsh/desk-break",
+  "commit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "files": {
+    "README.md": "b9feb92deb1536039a960fbcc1efeb8fdbacaaed3fc9fa890e53c53a66e21b3d",
+    "LICENSE": "bc10bb1b96ce2f12accf8ae26f50b7fe8146376f7cb6635dc11464eda425f23b",
+    "library/exercises.json": "3c97a6d0dc3def20f43df64b312f3ff4da5363d8c2e04480c9df464dde752041",
+    "library/exercises.glb": "e9e69eded7a865f576512d0ad401a4136649a25205a78b2c45946fee6587afb0"
+  }
+}

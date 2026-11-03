@@ -1,0 +1,33 @@
+{
+  "clipId": "mini-squat",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 2.4,
+  "fps": 30,
+  "frames": 72,
+  "keyTimes": [
+    0,
+    1.4,
+    2.3666666666666667
+  ],
+  "bounds": {
+    "min": [
+      -0.7233334183692932,
+      -0.4430893659591675,
+      -7.119961082935333e-07
+    ],
+    "max": [
+      0.14937645196914673,
+      0.2774943709373474,
+      1.750940203666687
+    ]
+  },
+  "files": {
+    "mini-squat-key-0.png": "83ca2e0c8da60dabc9dfb2f5ab894532d3200f8acb9963d6001a21c57a97f257",
+    "mini-squat-key-1.png": "4a4d6a82bb1bc54d59a075c3341ad7ec495b7c087c549e6185cd124c6093f49c",
+    "mini-squat-key-2.png": "ad3700b98984e2ec5e9ccb66cb1774bbb0ada0d74aed75283e175c124787a9ed",
+    "mini-squat-poster.png": "83ca2e0c8da60dabc9dfb2f5ab894532d3200f8acb9963d6001a21c57a97f257",
+    "mini-squat.mp4": "3573b17417c5e479b64a71efaaddc8ae557ef20194a3924c933d7e044d38d60c"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

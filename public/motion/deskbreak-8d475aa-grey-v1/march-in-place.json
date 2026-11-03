@@ -1,0 +1,33 @@
+{
+  "clipId": "march-in-place",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 1.0,
+  "fps": 30,
+  "frames": 30,
+  "keyTimes": [
+    0,
+    0.5,
+    0.9666666666666667
+  ],
+  "bounds": {
+    "min": [
+      -0.29046350717544556,
+      -0.5884364247322083,
+      -9.279697366082473e-08
+    ],
+    "max": [
+      0.29046350717544556,
+      0.17815929651260376,
+      1.75294029712677
+    ]
+  },
+  "files": {
+    "march-in-place-key-0.png": "147c694a03d5bcab274809370055718ca04e6ea4b97303f0dacc9f78944f1287",
+    "march-in-place-key-1.png": "bf41ffd983d3f3a9afee0c14e7fb71a9c65fbea14d628e4dc23d99563c11146b",
+    "march-in-place-key-2.png": "c9b444c1d9a6c15162af504acb630002aa7cd8aee33d9fec6e4faca2c7d01ade",
+    "march-in-place-poster.png": "147c694a03d5bcab274809370055718ca04e6ea4b97303f0dacc9f78944f1287",
+    "march-in-place.mp4": "b186c9a249b7af658afcd91f053d1bf925d26b0e020ce5eb25ccfaef3f1cb58f"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

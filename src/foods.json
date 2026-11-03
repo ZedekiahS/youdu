@@ -9,16 +9,96 @@
     "publicationDate": "2019-04-01",
     "source": "USDA FoodData Central · SR Legacy",
     "version": "2018-04",
+    "revision": "sr2018-168409-r1",
+    "dataType": "历史编纂资料",
+    "region": "美国数据；不代表中国同名食物",
+    "brand": null,
     "basis": "每 100 克可食部分",
+    "basisUnit": "g",
     "sourceUrl": "https://fdc.nal.usda.gov/food-details/168409/nutrients",
+    "sourceId": "usda-sr-2018",
+    "license": "CC0 1.0",
+    "verifiedAt": "2026-11-03",
+    "verification": "数值已逐项与固定原始 CSV 核对；中文名称为人工映射",
     "nutrients": {
-      "carbs": 3.63,
       "kcal": 15.0,
-      "sodium": 2.0,
+      "protein": 0.65,
       "fat": 0.11,
+      "carbs": 3.63,
       "fiber": 0.5,
-      "protein": 0.65
-    }
+      "sodium": 2.0
+    },
+    "fields": {
+      "kcal": {
+        "value": 15.0,
+        "unit": "KCAL",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1358224",
+        "nutrientId": "1008",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "protein": {
+        "value": 0.65,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1358332",
+        "nutrientId": "1003",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "4"
+      },
+      "fat": {
+        "value": 0.11,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1358295",
+        "nutrientId": "1004",
+        "derivation": "Aggregated data involving combinations of data with different source codes when at least one code is not 1, 6, 12, or 13",
+        "derivationCode": "JO",
+        "dataPoints": "9"
+      },
+      "carbs": {
+        "value": 3.63,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1358223",
+        "nutrientId": "1005",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "fiber": {
+        "value": 0.5,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1358328",
+        "nutrientId": "1079",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "1"
+      },
+      "sodium": {
+        "value": 2.0,
+        "unit": "MG",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1358270",
+        "nutrientId": "1093",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "54"
+      }
+    },
+    "aliases": [
+      "黄瓜"
+    ]
   },
   {
     "id": "rice",
@@ -30,16 +110,98 @@
     "publicationDate": "2019-04-01",
     "source": "USDA FoodData Central · SR Legacy",
     "version": "2018-04",
+    "revision": "sr2018-168878-r1",
+    "dataType": "历史编纂资料",
+    "region": "美国数据；不代表中国同名食物",
+    "brand": null,
     "basis": "每 100 克可食部分",
+    "basisUnit": "g",
     "sourceUrl": "https://fdc.nal.usda.gov/food-details/168878/nutrients",
+    "sourceId": "usda-sr-2018",
+    "license": "CC0 1.0",
+    "verifiedAt": "2026-11-03",
+    "verification": "数值已逐项与固定原始 CSV 核对；中文名称为人工映射",
     "nutrients": {
-      "fiber": 0.4,
-      "sodium": 1.0,
+      "kcal": 130.0,
       "protein": 2.69,
       "fat": 0.28,
       "carbs": 28.17,
-      "kcal": 130.0
-    }
+      "fiber": 0.4,
+      "sodium": 1.0
+    },
+    "fields": {
+      "kcal": {
+        "value": 130.0,
+        "unit": "KCAL",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1395843",
+        "nutrientId": "1008",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "protein": {
+        "value": 2.69,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1395817",
+        "nutrientId": "1003",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "20"
+      },
+      "fat": {
+        "value": 0.28,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1395841",
+        "nutrientId": "1004",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "6"
+      },
+      "carbs": {
+        "value": 28.17,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1395842",
+        "nutrientId": "1005",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "fiber": {
+        "value": 0.4,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1395793",
+        "nutrientId": "1079",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "0"
+      },
+      "sodium": {
+        "value": 1.0,
+        "unit": "MG",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1395797",
+        "nutrientId": "1093",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "13"
+      }
+    },
+    "aliases": [
+      "长粒白米饭",
+      "米饭",
+      "大米"
+    ]
   },
   {
     "id": "broccoli",
@@ -51,16 +213,96 @@
     "publicationDate": "2019-04-01",
     "source": "USDA FoodData Central · SR Legacy",
     "version": "2018-04",
+    "revision": "sr2018-170379-r1",
+    "dataType": "历史编纂资料",
+    "region": "美国数据；不代表中国同名食物",
+    "brand": null,
     "basis": "每 100 克可食部分",
+    "basisUnit": "g",
     "sourceUrl": "https://fdc.nal.usda.gov/food-details/170379/nutrients",
+    "sourceId": "usda-sr-2018",
+    "license": "CC0 1.0",
+    "verifiedAt": "2026-11-03",
+    "verification": "数值已逐项与固定原始 CSV 核对；中文名称为人工映射",
     "nutrients": {
-      "carbs": 6.64,
       "kcal": 34.0,
-      "fat": 0.37,
       "protein": 2.82,
+      "fat": 0.37,
+      "carbs": 6.64,
       "fiber": 2.6,
       "sodium": 33.0
-    }
+    },
+    "fields": {
+      "kcal": {
+        "value": 34.0,
+        "unit": "KCAL",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1518809",
+        "nutrientId": "1008",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "protein": {
+        "value": 2.82,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1518850",
+        "nutrientId": "1003",
+        "derivation": "Aggregated data involving combinations of data with different source codes when at least one code is not 1, 6, 12, or 13",
+        "derivationCode": "JO",
+        "dataPoints": "23"
+      },
+      "fat": {
+        "value": 0.37,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1518830",
+        "nutrientId": "1004",
+        "derivation": "Aggregated data involving combinations of data with different source codes when at least one code is not 1, 6, 12, or 13",
+        "derivationCode": "JO",
+        "dataPoints": "29"
+      },
+      "carbs": {
+        "value": 6.64,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1518808",
+        "nutrientId": "1005",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "fiber": {
+        "value": 2.6,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1518854",
+        "nutrientId": "1079",
+        "derivation": "Aggregated data involving combinations of data with only source codes 1 and 12 and/or 13",
+        "derivationCode": "JA",
+        "dataPoints": "13"
+      },
+      "sodium": {
+        "value": 33.0,
+        "unit": "MG",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1518858",
+        "nutrientId": "1093",
+        "derivation": "Aggregated data involving combinations of data with different source codes when at least one code is not 1, 6, 12, or 13",
+        "derivationCode": "JO",
+        "dataPoints": "42"
+      }
+    },
+    "aliases": [
+      "西兰花"
+    ]
   },
   {
     "id": "tomato",
@@ -72,16 +314,96 @@
     "publicationDate": "2019-04-01",
     "source": "USDA FoodData Central · SR Legacy",
     "version": "2018-04",
+    "revision": "sr2018-170457-r1",
+    "dataType": "历史编纂资料",
+    "region": "美国数据；不代表中国同名食物",
+    "brand": null,
     "basis": "每 100 克可食部分",
+    "basisUnit": "g",
     "sourceUrl": "https://fdc.nal.usda.gov/food-details/170457/nutrients",
+    "sourceId": "usda-sr-2018",
+    "license": "CC0 1.0",
+    "verifiedAt": "2026-11-03",
+    "verification": "数值已逐项与固定原始 CSV 核对；中文名称为人工映射",
     "nutrients": {
-      "carbs": 3.89,
       "kcal": 18.0,
+      "protein": 0.88,
       "fat": 0.2,
+      "carbs": 3.89,
       "fiber": 1.2,
-      "sodium": 5.0,
-      "protein": 0.88
-    }
+      "sodium": 5.0
+    },
+    "fields": {
+      "kcal": {
+        "value": 18.0,
+        "unit": "KCAL",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1525334",
+        "nutrientId": "1008",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "protein": {
+        "value": 0.88,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1525376",
+        "nutrientId": "1003",
+        "derivation": "Aggregated data involving combinations of data with different source codes when at least one code is not 1, 6, 12, or 13",
+        "derivationCode": "JO",
+        "dataPoints": "19"
+      },
+      "fat": {
+        "value": 0.2,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1525365",
+        "nutrientId": "1004",
+        "derivation": "Aggregated data involving combinations of data with different source codes when at least one code is not 1, 6, 12, or 13",
+        "derivationCode": "JO",
+        "dataPoints": "26"
+      },
+      "carbs": {
+        "value": 3.89,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1525333",
+        "nutrientId": "1005",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "fiber": {
+        "value": 1.2,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1525369",
+        "nutrientId": "1079",
+        "derivation": "Aggregated data involving combinations of data with only source codes 1 and 12 and/or 13",
+        "derivationCode": "JA",
+        "dataPoints": "5"
+      },
+      "sodium": {
+        "value": 5.0,
+        "unit": "MG",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1525373",
+        "nutrientId": "1093",
+        "derivation": "Aggregated data involving combinations of data with only source codes 1 and 12 and/or 13",
+        "derivationCode": "JA",
+        "dataPoints": "66"
+      }
+    },
+    "aliases": [
+      "番茄"
+    ]
   },
   {
     "id": "egg",
@@ -93,16 +415,97 @@
     "publicationDate": "2019-04-01",
     "source": "USDA FoodData Central · SR Legacy",
     "version": "2018-04",
+    "revision": "sr2018-171287-r1",
+    "dataType": "历史编纂资料",
+    "region": "美国数据；不代表中国同名食物",
+    "brand": null,
     "basis": "每 100 克可食部分",
+    "basisUnit": "g",
     "sourceUrl": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+    "sourceId": "usda-sr-2018",
+    "license": "CC0 1.0",
+    "verifiedAt": "2026-11-03",
+    "verification": "数值已逐项与固定原始 CSV 核对；中文名称为人工映射",
     "nutrients": {
       "kcal": 143.0,
       "protein": 12.56,
-      "sodium": 142.0,
       "fat": 9.51,
       "carbs": 0.72,
-      "fiber": 0.0
-    }
+      "fiber": 0.0,
+      "sodium": 142.0
+    },
+    "fields": {
+      "kcal": {
+        "value": 143.0,
+        "unit": "KCAL",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1597626",
+        "nutrientId": "1008",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "protein": {
+        "value": 12.56,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1597683",
+        "nutrientId": "1003",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "12"
+      },
+      "fat": {
+        "value": 9.51,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1597714",
+        "nutrientId": "1004",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "12"
+      },
+      "carbs": {
+        "value": 0.72,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1597748",
+        "nutrientId": "1005",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "fiber": {
+        "value": 0.0,
+        "unit": "G",
+        "status": "reported-zero",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1597756",
+        "nutrientId": "1079",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "1"
+      },
+      "sodium": {
+        "value": 142.0,
+        "unit": "MG",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1597691",
+        "nutrientId": "1093",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "6"
+      }
+    },
+    "aliases": [
+      "鸡蛋",
+      "鸡蛋"
+    ]
   },
   {
     "id": "oil",
@@ -114,16 +517,96 @@
     "publicationDate": "2019-04-01",
     "source": "USDA FoodData Central · SR Legacy",
     "version": "2018-04",
+    "revision": "sr2018-171413-r1",
+    "dataType": "历史编纂资料",
+    "region": "美国数据；不代表中国同名食物",
+    "brand": null,
     "basis": "每 100 克可食部分",
+    "basisUnit": "g",
     "sourceUrl": "https://fdc.nal.usda.gov/food-details/171413/nutrients",
+    "sourceId": "usda-sr-2018",
+    "license": "CC0 1.0",
+    "verifiedAt": "2026-11-03",
+    "verification": "数值已逐项与固定原始 CSV 核对；中文名称为人工映射",
     "nutrients": {
+      "kcal": 884.0,
+      "protein": 0.0,
       "fat": 100.0,
       "carbs": 0.0,
-      "kcal": 884.0,
-      "sodium": 2.0,
-      "protein": 0.0,
-      "fiber": 0.0
-    }
+      "fiber": 0.0,
+      "sodium": 2.0
+    },
+    "fields": {
+      "kcal": {
+        "value": 884.0,
+        "unit": "KCAL",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1607768",
+        "nutrientId": "1008",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "protein": {
+        "value": 0.0,
+        "unit": "G",
+        "status": "reported-zero",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1607794",
+        "nutrientId": "1003",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "4"
+      },
+      "fat": {
+        "value": 100.0,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1607766",
+        "nutrientId": "1004",
+        "derivation": "Other procedure used from imputing",
+        "derivationCode": "O",
+        "dataPoints": "0"
+      },
+      "carbs": {
+        "value": 0.0,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1607767",
+        "nutrientId": "1005",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "fiber": {
+        "value": 0.0,
+        "unit": "G",
+        "status": "reported-zero",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1607828",
+        "nutrientId": "1079",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "0"
+      },
+      "sodium": {
+        "value": 2.0,
+        "unit": "MG",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1607791",
+        "nutrientId": "1093",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "4"
+      }
+    },
+    "aliases": [
+      "橄榄油"
+    ]
   },
   {
     "id": "milk",
@@ -135,16 +618,96 @@
     "publicationDate": "2019-04-01",
     "source": "USDA FoodData Central · SR Legacy",
     "version": "2018-04",
+    "revision": "sr2018-172217-r1",
+    "dataType": "历史编纂资料",
+    "region": "美国数据；不代表中国同名食物",
+    "brand": null,
     "basis": "每 100 克可食部分",
+    "basisUnit": "g",
     "sourceUrl": "https://fdc.nal.usda.gov/food-details/172217/nutrients",
+    "sourceId": "usda-sr-2018",
+    "license": "CC0 1.0",
+    "verifiedAt": "2026-11-03",
+    "verification": "数值已逐项与固定原始 CSV 核对；中文名称为人工映射",
     "nutrients": {
-      "carbs": 4.78,
       "kcal": 61.0,
+      "protein": 3.15,
       "fat": 3.27,
+      "carbs": 4.78,
       "fiber": 0.0,
-      "sodium": 43.0,
-      "protein": 3.15
-    }
+      "sodium": 43.0
+    },
+    "fields": {
+      "kcal": {
+        "value": 61.0,
+        "unit": "KCAL",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1677542",
+        "nutrientId": "1008",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "protein": {
+        "value": 3.15,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1677625",
+        "nutrientId": "1003",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "27"
+      },
+      "fat": {
+        "value": 3.27,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1677587",
+        "nutrientId": "1004",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "27"
+      },
+      "carbs": {
+        "value": 4.78,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1677518",
+        "nutrientId": "1005",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "fiber": {
+        "value": 0.0,
+        "unit": "G",
+        "status": "reported-zero",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1677603",
+        "nutrientId": "1079",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "0"
+      },
+      "sodium": {
+        "value": 43.0,
+        "unit": "MG",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1677607",
+        "nutrientId": "1093",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "42"
+      }
+    },
+    "aliases": [
+      "全脂牛奶"
+    ]
   },
   {
     "id": "tofu",
@@ -156,16 +719,96 @@
     "publicationDate": "2019-04-01",
     "source": "USDA FoodData Central · SR Legacy",
     "version": "2018-04",
+    "revision": "sr2018-172476-r1",
+    "dataType": "历史编纂资料",
+    "region": "美国数据；不代表中国同名食物",
+    "brand": null,
     "basis": "每 100 克可食部分",
+    "basisUnit": "g",
     "sourceUrl": "https://fdc.nal.usda.gov/food-details/172476/nutrients",
+    "sourceId": "usda-sr-2018",
+    "license": "CC0 1.0",
+    "verifiedAt": "2026-11-03",
+    "verification": "数值已逐项与固定原始 CSV 核对；中文名称为人工映射",
     "nutrients": {
-      "carbs": 1.87,
-      "fiber": 0.3,
-      "fat": 4.78,
       "kcal": 76.0,
       "protein": 8.08,
+      "fat": 4.78,
+      "carbs": 1.87,
+      "fiber": 0.3,
       "sodium": 7.0
-    }
+    },
+    "fields": {
+      "kcal": {
+        "value": 76.0,
+        "unit": "KCAL",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1698163",
+        "nutrientId": "1008",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "protein": {
+        "value": 8.08,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1698168",
+        "nutrientId": "1003",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "44"
+      },
+      "fat": {
+        "value": 4.78,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1698160",
+        "nutrientId": "1004",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "8"
+      },
+      "carbs": {
+        "value": 1.87,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1698145",
+        "nutrientId": "1005",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "fiber": {
+        "value": 0.3,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1698150",
+        "nutrientId": "1079",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "0"
+      },
+      "sodium": {
+        "value": 7.0,
+        "unit": "MG",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1698182",
+        "nutrientId": "1093",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "4"
+      }
+    },
+    "aliases": [
+      "普通豆腐"
+    ]
   },
   {
     "id": "salt",
@@ -177,16 +820,96 @@
     "publicationDate": "2019-04-01",
     "source": "USDA FoodData Central · SR Legacy",
     "version": "2018-04",
+    "revision": "sr2018-173468-r1",
+    "dataType": "历史编纂资料",
+    "region": "美国数据；不代表中国同名食物",
+    "brand": null,
     "basis": "每 100 克可食部分",
+    "basisUnit": "g",
     "sourceUrl": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+    "sourceId": "usda-sr-2018",
+    "license": "CC0 1.0",
+    "verifiedAt": "2026-11-03",
+    "verification": "数值已逐项与固定原始 CSV 核对；中文名称为人工映射",
     "nutrients": {
-      "fiber": 0.0,
-      "sodium": 38758.0,
+      "kcal": 0.0,
       "protein": 0.0,
       "fat": 0.0,
       "carbs": 0.0,
-      "kcal": 0.0
-    }
+      "fiber": 0.0,
+      "sodium": 38758.0
+    },
+    "fields": {
+      "kcal": {
+        "value": 0.0,
+        "unit": "KCAL",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1781412",
+        "nutrientId": "1008",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "protein": {
+        "value": 0.0,
+        "unit": "G",
+        "status": "reported-zero",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1781407",
+        "nutrientId": "1003",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "1"
+      },
+      "fat": {
+        "value": 0.0,
+        "unit": "G",
+        "status": "reported-zero",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1781410",
+        "nutrientId": "1004",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "1"
+      },
+      "carbs": {
+        "value": 0.0,
+        "unit": "G",
+        "status": "reported-zero",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1781411",
+        "nutrientId": "1005",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "0"
+      },
+      "fiber": {
+        "value": 0.0,
+        "unit": "G",
+        "status": "reported-zero",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1781379",
+        "nutrientId": "1079",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "0"
+      },
+      "sodium": {
+        "value": 38758.0,
+        "unit": "MG",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1781383",
+        "nutrientId": "1093",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "1"
+      }
+    },
+    "aliases": [
+      "食盐"
+    ]
   },
   {
     "id": "banana",
@@ -198,15 +921,298 @@
     "publicationDate": "2019-04-01",
     "source": "USDA FoodData Central · SR Legacy",
     "version": "2018-04",
+    "revision": "sr2018-173944-r1",
+    "dataType": "历史编纂资料",
+    "region": "美国数据；不代表中国同名食物",
+    "brand": null,
     "basis": "每 100 克可食部分",
+    "basisUnit": "g",
     "sourceUrl": "https://fdc.nal.usda.gov/food-details/173944/nutrients",
+    "sourceId": "usda-sr-2018",
+    "license": "CC0 1.0",
+    "verifiedAt": "2026-11-03",
+    "verification": "数值已逐项与固定原始 CSV 核对；中文名称为人工映射",
     "nutrients": {
-      "carbs": 22.84,
       "kcal": 89.0,
-      "fiber": 2.6,
-      "sodium": 1.0,
       "protein": 1.09,
-      "fat": 0.33
-    }
+      "fat": 0.33,
+      "carbs": 22.84,
+      "fiber": 2.6,
+      "sodium": 1.0
+    },
+    "fields": {
+      "kcal": {
+        "value": 89.0,
+        "unit": "KCAL",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1817900",
+        "nutrientId": "1008",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "protein": {
+        "value": 1.09,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1817943",
+        "nutrientId": "1003",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "12"
+      },
+      "fat": {
+        "value": 0.33,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1817956",
+        "nutrientId": "1004",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "19"
+      },
+      "carbs": {
+        "value": 22.84,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1817899",
+        "nutrientId": "1005",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "fiber": {
+        "value": 2.6,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1817936",
+        "nutrientId": "1079",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "13"
+      },
+      "sodium": {
+        "value": 1.0,
+        "unit": "MG",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1817940",
+        "nutrientId": "1093",
+        "derivation": "Analytical",
+        "derivationCode": "A",
+        "dataPoints": "45"
+      }
+    },
+    "aliases": [
+      "香蕉"
+    ]
+  },
+  {
+    "id": "egg-boiled",
+    "name": "水煮全蛋",
+    "group": "蛋奶豆",
+    "state": "熟，硬煮，全蛋，可食部分",
+    "fdcId": "173424",
+    "originalName": "Egg, whole, cooked, hard-boiled",
+    "publicationDate": "2019-04-01",
+    "source": "USDA FoodData Central · SR Legacy",
+    "version": "2018-04",
+    "revision": "sr2018-173424-r1",
+    "dataType": "历史编纂资料",
+    "region": "美国数据；不代表中国同名食物",
+    "brand": null,
+    "basis": "每 100 克可食部分",
+    "basisUnit": "g",
+    "sourceUrl": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+    "sourceId": "usda-sr-2018",
+    "license": "CC0 1.0",
+    "verifiedAt": "2026-11-03",
+    "verification": "数值已逐项与固定原始 CSV 核对；中文名称为人工映射",
+    "nutrients": {
+      "kcal": 155.0,
+      "protein": 12.58,
+      "fat": 10.61,
+      "carbs": 1.12,
+      "fiber": 0.0,
+      "sodium": 124.0
+    },
+    "fields": {
+      "kcal": {
+        "value": 155.0,
+        "unit": "KCAL",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1777847",
+        "nutrientId": "1008",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "protein": {
+        "value": 12.58,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1777860",
+        "nutrientId": "1003",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "14"
+      },
+      "fat": {
+        "value": 10.61,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1777904",
+        "nutrientId": "1004",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "7"
+      },
+      "carbs": {
+        "value": 1.12,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1777905",
+        "nutrientId": "1005",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "fiber": {
+        "value": 0.0,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1777845",
+        "nutrientId": "1079",
+        "derivation": "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+        "derivationCode": "Z",
+        "dataPoints": "0"
+      },
+      "sodium": {
+        "value": 124.0,
+        "unit": "MG",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1777865",
+        "nutrientId": "1093",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "14"
+      }
+    },
+    "aliases": [
+      "水煮全蛋",
+      "鸡蛋"
+    ]
+  },
+  {
+    "id": "chicken-roasted",
+    "name": "烤鸡胸肉",
+    "group": "肉类",
+    "state": "熟，烤制，仅肉，不含皮",
+    "fdcId": "171477",
+    "originalName": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+    "publicationDate": "2019-04-01",
+    "source": "USDA FoodData Central · SR Legacy",
+    "version": "2018-04",
+    "revision": "sr2018-171477-r1",
+    "dataType": "历史编纂资料",
+    "region": "美国数据；不代表中国同名食物",
+    "brand": null,
+    "basis": "每 100 克可食部分",
+    "basisUnit": "g",
+    "sourceUrl": "https://fdc.nal.usda.gov/food-details/171477/nutrients",
+    "sourceId": "usda-sr-2018",
+    "license": "CC0 1.0",
+    "verifiedAt": "2026-11-03",
+    "verification": "数值已逐项与固定原始 CSV 核对；中文名称为人工映射",
+    "nutrients": {
+      "kcal": 165.0,
+      "protein": 31.02,
+      "fat": 3.57,
+      "carbs": 0.0,
+      "fiber": 0.0,
+      "sodium": 74.0
+    },
+    "fields": {
+      "kcal": {
+        "value": 165.0,
+        "unit": "KCAL",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1613020",
+        "nutrientId": "1008",
+        "derivation": "Calculated",
+        "derivationCode": "NC",
+        "dataPoints": "0"
+      },
+      "protein": {
+        "value": 31.02,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1613048",
+        "nutrientId": "1003",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "16"
+      },
+      "fat": {
+        "value": 3.57,
+        "unit": "G",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1613018",
+        "nutrientId": "1004",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "16"
+      },
+      "carbs": {
+        "value": 0.0,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1613019",
+        "nutrientId": "1005",
+        "derivation": "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+        "derivationCode": "Z",
+        "dataPoints": "0"
+      },
+      "fiber": {
+        "value": 0.0,
+        "unit": "G",
+        "status": "estimated",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1613050",
+        "nutrientId": "1079",
+        "derivation": "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+        "derivationCode": "Z",
+        "dataPoints": "0"
+      },
+      "sodium": {
+        "value": 74.0,
+        "unit": "MG",
+        "status": "reported",
+        "sourceId": "usda-sr-2018",
+        "sourceRowId": "1613054",
+        "nutrientId": "1093",
+        "derivation": "未提供",
+        "derivationCode": null,
+        "dataPoints": "16"
+      }
+    },
+    "aliases": [
+      "烤鸡胸肉"
+    ]
   }
 ]
