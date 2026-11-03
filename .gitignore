@@ -1,0 +1,12 @@
+node_modules/
+dist/
+tools/
+.env
+.env.*
+!.env.example
+*.log
+qa/**/*.png
+qa/**/*.mp4
+qa/**/*.json
+*.backup.json
+__pycache__/
