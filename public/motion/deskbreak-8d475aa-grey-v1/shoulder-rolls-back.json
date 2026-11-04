@@ -1,0 +1,45 @@
+{
+  "clipId": "shoulder-rolls-back",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 2.4,
+  "fps": 30,
+  "frames": 72,
+  "keyTimes": [
+    0,
+    0.3,
+    0.6,
+    0.9,
+    1.2,
+    1.5,
+    1.8,
+    2.1,
+    2.3666666666666667
+  ],
+  "bounds": {
+    "min": [
+      -0.30743300914764404,
+      -0.18279726803302765,
+      -2.619028009576141e-06
+    ],
+    "max": [
+      0.30743300914764404,
+      0.10775551944971085,
+      1.7509390115737915
+    ]
+  },
+  "files": {
+    "shoulder-rolls-back-key-0.png": "8f82366905bd55abd56e564e8b8e9554c11f2290f36b3b52db80652d7c333a1d",
+    "shoulder-rolls-back-key-1.png": "6edbfa10598b84326594c9bf8af5e6e51d6384af0128875061e1fe400b26cce7",
+    "shoulder-rolls-back-key-2.png": "61aaa43ed8641b82885d43e16f6db5b24367f582fb95d45a8553c36c518445b5",
+    "shoulder-rolls-back-key-3.png": "26a25a75cdb87c095e7e5a48585aeed24472578268a9673b8cf6bc3fc1750b3c",
+    "shoulder-rolls-back-key-4.png": "0163d2f97cbcb2e42d5555ccfb3a317efb98ca148b3adc87c70e4aa4c9a34d3e",
+    "shoulder-rolls-back-key-5.png": "7997238b428b2825274b493520e5548dfe415c23f717c91fa7eec0ca5c7eaa65",
+    "shoulder-rolls-back-key-6.png": "7bc6596a264e4c192e9cf1db33d1447597a0d1a9b1e3aba1819ff23b79bdc500",
+    "shoulder-rolls-back-key-7.png": "2b8ff45347329179e683ff3649265401be37190455a9f96cc0013412dc75b7e4",
+    "shoulder-rolls-back-key-8.png": "ee14c851b47e036b2e0c3fa70a93d63e3a87ac878e2bfb51c79a29203920e213",
+    "shoulder-rolls-back-poster.png": "8f82366905bd55abd56e564e8b8e9554c11f2290f36b3b52db80652d7c333a1d",
+    "shoulder-rolls-back.mp4": "306e980aa5ecdcdc382f84e4c6b1859d178ff4fe694972d4ee585bfcf2305251"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

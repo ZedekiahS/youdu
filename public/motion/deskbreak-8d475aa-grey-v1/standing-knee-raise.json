@@ -1,0 +1,37 @@
+{
+  "clipId": "standing-knee-raise",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 3.6,
+  "fps": 30,
+  "frames": 108,
+  "keyTimes": [
+    0,
+    0.9,
+    1.8,
+    2.7,
+    3.566666666666667
+  ],
+  "bounds": {
+    "min": [
+      -0.5154436826705933,
+      -0.4088676869869232,
+      -1.3217857031122549e-06
+    ],
+    "max": [
+      0.1704089492559433,
+      0.4088676869869232,
+      1.7509393692016602
+    ]
+  },
+  "files": {
+    "standing-knee-raise-key-0.png": "113f014a0e7f697c4d0bd0d7e276c381af42f1d4f18bc2c9e3b776f4e4dbe4ee",
+    "standing-knee-raise-key-1.png": "f806d0f0e88b98b801be8abe3ce95228acac85784f76d18d3b224002ca43a0f2",
+    "standing-knee-raise-key-2.png": "92ac920b5f98e32981a4ab6ab421ca18a1ce36c6878def163aa3e740fceb911c",
+    "standing-knee-raise-key-3.png": "90f12b1f2a48e2d5f607a81350672694f822320b46c77c378478fa2204948c1d",
+    "standing-knee-raise-key-4.png": "97ccaae046ac8f7bee06ee722b2f18ce552604435d8a81bc9c62b9d5534695b3",
+    "standing-knee-raise-poster.png": "113f014a0e7f697c4d0bd0d7e276c381af42f1d4f18bc2c9e3b776f4e4dbe4ee",
+    "standing-knee-raise.mp4": "25f18d70b8d424b5d63356df95614429f8c47e489ee23e9fde9af8992c1163a7"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

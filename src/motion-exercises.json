@@ -88,5 +88,248 @@
     "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
     "sourceLabel": "Desk Break 动作库英文说明的中文转述",
     "reviewStatus": "已核对变式；未经专业审核"
+  },
+  {
+    "id": "standing-cat-cow",
+    "clipId": "standing-cat-cow",
+    "name": "站姿猫牛式",
+    "en": "Standing cat-cow",
+    "group": "背部",
+    "equipment": "无需器械",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "屈膝，双手放在膝盖上方的大腿上。",
+      "拱背并收下巴。",
+      "再向前展开胸部，略抬视线。"
+    ],
+    "originalSteps": [
+      "Bend your knees and rest your hands on your thighs, just above the knees.",
+      "Round your back up and tuck your chin.",
+      "Then push your chest forward and lift your gaze a little.",
+      "!If your knees hurt, bend them only slightly."
+    ],
+    "mistakes": "动作范围以舒适为限；英文原说明与示范可回查，不作为个体处方。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 固定版本英文动作说明的中文转述",
+    "reviewStatus": "来源已核对；未经专业动作审核"
+  },
+  {
+    "id": "step-touch-clap",
+    "clipId": "step-touch-clap",
+    "name": "侧步并脚拍手",
+    "en": "Step touch with clap",
+    "group": "全身",
+    "equipment": "无需器械",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "向一侧迈步。",
+      "另一只脚并拢点地，同时拍手。",
+      "换向另一侧重复。"
+    ],
+    "originalSteps": [
+      "Step to the side.",
+      "Bring the other foot in, tap it down, and clap.",
+      "Go back the other way."
+    ],
+    "mistakes": "动作范围以舒适为限；英文原说明与示范可回查，不作为个体处方。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 固定版本英文动作说明的中文转述",
+    "reviewStatus": "来源已核对；未经专业动作审核"
+  },
+  {
+    "id": "dead-bug",
+    "clipId": "dead-bug",
+    "name": "死虫式",
+    "en": "Dead bug",
+    "group": "核心",
+    "equipment": "防滑垫",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "仰卧，双臂指向天花板，抬腿使膝部成直角。",
+      "一侧手臂向头顶方向下放，同时伸展对侧腿。",
+      "回到起始位置并换侧，保持下背部贴地。"
+    ],
+    "originalSteps": [
+      "Lie on your back with your arms up to the ceiling and your knees lifted at a right angle.",
+      "Lower one arm overhead and stretch the opposite leg out.",
+      "Come back and switch sides. Keep your lower back pressed to the floor.",
+      "!Hard on your back? Move only the leg, not the arm."
+    ],
+    "mistakes": "动作范围以舒适为限；英文原说明与示范可回查，不作为个体处方。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 固定版本英文动作说明的中文转述",
+    "reviewStatus": "来源已核对；未经专业动作审核"
+  },
+  {
+    "id": "heel-slides",
+    "clipId": "heel-slides",
+    "name": "仰卧滑跟",
+    "en": "Heel slides",
+    "group": "下肢",
+    "equipment": "防滑垫",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "仰卧屈膝。",
+      "一侧脚跟沿地面向前滑动，直到腿伸直。",
+      "缓慢收回并换腿。"
+    ],
+    "originalSteps": [
+      "Lie on your back with your knees bent.",
+      "Slide one heel along the floor until your leg is straight.",
+      "Slide it back slowly and switch legs."
+    ],
+    "mistakes": "动作范围以舒适为限；英文原说明与示范可回查，不作为个体处方。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 固定版本英文动作说明的中文转述",
+    "reviewStatus": "来源已核对；未经专业动作审核"
+  },
+  {
+    "id": "cat-cow",
+    "clipId": "cat-cow",
+    "name": "四点支撑猫牛式",
+    "en": "Cat-cow on all fours",
+    "group": "背部",
+    "equipment": "防滑垫",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "双手在肩下、双膝在髋下，四点支撑。",
+      "向上拱背，视线朝向腹部。",
+      "再让腹部下沉，抬起视线。"
+    ],
+    "originalSteps": [
+      "Get on all fours, hands under your shoulders and knees under your hips.",
+      "Round your back up like a cat and look toward your belly.",
+      "Let your belly drop and look up, like a cow.",
+      "!Sensitive knees? Put a pillow or a folded blanket under them."
+    ],
+    "mistakes": "动作范围以舒适为限；英文原说明与示范可回查，不作为个体处方。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 固定版本英文动作说明的中文转述",
+    "reviewStatus": "来源已核对；未经专业动作审核"
+  },
+  {
+    "id": "standing-knee-raise",
+    "clipId": "standing-knee-raise",
+    "name": "站姿交替抬膝",
+    "en": "Standing knee raise",
+    "group": "下肢",
+    "equipment": "无需器械",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "站直，双手放在髋部。",
+      "缓慢抬起一侧膝盖至髋部高度。",
+      "放下后换另一侧。"
+    ],
+    "originalSteps": [
+      "Stand tall with your hands on your hips.",
+      "Slowly lift one knee to hip height.",
+      "Lower it and switch to the other leg."
+    ],
+    "mistakes": "动作范围以舒适为限；英文原说明与示范可回查，不作为个体处方。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 固定版本英文动作说明的中文转述",
+    "reviewStatus": "来源已核对；未经专业动作审核"
+  },
+  {
+    "id": "heel-kicks",
+    "clipId": "heel-kicks",
+    "name": "轻柔后踢腿",
+    "en": "Gentle butt kicks",
+    "group": "下肢",
+    "equipment": "无需器械",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "原地踏步，每一步将脚跟向后抬起。",
+      "双手放在髋部或自然摆动。",
+      "节奏放缓，轻柔落地。"
+    ],
+    "originalSteps": [
+      "March in place and kick each heel back toward your butt.",
+      "Hands on your hips, or let them swing.",
+      "Keep an easy pace and land softly."
+    ],
+    "mistakes": "动作范围以舒适为限；英文原说明与示范可回查，不作为个体处方。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 固定版本英文动作说明的中文转述",
+    "reviewStatus": "来源已核对；未经专业动作审核"
+  },
+  {
+    "id": "hip-hinge",
+    "clipId": "hip-hinge",
+    "name": "徒手髋铰链",
+    "en": "Hip hinge",
+    "group": "下肢",
+    "equipment": "无需器械",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "双手放在髋部，膝盖微屈。",
+      "髋部向后推，背部保持平直，身体前倾。",
+      "避免弓背，收缩臀部回到站立。"
+    ],
+    "originalSteps": [
+      "Hands on your hips, knees soft.",
+      "Push your hips back and lean forward with a straight back.",
+      "!Don't round your back. Squeeze your glutes to come up."
+    ],
+    "mistakes": "动作范围以舒适为限；英文原说明与示范可回查，不作为个体处方。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 固定版本英文动作说明的中文转述",
+    "reviewStatus": "来源已核对；未经专业动作审核"
+  },
+  {
+    "id": "shoulder-rolls-back",
+    "clipId": "shoulder-rolls-back",
+    "name": "肩部向后绕环",
+    "en": "Shoulder rolls backward",
+    "group": "肩颈",
+    "equipment": "无需器械",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "双肩向耳朵方向抬起。",
+      "向后绕动双肩，肩胛骨靠拢。",
+      "再向下放松，缓慢循环。"
+    ],
+    "originalSteps": [
+      "Lift your shoulders up toward your ears.",
+      "Roll them back and squeeze your shoulder blades together.",
+      "Lower them down. Make a big, slow circle."
+    ],
+    "mistakes": "动作范围以舒适为限；英文原说明与示范可回查，不作为个体处方。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 固定版本英文动作说明的中文转述",
+    "reviewStatus": "来源已核对；未经专业动作审核"
+  },
+  {
+    "id": "arm-circles-small",
+    "clipId": "arm-circles-small",
+    "name": "手臂小幅绕环",
+    "en": "Small arm circles",
+    "group": "上肢",
+    "equipment": "无需器械",
+    "reps": 5,
+    "sets": 1,
+    "steps": [
+      "双臂向两侧抬至肩高。",
+      "用手臂做小幅绕环。",
+      "依照原始示范控制节奏。"
+    ],
+    "originalSteps": [
+      "Stretch your arms out to the sides at shoulder height.",
+      "Draw small circles in the air.",
+      "After 15 seconds, switch direction."
+    ],
+    "mistakes": "动作范围以舒适为限；英文原说明与示范可回查，不作为个体处方。",
+    "source": "https://github.com/shlomorsh/desk-break/blob/8d475aa476b2c0e9ec6d09d8558faf17161e19ef/library/exercises.json",
+    "sourceLabel": "Desk Break 固定版本英文动作说明的中文转述",
+    "reviewStatus": "来源已核对；未经专业动作审核"
   }
 ]

@@ -1,0 +1,33 @@
+{
+  "clipId": "hip-hinge",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 2.8,
+  "fps": 30,
+  "frames": 84,
+  "keyTimes": [
+    0,
+    1.6,
+    2.7666666666666666
+  ],
+  "bounds": {
+    "min": [
+      -0.4488455057144165,
+      -0.42389994859695435,
+      -9.949271770892665e-06
+    ],
+    "max": [
+      0.22799086570739746,
+      0.40886765718460083,
+      1.750939965248108
+    ]
+  },
+  "files": {
+    "hip-hinge-key-0.png": "f2e88b96afc9b7c391758311287d812c1334ba23fcb1ede9aede03b01f3cbb31",
+    "hip-hinge-key-1.png": "690cf8e29fd9a0f976e81e3c67cd0dbfffb63abce758982efc08fc5acacc9a9f",
+    "hip-hinge-key-2.png": "4ddd09070dfb5078daf97ffb3f9e4770245267f524d201e81f9eef234aae0c80",
+    "hip-hinge-poster.png": "f2e88b96afc9b7c391758311287d812c1334ba23fcb1ede9aede03b01f3cbb31",
+    "hip-hinge.mp4": "8d44020f9aae74dd0dda05c76285dde45f0a033267d6558ee44f9842726af693"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

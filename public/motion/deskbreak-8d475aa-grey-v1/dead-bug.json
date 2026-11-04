@@ -1,0 +1,37 @@
+{
+  "clipId": "dead-bug",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 4.8,
+  "fps": 30,
+  "frames": 144,
+  "keyTimes": [
+    0,
+    1.2,
+    2.4,
+    3.6,
+    4.766666666666667
+  ],
+  "bounds": {
+    "min": [
+      -0.3288628160953522,
+      -0.8822386264801025,
+      0.0
+    ],
+    "max": [
+      0.3288627862930298,
+      1.1485114097595215,
+      0.805509090423584
+    ]
+  },
+  "files": {
+    "dead-bug-key-0.png": "2b9b25baba4b12dce538f902deb66eb334c00c209916a5d18eb3ba78a2f4f495",
+    "dead-bug-key-1.png": "eac482a710247e9e3ab6164a3a4b6b2415b6898af793f11f5d160319f1f78fb7",
+    "dead-bug-key-2.png": "aaa958413c45b8a82d14bc4f2c7d4414eb9fb2431e0706fa018471ef819283af",
+    "dead-bug-key-3.png": "98dfb73b4d1fda74ad9210e84f5e0ac23df7628a687f49c9b6470b31293f4356",
+    "dead-bug-key-4.png": "79e2346577f6401d25a82c3ed87143dddfed82616c5fe0c0b6340e72c07e86f3",
+    "dead-bug-poster.png": "2b9b25baba4b12dce538f902deb66eb334c00c209916a5d18eb3ba78a2f4f495",
+    "dead-bug.mp4": "063b5daad30f316d76ad067e7266c589e54f51eef9f5ef2e6900531ac0233ca0"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

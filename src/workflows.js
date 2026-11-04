@@ -1,3 +1,4 @@
+import {sessionElapsed} from './follow-clock.js';
 // Shared prototype workflow rules. No model calls or background health decisions.
 export const trainingFor = minutes => ({
   minutes,
@@ -82,7 +83,7 @@ export function finishTraining(state,date) {
   const prescription=sessionPrescription(s);
   const completedSets=prescription.flatMap(m=>Array.from({length:m.sets},(_,i)=>({exerciseId:m.exerciseId,set:i+1,reps:m.reps,key:m.exerciseId+'-'+i}))).filter(m=>s.checked.includes(m.key));
   state.workouts.push({id:s.id,planId:s.planId||null,planRevision:s.planRevision||0,date,title:s.title||'居家基础练习',
-    duration:Math.max(1,Math.round((Date.now()-s.startedAt)/60000)),targetMinutes:s.targetMinutes??20,
+    duration:Math.max(1,Math.round(sessionElapsed(s)/60000)),targetMinutes:s.targetMinutes??20,
     prescription:structuredClone(prescription),completedSets,sets:completedSets.length,moves:[...new Set(completedSets.map(m=>m.exerciseId))],source:'逐组记录'});
   const plan=state.plans.find(p=>p.id===s.planId);
   if(plan && (plan.revision||0)===(s.planRevision||0)) {

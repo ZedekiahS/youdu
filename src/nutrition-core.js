@@ -6,7 +6,7 @@ export function calculate(items=[],lookup={}){
  for(const item of items){const f=item.snapshot||lookup[item.foodId];
   if(!f||!Number.isFinite(item.grams)||item.grams<0)throw new Error('食品或份量无效，请核对原始记录');
   if(f.basisUnit&&f.basisUnit!=='g')throw new Error('此食品不是克基准，不能直接换算');
-  for(const k of nutrientKeys){const v=f.nutrients?.[k];if(v==null){out.missing.push(k);out[k]=null}else if(out[k]!=null)out[k]+=v*item.grams/100;}
+  for(const k of nutrientKeys){const v=f.nutrients?.[k];if(v==null){out.missing.push(k);out[k]=null}else{if(!Number.isFinite(v)||v<0)throw Error('营养数值无效，请核对原始来源');if(out[k]!=null)out[k]+=v*item.grams/100;}}
  }
  out.missing=[...new Set(out.missing)];return out;
 }

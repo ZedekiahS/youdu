@@ -167,5 +167,375 @@
     },
     "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
     "renderTool": "4.5.9 LTS"
+  },
+  "standing-cat-cow": {
+    "clipId": "standing-cat-cow",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 2.8,
+    "fps": 30,
+    "frames": 84,
+    "keyTimes": [
+      0,
+      1.4,
+      2.7666666666666666
+    ],
+    "bounds": {
+      "min": [
+        -0.5073823928833008,
+        -0.4388532042503357,
+        -3.5064294934272766e-07
+      ],
+      "max": [
+        0.11747539043426514,
+        0.1287875473499298,
+        1.5869518518447876
+      ]
+    },
+    "files": {
+      "standing-cat-cow-key-0.png": "96f069d626475577b4a1f2b2ce174a9c304a8fd4a7933bb6e02347cde5d55f16",
+      "standing-cat-cow-key-1.png": "540c81857ec408974bed73f04066fe35734ddf765ff874181aae36933ee477cd",
+      "standing-cat-cow-key-2.png": "e8bfc5e9ad46112fbcf4ad2d241ac1de28b46ceaf6ead94e996995edc58839ed",
+      "standing-cat-cow-poster.png": "96f069d626475577b4a1f2b2ce174a9c304a8fd4a7933bb6e02347cde5d55f16",
+      "standing-cat-cow.mp4": "f9b69ba16d68a9d994dca6ae14a8a6b4fa09e7d63e6be990edce8c2184b1c4af"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  },
+  "step-touch-clap": {
+    "clipId": "step-touch-clap",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 2.0,
+    "fps": 30,
+    "frames": 60,
+    "keyTimes": [
+      0,
+      0.5,
+      1.0,
+      1.5,
+      1.9666666666666666
+    ],
+    "bounds": {
+      "min": [
+        -0.6654350757598877,
+        -0.68599534034729,
+        -7.450580596923828e-08
+      ],
+      "max": [
+        0.785434901714325,
+        0.24378323554992676,
+        1.8245598077774048
+      ]
+    },
+    "files": {
+      "step-touch-clap-key-0.png": "616d4c06e7b546418f0a3065a6ad97a47b17013c78904c9c13914b2d6ad3859f",
+      "step-touch-clap-key-1.png": "8b33c0e181f21b681772235979cb7c85a69797ca86ef398da4b1e506c7f4de85",
+      "step-touch-clap-key-2.png": "6ecbc70cbf13e93786f98cf48c19d5b26ed668fee13f98e186d811a0c8986491",
+      "step-touch-clap-key-3.png": "517338229bde8a2229c2a947d17d04598e37eb27b9f947fa89ed355695cc08cb",
+      "step-touch-clap-key-4.png": "05f3cffe884d7f994041cc488cca1a74b8dbf3ffe7dfd475a34afc66d8433652",
+      "step-touch-clap-poster.png": "616d4c06e7b546418f0a3065a6ad97a47b17013c78904c9c13914b2d6ad3859f",
+      "step-touch-clap.mp4": "3e764500c8c96dd029a32b7c3146e7ad490b2b24b2c32fbc2978fbd93fdbd39c"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  },
+  "dead-bug": {
+    "clipId": "dead-bug",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 4.8,
+    "fps": 30,
+    "frames": 144,
+    "keyTimes": [
+      0,
+      1.2,
+      2.4,
+      3.6,
+      4.766666666666667
+    ],
+    "bounds": {
+      "min": [
+        -0.3288628160953522,
+        -0.8822386264801025,
+        0.0
+      ],
+      "max": [
+        0.3288627862930298,
+        1.1485114097595215,
+        0.805509090423584
+      ]
+    },
+    "files": {
+      "dead-bug-key-0.png": "2b9b25baba4b12dce538f902deb66eb334c00c209916a5d18eb3ba78a2f4f495",
+      "dead-bug-key-1.png": "eac482a710247e9e3ab6164a3a4b6b2415b6898af793f11f5d160319f1f78fb7",
+      "dead-bug-key-2.png": "aaa958413c45b8a82d14bc4f2c7d4414eb9fb2431e0706fa018471ef819283af",
+      "dead-bug-key-3.png": "98dfb73b4d1fda74ad9210e84f5e0ac23df7628a687f49c9b6470b31293f4356",
+      "dead-bug-key-4.png": "79e2346577f6401d25a82c3ed87143dddfed82616c5fe0c0b6340e72c07e86f3",
+      "dead-bug-poster.png": "2b9b25baba4b12dce538f902deb66eb334c00c209916a5d18eb3ba78a2f4f495",
+      "dead-bug.mp4": "063b5daad30f316d76ad067e7266c589e54f51eef9f5ef2e6900531ac0233ca0"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  },
+  "heel-slides": {
+    "clipId": "heel-slides",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 4.4,
+    "fps": 30,
+    "frames": 132,
+    "keyTimes": [
+      0,
+      1.1,
+      2.2,
+      3.3,
+      4.366666666666667
+    ],
+    "bounds": {
+      "min": [
+        -0.3074329197406769,
+        -0.9513767957687378,
+        0.0
+      ],
+      "max": [
+        0.30743294954299927,
+        0.8029402494430542,
+        0.451740562915802
+      ]
+    },
+    "files": {
+      "heel-slides-key-0.png": "54201a94beb78d8dc1be3fc5722ef9adc024eff0a2533306b7e558d9778cdea9",
+      "heel-slides-key-1.png": "c0fa71fe87ce95021b3792ba53efa8375d92de618820c1f542cfb9f5ef1f67bd",
+      "heel-slides-key-2.png": "2a1641adc84b99a794be8ede19ac1dfc98f8b606ee0c7339d60f48a207611429",
+      "heel-slides-key-3.png": "44cb07d11323c7396afb508de777561cd703ac8cc59544acdd27b66b53b1bedf",
+      "heel-slides-key-4.png": "b96aa0b37af0472c5f7c0d1fcbfc06fe558cdeb291eab253ab9c061261ab4b1f",
+      "heel-slides-poster.png": "54201a94beb78d8dc1be3fc5722ef9adc024eff0a2533306b7e558d9778cdea9",
+      "heel-slides.mp4": "284efb96dae7be675c97f0ee16ad4fb91d5cd6a9fc93aff16b8c6c3a74e22078"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  },
+  "cat-cow": {
+    "clipId": "cat-cow",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 2.6,
+    "fps": 30,
+    "frames": 78,
+    "keyTimes": [
+      0,
+      1.3,
+      2.566666666666667
+    ],
+    "bounds": {
+      "min": [
+        -0.25099998712539673,
+        -0.7833429574966431,
+        0.0
+      ],
+      "max": [
+        0.25099998712539673,
+        0.6376985311508179,
+        0.9814152121543884
+      ]
+    },
+    "files": {
+      "cat-cow-key-0.png": "5062cde829e92fcf5a6fce54577f8835b58e01724c784eca424f1da088f939a7",
+      "cat-cow-key-1.png": "b9f69b94638b99ea283685b088874954ae55026d909fd73f3a3d8284c16e2f59",
+      "cat-cow-key-2.png": "e0e66300dd6f0c6803c3cf619fcdc3c73e5af644e700d80a6f8554fa08b108fc",
+      "cat-cow-poster.png": "5062cde829e92fcf5a6fce54577f8835b58e01724c784eca424f1da088f939a7",
+      "cat-cow.mp4": "51c2bcff6aa93e702f9f6dc8600ce1f5ae6f06b7408464ca0410c561859d970b"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  },
+  "standing-knee-raise": {
+    "clipId": "standing-knee-raise",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 3.6,
+    "fps": 30,
+    "frames": 108,
+    "keyTimes": [
+      0,
+      0.9,
+      1.8,
+      2.7,
+      3.566666666666667
+    ],
+    "bounds": {
+      "min": [
+        -0.5154436826705933,
+        -0.4088676869869232,
+        -1.3217857031122549e-06
+      ],
+      "max": [
+        0.1704089492559433,
+        0.4088676869869232,
+        1.7509393692016602
+      ]
+    },
+    "files": {
+      "standing-knee-raise-key-0.png": "113f014a0e7f697c4d0bd0d7e276c381af42f1d4f18bc2c9e3b776f4e4dbe4ee",
+      "standing-knee-raise-key-1.png": "f806d0f0e88b98b801be8abe3ce95228acac85784f76d18d3b224002ca43a0f2",
+      "standing-knee-raise-key-2.png": "92ac920b5f98e32981a4ab6ab421ca18a1ce36c6878def163aa3e740fceb911c",
+      "standing-knee-raise-key-3.png": "90f12b1f2a48e2d5f607a81350672694f822320b46c77c378478fa2204948c1d",
+      "standing-knee-raise-key-4.png": "97ccaae046ac8f7bee06ee722b2f18ce552604435d8a81bc9c62b9d5534695b3",
+      "standing-knee-raise-poster.png": "113f014a0e7f697c4d0bd0d7e276c381af42f1d4f18bc2c9e3b776f4e4dbe4ee",
+      "standing-knee-raise.mp4": "25f18d70b8d424b5d63356df95614429f8c47e489ee23e9fde9af8992c1163a7"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  },
+  "heel-kicks": {
+    "clipId": "heel-kicks",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 1.0,
+    "fps": 30,
+    "frames": 30,
+    "keyTimes": [
+      0,
+      0.5,
+      0.9666666666666667
+    ],
+    "bounds": {
+      "min": [
+        -0.33958572149276733,
+        -0.290330171585083,
+        -1.4718619922859943e-07
+      ],
+      "max": [
+        0.44610854983329773,
+        0.5003112554550171,
+        1.7648653984069824
+      ]
+    },
+    "files": {
+      "heel-kicks-key-0.png": "cbca7bc2c23a039ae014f25e9b41408045ade88285b903d2f4a05bf071be449a",
+      "heel-kicks-key-1.png": "4b3776a2051549b533723a610a7de4e7b837381591def93048d62007e33bbc65",
+      "heel-kicks-key-2.png": "eb1137ca125897ee7ce078c2d22f6e08cf5fc2bd0d7131ef2a7c42847fa7ae61",
+      "heel-kicks-poster.png": "cbca7bc2c23a039ae014f25e9b41408045ade88285b903d2f4a05bf071be449a",
+      "heel-kicks.mp4": "eda2500b6176592d02ca4e64a0a2bb240da3810e4b103d290e927ff67a03b7b9"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  },
+  "hip-hinge": {
+    "clipId": "hip-hinge",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 2.8,
+    "fps": 30,
+    "frames": 84,
+    "keyTimes": [
+      0,
+      1.6,
+      2.7666666666666666
+    ],
+    "bounds": {
+      "min": [
+        -0.4488455057144165,
+        -0.42389994859695435,
+        -9.949271770892665e-06
+      ],
+      "max": [
+        0.22799086570739746,
+        0.40886765718460083,
+        1.750939965248108
+      ]
+    },
+    "files": {
+      "hip-hinge-key-0.png": "f2e88b96afc9b7c391758311287d812c1334ba23fcb1ede9aede03b01f3cbb31",
+      "hip-hinge-key-1.png": "690cf8e29fd9a0f976e81e3c67cd0dbfffb63abce758982efc08fc5acacc9a9f",
+      "hip-hinge-key-2.png": "4ddd09070dfb5078daf97ffb3f9e4770245267f524d201e81f9eef234aae0c80",
+      "hip-hinge-poster.png": "f2e88b96afc9b7c391758311287d812c1334ba23fcb1ede9aede03b01f3cbb31",
+      "hip-hinge.mp4": "8d44020f9aae74dd0dda05c76285dde45f0a033267d6558ee44f9842726af693"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  },
+  "shoulder-rolls-back": {
+    "clipId": "shoulder-rolls-back",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 2.4,
+    "fps": 30,
+    "frames": 72,
+    "keyTimes": [
+      0,
+      0.3,
+      0.6,
+      0.9,
+      1.2,
+      1.5,
+      1.8,
+      2.1,
+      2.3666666666666667
+    ],
+    "bounds": {
+      "min": [
+        -0.30743300914764404,
+        -0.18279726803302765,
+        -2.619028009576141e-06
+      ],
+      "max": [
+        0.30743300914764404,
+        0.10775551944971085,
+        1.7509390115737915
+      ]
+    },
+    "files": {
+      "shoulder-rolls-back-key-0.png": "8f82366905bd55abd56e564e8b8e9554c11f2290f36b3b52db80652d7c333a1d",
+      "shoulder-rolls-back-key-1.png": "6edbfa10598b84326594c9bf8af5e6e51d6384af0128875061e1fe400b26cce7",
+      "shoulder-rolls-back-key-2.png": "61aaa43ed8641b82885d43e16f6db5b24367f582fb95d45a8553c36c518445b5",
+      "shoulder-rolls-back-key-3.png": "26a25a75cdb87c095e7e5a48585aeed24472578268a9673b8cf6bc3fc1750b3c",
+      "shoulder-rolls-back-key-4.png": "0163d2f97cbcb2e42d5555ccfb3a317efb98ca148b3adc87c70e4aa4c9a34d3e",
+      "shoulder-rolls-back-key-5.png": "7997238b428b2825274b493520e5548dfe415c23f717c91fa7eec0ca5c7eaa65",
+      "shoulder-rolls-back-key-6.png": "7bc6596a264e4c192e9cf1db33d1447597a0d1a9b1e3aba1819ff23b79bdc500",
+      "shoulder-rolls-back-key-7.png": "2b8ff45347329179e683ff3649265401be37190455a9f96cc0013412dc75b7e4",
+      "shoulder-rolls-back-key-8.png": "ee14c851b47e036b2e0c3fa70a93d63e3a87ac878e2bfb51c79a29203920e213",
+      "shoulder-rolls-back-poster.png": "8f82366905bd55abd56e564e8b8e9554c11f2290f36b3b52db80652d7c333a1d",
+      "shoulder-rolls-back.mp4": "306e980aa5ecdcdc382f84e4c6b1859d178ff4fe694972d4ee585bfcf2305251"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
+  },
+  "arm-circles-small": {
+    "clipId": "arm-circles-small",
+    "mediaVersion": "deskbreak-8d475aa-grey-v1",
+    "duration": 1.7666666666666666,
+    "fps": 30,
+    "frames": 53,
+    "keyTimes": [
+      0,
+      0.22,
+      0.44,
+      0.66,
+      0.88,
+      1.1,
+      1.32,
+      1.54,
+      1.7266666666666666
+    ],
+    "bounds": {
+      "min": [
+        -0.902589738368988,
+        -0.18279746174812317,
+        -1.9020214949705405e-06
+      ],
+      "max": [
+        0.902589738368988,
+        0.10775551944971085,
+        1.7509392499923706
+      ]
+    },
+    "files": {
+      "arm-circles-small-key-0.png": "77db01481bce7cbb265539473cc95bc00620d9fa48afb13f34477d9d8d40dd80",
+      "arm-circles-small-key-1.png": "646466ac64451af33487c9bd5d4bb16d7b893f2dc0f3f963a8c6ca57e0aba144",
+      "arm-circles-small-key-2.png": "dd46f39dc270f5a685c8aeb289437b88c95f8f8e4a756a1806c3b3da75d7c1e7",
+      "arm-circles-small-key-3.png": "e9ac3f611495c8ca4dc1b9e6468ac9f52f18081d993e5c400332e3c7fcdb07bb",
+      "arm-circles-small-key-4.png": "18807eb92caf571f58f07631a1dfeb3840c7c0faf3e30eeffb6fcf0c0a5a2d6b",
+      "arm-circles-small-key-5.png": "a5b9561e7d9ec61a147926c113e8dca7849367491efd1e307e6e665cc4935d65",
+      "arm-circles-small-key-6.png": "b8ac9956fbfbdc177debf20175bf48001f8dc8cf697d3fd05f40aaadace21d1f",
+      "arm-circles-small-key-7.png": "9a796412e456e989405142585d3991cf379302054be4ee27febda2965bf72b24",
+      "arm-circles-small-key-8.png": "542a3501fde01d4d52fde471e448c98a12e7f06114924f9b0c8b07faea567f35",
+      "arm-circles-small-poster.png": "77db01481bce7cbb265539473cc95bc00620d9fa48afb13f34477d9d8d40dd80",
+      "arm-circles-small.mp4": "faaf3a87154305c4bfc688fe6d9984ea555707c2811f27c49de3ccbc74356302"
+    },
+    "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+    "renderTool": "4.5.9 LTS"
   }
 }

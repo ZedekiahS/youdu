@@ -1,0 +1,37 @@
+{
+  "clipId": "step-touch-clap",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 2.0,
+  "fps": 30,
+  "frames": 60,
+  "keyTimes": [
+    0,
+    0.5,
+    1.0,
+    1.5,
+    1.9666666666666666
+  ],
+  "bounds": {
+    "min": [
+      -0.6654350757598877,
+      -0.68599534034729,
+      -7.450580596923828e-08
+    ],
+    "max": [
+      0.785434901714325,
+      0.24378323554992676,
+      1.8245598077774048
+    ]
+  },
+  "files": {
+    "step-touch-clap-key-0.png": "616d4c06e7b546418f0a3065a6ad97a47b17013c78904c9c13914b2d6ad3859f",
+    "step-touch-clap-key-1.png": "8b33c0e181f21b681772235979cb7c85a69797ca86ef398da4b1e506c7f4de85",
+    "step-touch-clap-key-2.png": "6ecbc70cbf13e93786f98cf48c19d5b26ed668fee13f98e186d811a0c8986491",
+    "step-touch-clap-key-3.png": "517338229bde8a2229c2a947d17d04598e37eb27b9f947fa89ed355695cc08cb",
+    "step-touch-clap-key-4.png": "05f3cffe884d7f994041cc488cca1a74b8dbf3ffe7dfd475a34afc66d8433652",
+    "step-touch-clap-poster.png": "616d4c06e7b546418f0a3065a6ad97a47b17013c78904c9c13914b2d6ad3859f",
+    "step-touch-clap.mp4": "3e764500c8c96dd029a32b7c3146e7ad490b2b24b2c32fbc2978fbd93fdbd39c"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

@@ -1,0 +1,45 @@
+{
+  "clipId": "arm-circles-small",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 1.7666666666666666,
+  "fps": 30,
+  "frames": 53,
+  "keyTimes": [
+    0,
+    0.22,
+    0.44,
+    0.66,
+    0.88,
+    1.1,
+    1.32,
+    1.54,
+    1.7266666666666666
+  ],
+  "bounds": {
+    "min": [
+      -0.902589738368988,
+      -0.18279746174812317,
+      -1.9020214949705405e-06
+    ],
+    "max": [
+      0.902589738368988,
+      0.10775551944971085,
+      1.7509392499923706
+    ]
+  },
+  "files": {
+    "arm-circles-small-key-0.png": "77db01481bce7cbb265539473cc95bc00620d9fa48afb13f34477d9d8d40dd80",
+    "arm-circles-small-key-1.png": "646466ac64451af33487c9bd5d4bb16d7b893f2dc0f3f963a8c6ca57e0aba144",
+    "arm-circles-small-key-2.png": "dd46f39dc270f5a685c8aeb289437b88c95f8f8e4a756a1806c3b3da75d7c1e7",
+    "arm-circles-small-key-3.png": "e9ac3f611495c8ca4dc1b9e6468ac9f52f18081d993e5c400332e3c7fcdb07bb",
+    "arm-circles-small-key-4.png": "18807eb92caf571f58f07631a1dfeb3840c7c0faf3e30eeffb6fcf0c0a5a2d6b",
+    "arm-circles-small-key-5.png": "a5b9561e7d9ec61a147926c113e8dca7849367491efd1e307e6e665cc4935d65",
+    "arm-circles-small-key-6.png": "b8ac9956fbfbdc177debf20175bf48001f8dc8cf697d3fd05f40aaadace21d1f",
+    "arm-circles-small-key-7.png": "9a796412e456e989405142585d3991cf379302054be4ee27febda2965bf72b24",
+    "arm-circles-small-key-8.png": "542a3501fde01d4d52fde471e448c98a12e7f06114924f9b0c8b07faea567f35",
+    "arm-circles-small-poster.png": "77db01481bce7cbb265539473cc95bc00620d9fa48afb13f34477d9d8d40dd80",
+    "arm-circles-small.mp4": "faaf3a87154305c4bfc688fe6d9984ea555707c2811f27c49de3ccbc74356302"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

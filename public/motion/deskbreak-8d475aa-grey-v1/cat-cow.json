@@ -1,0 +1,33 @@
+{
+  "clipId": "cat-cow",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 2.6,
+  "fps": 30,
+  "frames": 78,
+  "keyTimes": [
+    0,
+    1.3,
+    2.566666666666667
+  ],
+  "bounds": {
+    "min": [
+      -0.25099998712539673,
+      -0.7833429574966431,
+      0.0
+    ],
+    "max": [
+      0.25099998712539673,
+      0.6376985311508179,
+      0.9814152121543884
+    ]
+  },
+  "files": {
+    "cat-cow-key-0.png": "5062cde829e92fcf5a6fce54577f8835b58e01724c784eca424f1da088f939a7",
+    "cat-cow-key-1.png": "b9f69b94638b99ea283685b088874954ae55026d909fd73f3a3d8284c16e2f59",
+    "cat-cow-key-2.png": "e0e66300dd6f0c6803c3cf619fcdc3c73e5af644e700d80a6f8554fa08b108fc",
+    "cat-cow-poster.png": "5062cde829e92fcf5a6fce54577f8835b58e01724c784eca424f1da088f939a7",
+    "cat-cow.mp4": "51c2bcff6aa93e702f9f6dc8600ce1f5ae6f06b7408464ca0410c561859d970b"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

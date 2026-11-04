@@ -1,0 +1,33 @@
+{
+  "clipId": "standing-cat-cow",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 2.8,
+  "fps": 30,
+  "frames": 84,
+  "keyTimes": [
+    0,
+    1.4,
+    2.7666666666666666
+  ],
+  "bounds": {
+    "min": [
+      -0.5073823928833008,
+      -0.4388532042503357,
+      -3.5064294934272766e-07
+    ],
+    "max": [
+      0.11747539043426514,
+      0.1287875473499298,
+      1.5869518518447876
+    ]
+  },
+  "files": {
+    "standing-cat-cow-key-0.png": "96f069d626475577b4a1f2b2ce174a9c304a8fd4a7933bb6e02347cde5d55f16",
+    "standing-cat-cow-key-1.png": "540c81857ec408974bed73f04066fe35734ddf765ff874181aae36933ee477cd",
+    "standing-cat-cow-key-2.png": "e8bfc5e9ad46112fbcf4ad2d241ac1de28b46ceaf6ead94e996995edc58839ed",
+    "standing-cat-cow-poster.png": "96f069d626475577b4a1f2b2ce174a9c304a8fd4a7933bb6e02347cde5d55f16",
+    "standing-cat-cow.mp4": "f9b69ba16d68a9d994dca6ae14a8a6b4fa09e7d63e6be990edce8c2184b1c4af"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

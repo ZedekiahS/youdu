@@ -1,0 +1,33 @@
+{
+  "clipId": "heel-kicks",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 1.0,
+  "fps": 30,
+  "frames": 30,
+  "keyTimes": [
+    0,
+    0.5,
+    0.9666666666666667
+  ],
+  "bounds": {
+    "min": [
+      -0.33958572149276733,
+      -0.290330171585083,
+      -1.4718619922859943e-07
+    ],
+    "max": [
+      0.44610854983329773,
+      0.5003112554550171,
+      1.7648653984069824
+    ]
+  },
+  "files": {
+    "heel-kicks-key-0.png": "cbca7bc2c23a039ae014f25e9b41408045ade88285b903d2f4a05bf071be449a",
+    "heel-kicks-key-1.png": "4b3776a2051549b533723a610a7de4e7b837381591def93048d62007e33bbc65",
+    "heel-kicks-key-2.png": "eb1137ca125897ee7ce078c2d22f6e08cf5fc2bd0d7131ef2a7c42847fa7ae61",
+    "heel-kicks-poster.png": "cbca7bc2c23a039ae014f25e9b41408045ade88285b903d2f4a05bf071be449a",
+    "heel-kicks.mp4": "eda2500b6176592d02ca4e64a0a2bb240da3810e4b103d290e927ff67a03b7b9"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

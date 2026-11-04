@@ -1,0 +1,37 @@
+{
+  "clipId": "heel-slides",
+  "mediaVersion": "deskbreak-8d475aa-grey-v1",
+  "duration": 4.4,
+  "fps": 30,
+  "frames": 132,
+  "keyTimes": [
+    0,
+    1.1,
+    2.2,
+    3.3,
+    4.366666666666667
+  ],
+  "bounds": {
+    "min": [
+      -0.3074329197406769,
+      -0.9513767957687378,
+      0.0
+    ],
+    "max": [
+      0.30743294954299927,
+      0.8029402494430542,
+      0.451740562915802
+    ]
+  },
+  "files": {
+    "heel-slides-key-0.png": "54201a94beb78d8dc1be3fc5722ef9adc024eff0a2533306b7e558d9778cdea9",
+    "heel-slides-key-1.png": "c0fa71fe87ce95021b3792ba53efa8375d92de618820c1f542cfb9f5ef1f67bd",
+    "heel-slides-key-2.png": "2a1641adc84b99a794be8ede19ac1dfc98f8b606ee0c7339d60f48a207611429",
+    "heel-slides-key-3.png": "44cb07d11323c7396afb508de777561cd703ac8cc59544acdd27b66b53b1bedf",
+    "heel-slides-key-4.png": "b96aa0b37af0472c5f7c0d1fcbfc06fe558cdeb291eab253ab9c061261ab4b1f",
+    "heel-slides-poster.png": "54201a94beb78d8dc1be3fc5722ef9adc024eff0a2533306b7e558d9778cdea9",
+    "heel-slides.mp4": "284efb96dae7be675c97f0ee16ad4fb91d5cd6a9fc93aff16b8c6c3a74e22078"
+  },
+  "sourceCommit": "8d475aa476b2c0e9ec6d09d8558faf17161e19ef",
+  "renderTool": "4.5.9 LTS"
+}

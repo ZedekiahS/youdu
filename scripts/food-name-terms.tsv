@@ -1,0 +1,2233 @@
+# English|Chinese|optional ambiguity note. Project-authored terminology, not official USDA translations.
+# Longest whole-phrase matching; no words are silently discarded. Proper names are retained separately.
+beef|牛肉
+pork|猪肉
+lamb|羔羊肉
+veal|小牛肉
+mutton|成年羊肉
+chicken|鸡肉
+turkey|火鸡肉
+duck|鸭肉
+goose|鹅肉
+ostrich|鸵鸟肉
+emu|鸸鹋肉
+quail|鹌鹑肉
+pheasant|雉鸡肉
+guinea hen|珍珠鸡肉
+squab|乳鸽肉
+dove|鸽肉
+poultry|禽肉
+game meat|野味肉
+fish|鱼类
+mollusks|软体动物
+crustaceans|甲壳类
+bison|美洲野牛肉
+buffalo|水牛/野牛肉（buffalo）|buffalo 的物种含义需结合原条目核对，不能直接等同普通牛肉
+caribou|北美驯鹿肉
+elk|鹿肉（elk）|elk 的具体鹿种与地区叫法待核对
+moose|驼鹿肉
+deer|鹿肉
+venison|鹿肉
+bear|熊肉
+seal|海豹肉
+whale|鲸肉
+sea lion|海狮肉
+walrus|海象肉
+rabbit|兔肉
+squirrel|松鼠肉
+owl|猫头鹰肉
+ruffed grouse|披肩榛鸡肉
+canada goose|加拿大雁肉
+beverages|饮料
+beverage|饮料
+alcoholic beverages|酒精饮料
+alcoholic beverage|酒精饮料
+babyfood|婴幼儿辅食
+infant formula|婴儿配方食品
+toddler formula|幼儿配方食品
+child formula|儿童配方食品
+toddler drink|幼儿饮品
+milk substitutes|乳替代饮品
+milk|牛奶
+soymilk|豆奶
+soy yogurt|豆乳酸奶
+soybeans|大豆
+soybean|大豆
+soy|大豆
+tofu yogurt|豆腐酸奶
+tofu|豆腐
+tempeh|天贝（发酵大豆食品）
+miso|味噌
+natto|纳豆
+okara|豆渣
+soy flour|大豆粉
+soy meal|豆粕
+soy protein concentrate|浓缩大豆蛋白
+soy protein isolate|大豆分离蛋白
+soy sauce made from soy and wheat (shoyu)|酱油（以大豆和小麦制成，shoyu）|shoyu 的配方不能直接视为国内生抽或老抽
+soy sauce made from soy (tamari)|酱油（以大豆制成，tamari）|tamari 不直接等同国内生抽或老抽，也不凭名称推断无小麦
+soy sauce made from hydrolyzed vegetable protein|植物蛋白水解调味液（原文 soy sauce）|保留美国原条目分类，不推定符合国内酿造酱油定义
+soy sauce|酱油
+hydrolyzed vegetable protein|水解植物蛋白
+cheese|奶酪
+cheese food|奶酪食品
+cheese product|奶酪制品
+cheese substitute|奶酪替代品
+cheese spread|涂抹型奶酪
+cheese sauce|奶酪酱
+cheese topping|奶酪配料
+cheese puffs and twists|奶酪味膨化条
+cream|稀奶油
+cream substitute|稀奶油替代品
+sour cream|酸奶油
+whipped cream substitute|打发稀奶油替代品
+whipped topping|打发装饰配料
+dessert topping|甜点配料
+cream puff shell|泡芙外壳
+cream puff|泡芙
+creamy dressing|奶油状调味酱
+creamer|咖啡伴侣
+buttermilk|酪乳
+yogurt|酸奶
+kefir|开菲尔发酵乳
+whey|乳清
+rennin|凝乳酶
+egg substitute|蛋替代品
+egg custards|蛋奶羹
+eggnog|蛋奶饮料
+eggs|鸡蛋
+egg|鸡蛋
+egg white|蛋白
+egg whites|蛋白
+yolk|蛋黄
+yolks|蛋黄
+whole milk|全脂牛奶
+nonfat milk|脱脂牛奶
+milkfat|乳脂
+butter oil|无水乳脂
+butter|黄油
+butter replacement|黄油替代品
+vegetable oil-butter spread|植物油与黄油混合涂抹脂
+vegetable oil spread|植物油涂抹脂
+margarine-like spread|类人造黄油涂抹脂
+margarine-like shortening|类人造黄油起酥脂
+margarine-like|类人造黄油制品
+margarine spread|人造黄油涂抹脂
+margarine|人造黄油
+shortening|起酥油
+vegetable oil|植物油
+animal fat|动物脂肪
+fish oil|鱼油
+oil|油
+fat|脂肪
+lard|猪油
+seeds|种子
+nuts|坚果
+nut|坚果
+almonds|杏仁
+walnuts|核桃
+peanuts|花生
+peanut|花生
+peanut butter|花生酱
+peanut flour|花生粉
+peanut spread|花生涂抹酱
+cashew nuts|腰果
+cashews|腰果
+pecans|碧根果
+pistachio nuts|开心果
+pistachios|开心果
+hazelnuts|榛子
+hazelnut|榛子
+macadamia nuts|夏威夷果
+brazilnuts|巴西坚果
+chestnuts|栗子
+acorns|橡实
+pinon nuts|松子（pinon）
+pine nuts|松子
+sunflower seed kernels|葵花籽仁
+sunflower seed|葵花籽
+sesame seeds|芝麻
+sesame|芝麻
+poppy seed|罂粟籽
+flaxseed|亚麻籽
+chia seeds|奇亚籽
+pumpkin and squash seed kernels|南瓜及其他瓜类籽仁
+coconut meat|椰肉
+coconut cream|椰浆（coconut cream）
+coconut milk|椰乳（coconut milk）
+coconut water|椰子水
+coconut|椰子
+beans|豆类
+bean|豆
+peas|豌豆
+pea|豌豆
+lentils|小扁豆
+mung beans|绿豆
+mungo beans|黑绿豆（mungo beans）|与普通绿豆不同，具体物种待核对
+mothbeans|蛾豆（mothbeans）|豆种对应关系待核对，不能直接视为绿豆
+lima beans|利马豆
+chickpeas|鹰嘴豆
+garbanzo beans|鹰嘴豆
+bengal gram|鹰嘴豆
+chickpea flour (besan)|鹰嘴豆粉（besan）
+broadbeans|蚕豆
+fava beans|蚕豆
+cowpeas|豇豆
+blackeyes|黑眼豆
+blackeyed peas|黑眼豆
+yardlong beans|长豇豆
+yardlong bean|长豇豆
+winged beans|四棱豆
+winged bean|四棱豆
+hyacinth beans|扁豆（hyacinth beans）
+hyacinth-beans|扁豆（hyacinth beans）
+pigeonpeas|木豆
+pigeon peas|木豆
+red gram|木豆
+lupins|羽扇豆
+edamame|毛豆
+refried beans|再煎豆泥
+hummus|鹰嘴豆泥
+falafel|炸豆丸
+navy|海军豆型（navy）
+pinto|花斑豆型（pinto）
+kidney beans|芸豆
+black beans|黑豆（菜豆属）|不可直接对应国内黑大豆
+red beans|红色豆类（red beans）|不能仅凭 red beans 对应红小豆
+potatoes|土豆
+potato|土豆
+sweet potatoes|红薯
+sweet potato|红薯
+potato chips|薯片
+potato flour|土豆粉
+potato wedges|薯角
+potato puffs|膨松薯制品
+potato pancakes|土豆饼
+potato salad|土豆沙拉
+sweet potato leaves|红薯叶
+tomatoes|番茄
+tomato products|番茄制品
+tomato sauce|番茄酱汁
+tomato paste|浓缩番茄酱
+tomato powder|番茄粉
+tomato juice|番茄汁
+tomato|番茄
+catsup|番茄调味酱
+ketchup|番茄调味酱
+cabbage|结球甘蓝
+chinese cabbage|白菜类（Chinese cabbage）|须结合 pe-tsai 或 pak-choi 核对种类
+pe-tsai|大白菜型（pe-tsai）
+pak-choi|小白菜型（pak-choi）
+broccoli raab|芸苔属叶菜（broccoli raab）|并非普通西兰花，具体品种对应待核对
+broccoli|西兰花
+cauliflower|花椰菜
+carrots|胡萝卜
+carrot|胡萝卜
+carrot juice|胡萝卜汁
+spinach|菠菜
+new zealand spinach|番杏（新西兰菠菜）
+malabar spinach|落葵（木耳菜）
+vinespinach|落葵
+mustard spinach|芥菜型叶菜（mustard spinach）|不等同普通菠菜，品种待核对
+mustard greens|芥菜叶
+collards|羽衣甘蓝类叶菜（collards）|品种对应待核对
+kale|羽衣甘蓝
+lettuce|生菜
+onions|洋葱
+onion|洋葱
+onion rings|洋葱圈
+shallots|红葱头
+leeks|韭葱
+chives|细香葱（chives）|具体品种不等同国内所有葱或韭菜
+garlic|大蒜
+garlic bread|蒜香面包
+celery|芹菜
+celeriac|根芹
+cucumber|黄瓜
+eggplant|茄子
+peppers|椒类
+pepper|胡椒/椒类（pepper）|按原文品种核对，不把胡椒和辣椒互换
+sweet peppers|甜椒
+hot chili|辣椒
+chili peppers|辣椒
+chilli|辣椒
+green peppers|青椒
+red peppers|红椒
+pimento|甜红椒（pimento）
+pimiento|甜红椒（pimiento）
+okra|秋葵
+asparagus|芦笋
+radishes|萝卜（radishes）|品种并非必然为白萝卜
+radish|萝卜（radish）
+turnips|芜菁
+turnip greens|芜菁叶
+rutabagas|芜菁甘蓝
+beets|甜菜根
+beet greens|甜菜叶
+parsnips|欧洲防风根
+brussels sprouts|抱子甘蓝
+kohlrabi|球茎甘蓝
+waterchestnuts|荸荠
+lotus root|莲藕
+burdock root|牛蒡根
+bamboo shoots|竹笋
+taro|芋头
+taro leaves|芋叶
+taro shoots|芋芽
+cassava|木薯
+yam|薯蓣类（yam）|不直接等同国内山药或红薯
+mountain yam|山药类（mountain yam）|具体薯蓣品种待核对
+yambean (jicama)|豆薯（jicama）
+yambean|豆薯
+arrowroot|竹芋（arrowroot）
+arrowhead|慈姑
+squash|瓜类（squash）|按原文 summer/winter 及品种区分，不能一律视为南瓜
+pumpkin|南瓜
+pumpkin leaves|南瓜叶
+pumpkin flowers|南瓜花
+pumpkin pie mix|南瓜派混合馅料
+zucchini|西葫芦
+waxgourd|冬瓜
+gourd|葫芦类
+balsam-pear (bitter gourd)|苦瓜
+chayote|佛手瓜
+corn|玉米
+corn grain|玉米粒
+corn grits|玉米糁
+cornmeal|玉米粗粉
+corn flour|玉米粉
+cornstarch|玉米淀粉
+corn bran|玉米麸
+mushrooms|蘑菇
+mushroom|蘑菇
+fungi|菌类
+shiitake|香菇
+oyster mushroom|平菇
+portabella|褐色双孢蘑菇（portabella）
+portobello|褐色双孢蘑菇（portobello）
+enoki|金针菇
+morel|羊肚菌
+chanterelle|鸡油菌
+jew's ear|木耳
+seaweed|海藻
+kelp|海带类（kelp）|海藻种类以原条目为准
+wakame|裙带菜
+laver|紫菜
+spirulina|螺旋藻
+vegetables|蔬菜
+vegetable|蔬菜
+vegetable juice|蔬菜汁
+watercress|西洋菜
+water convolvulus|空心菜
+celtuce|莴笋
+coriander (cilantro) leaves|芫荽叶（香菜）
+parsley|欧芹
+ginger root|姜
+ginger|姜
+fennel|茴香
+arugula|芝麻菜
+dandelion greens|蒲公英叶
+purslane|马齿苋
+amaranth leaves|苋菜叶
+chard|莙荙菜
+chicory greens|菊苣叶
+chicory roots|菊苣根
+chicory|菊苣
+endive|苦苣（endive）|不同菊苣类中文俗名易混淆，具体种类待核对
+escarole|阔叶苦苣（escarole）
+hearts of palm|棕榈芯
+artichokes|朝鲜蓟
+jerusalem-artichokes|菊芋
+water|水
+fruits|水果
+fruit|水果
+apples|苹果
+apple|苹果
+applesauce|苹果泥
+apple juice|苹果汁
+apricots|杏
+apricot|杏
+pears|梨
+pear|梨
+peaches|桃
+peach|桃
+plums|李子
+plum|李子
+prunes|西梅干
+prune|西梅干
+prune puree|西梅泥
+prune juice|西梅汁
+cherries|樱桃
+cherry|樱桃
+strawberries|草莓
+strawberry|草莓
+blueberries|蓝莓
+blueberry|蓝莓
+blackberries|黑莓
+blackberry|黑莓
+raspberries|覆盆子
+raspberry|覆盆子
+cranberries|蔓越莓
+cranberry|蔓越莓
+cranberry sauce|蔓越莓酱
+cranberry juice|蔓越莓汁
+cranberry juice cocktail|蔓越莓混合果汁饮料
+mulberries|桑葚
+elderberries|接骨木莓
+gooseberries|醋栗
+currants|穗醋栗
+boysenberries|博伊森莓
+loganberries|罗甘莓
+cloudberries|云莓
+goji berries|枸杞
+grapes|葡萄
+grape|葡萄
+grape juice|葡萄汁
+grape leaves|葡萄叶
+raisins|葡萄干
+raisin|葡萄干
+bananas|香蕉
+banana|香蕉
+plantains|大蕉（烹调用蕉）
+oranges|橙子
+orange|橙
+orange juice|橙汁
+orange peel|橙皮
+tangerines|橘子
+tangerine|橘
+tangerine juice|橘汁
+clementines|克莱门氏小柑橘
+mandarin oranges|柑橘
+grapefruit|葡萄柚
+grapefruit juice|葡萄柚汁
+pummelo|柚子
+lemons|柠檬
+lemon|柠檬
+lemon juice|柠檬汁
+lemon peel|柠檬皮
+limes|青柠
+lime|青柠
+lime juice|青柠汁
+kumquats|金橘
+pineapple|菠萝
+pineapple juice|菠萝汁
+mangos|芒果
+mango|芒果
+papayas|木瓜
+papaya|木瓜
+watermelon|西瓜
+melons|甜瓜
+melon|甜瓜
+cantaloupe|网纹甜瓜（cantaloupe）
+honeydew|蜜露甜瓜（honeydew）
+kiwifruit|猕猴桃
+litchis|荔枝
+longans|龙眼
+loquats|枇杷
+jujube|枣
+persimmons|柿子
+figs|无花果
+dates|椰枣
+avocados|牛油果
+olives|橄榄
+durian|榴莲
+mangosteen|山竹
+jackfruit|菠萝蜜
+breadfruit|面包果
+guavas|番石榴
+guava|番石榴
+carambola|杨桃
+pomegranates|石榴
+pomegranate|石榴
+passion-fruit|百香果
+passion-fruit juice|百香果汁
+nectarines|油桃
+quince|榅桲
+quinces|榅桲
+rambutan|红毛丹
+lychee|荔枝
+tamarinds|罗望子
+tamarind|罗望子
+soursop|刺果番荔枝
+guanabana|刺果番荔枝
+sugar-apples|番荔枝
+custard-apple|番荔枝类（custard-apple）|具体种类与中文俗名待核对
+cherimoya|毛叶番荔枝
+sapodilla|人心果
+sapote|热带水果（sapote）|sapote 可指不同物种，中文对应待核对
+feijoa|费约果
+rose-apples|蒲桃
+roselle|洛神葵
+acerola|针叶樱桃
+groundcherries|酸浆果
+fruit juice smoothie|果汁思慕雪
+fruit salad|水果沙拉
+fruit cocktail|混合水果
+fruit syrup|水果糖浆
+candied fruit|蜜饯水果
+fruit butters|浓稠水果酱
+jams and preserves|果酱与果脯
+jams|果酱
+jellies|果冻/凝胶果酱（jellies）|用途与形态需结合原条目确认
+marmalade|柑橘果酱
+nectar|果肉饮料
+juice|果汁
+rice|大米/米饭（rice）|生米或熟饭由原条目加工状态区分
+brown rice|糙米
+wild rice|菰米（wild rice）
+rice flour|米粉（粉末）
+rice noodles|米制面条
+rice bran|米糠
+rice cakes|米饼
+rice cake|米饼
+rice crackers|米制脆饼
+wheat flour|小麦粉
+wheat flours|小麦粉
+wheat germ|小麦胚芽
+wheat bran|小麦麸
+wheat|小麦
+whole wheat|全麦
+whole-wheat|全麦
+barley|大麦
+barley flour or meal|大麦粉
+barley malt flour|大麦麦芽粉
+rye|黑麦
+rye flour|黑麦粉
+rye grain|黑麦粒
+oats|燕麦
+oatmeal|燕麦片/燕麦粥（oatmeal）|干料还是制备后粥须按原条目状态核对
+oat bran|燕麦麸
+oat flour|燕麦粉
+millet|粟类（millet）|具体谷种及是否为国内小米品种待核对
+millet flour|粟米粉（millet flour）
+sorghum grain|高粱粒
+sorghum flour|高粱粉
+quinoa|藜麦
+buckwheat|荞麦
+buckwheat groats|去壳荞麦粒
+buckwheat flour|荞麦粉
+amaranth grain|籽粒苋籽
+teff|苔麸
+spelt|斯佩耳特小麦
+triticale|小黑麦
+triticale flour|小黑麦粉
+semolina|粗粒硬质小麦粉
+bulgur|布格麦（预煮碎小麦）
+couscous|库斯库斯麦粒制品
+tapioca|木薯淀粉制品
+hominy|碱处理玉米粒
+cereals ready-to-eat|即食谷物
+cereals|谷物食品
+cereal|谷物食品
+instant oatmeal|即食燕麦片
+granola bars|格兰诺拉谷物棒
+granola bar|格兰诺拉谷物棒
+granola|格兰诺拉混合谷物
+breakfast bars|早餐棒
+breakfast bar|早餐棒
+formulated bar|配方营养棒
+protein supplement|蛋白补充食品
+nutritional supplement for people with diabetes|面向糖尿病人群的营养补充食品（原产品类别）|仅翻译来源类别，不构成使用建议
+meat extender|肉制品增量配料
+vital wheat gluten|活性小麦谷蛋白
+flour|粉
+bread|面包
+rolls|小面包
+roll|卷
+sweet rolls|甜面包卷
+english muffins|英式麦芬面包
+muffins|麦芬蛋糕
+muffin|麦芬蛋糕
+bagels|贝果
+biscuits|美式比司吉饼（biscuits）|与普通英式饼干含义不同，按美国来源核对
+biscuit|比司吉饼
+cookies|曲奇饼干
+cookie|曲奇饼干
+crackers|薄脆饼干
+cracker|薄脆饼干
+cake|蛋糕
+pancakes|松饼
+pancake|松饼
+waffles|华夫饼
+waffle|华夫饼
+doughnuts|甜甜圈
+croissants|可颂
+danish pastry|丹麦酥
+puff pastry|起酥面点
+pastry|酥点
+phyllo dough|菲洛薄面皮
+pie crust|派皮
+pie fillings|派馅
+pie|派
+tart|塔点心
+turnover|折叠馅饼
+strudel|卷酥
+focaccia|佛卡夏面包
+french toast|法式吐司
+croutons|烤面包丁
+pretzels|扭结饼
+zwieback|二次烘烤面包干
+popovers|空心烤面包（popovers）
+frybread|油炸面饼
+cornbread|玉米面包
+corn pudding|玉米布丁
+toaster pastries|烤面包机加热甜点
+tortillas|墨西哥薄饼
+tortilla|墨西哥薄饼
+tortilla chips|墨西哥玉米脆片
+taco shells|墨西哥塔可饼壳
+tostada shells|墨西哥脆饼底
+tamales|墨西哥蒸玉米粉包
+burrito|墨西哥卷饼
+taquitos|墨西哥小卷饼
+potsticker or wonton|锅贴或馄饨（原条目合并类别）
+dumpling|面团/饺类食品（dumpling）|须核对原条目配料，不直接等同中式饺子
+wonton wrappers (includes egg roll wrappers)|馄饨皮（含春卷皮）
+egg rolls|美式春卷
+pasta|意大利面
+pasta mix|意大利面混合料
+macaroni|通心粉
+spaghetti|意大利长面
+vermicelli|细面（vermicelli）|原料以原条目为准，不默认是粉丝或米粉
+noodles|面条
+lasagna|千层面
+ravioli|意式馅面
+tortellini|意式环形馅面
+macaroni and cheese|奶酪通心粉
+macaroni or noodles with cheese|奶酪通心粉或面条
+pizza|披萨
+pizza rolls|披萨卷
+pizza chain|披萨连锁餐食
+fast foods|快餐
+fast food|快餐
+restaurant|餐馆食品
+school lunch|学校午餐
+snacks|零食
+snack|零食
+popcorn|爆米花
+chocolate|巧克力
+baking chocolate|烘焙巧克力
+candies|糖果
+candy|糖果
+chewing gum|口香糖
+cocoa|可可
+cocoa mix|可可冲饮粉
+carob flour|角豆粉
+frostings|糖霜
+frosting|糖霜
+puddings|布丁
+pudding|布丁
+flan|焦糖蛋奶布丁
+gelatin desserts|明胶甜点
+gelatins|明胶
+desserts|甜点
+dessert|甜点
+ice creams|冰淇淋
+ice cream|冰淇淋
+ice cream sandwich|夹心冰淇淋
+ice cream cones|冰淇淋蛋筒
+ice cream cone|冰淇淋蛋筒
+ice cream bar|冰淇淋棒
+frozen yogurts|冷冻酸奶
+frozen novelties|花式冷冻甜品
+sherbet|果味乳冰（sherbet）
+syrups|糖浆
+syrup|糖浆
+sugars|糖
+sugar|糖
+sweeteners|甜味剂
+sweetener|甜味剂
+honey|蜂蜜
+molasses|糖蜜
+jam|果酱
+pectin|果胶
+gums|食用胶
+leavening agents|膨松剂
+baking powder|泡打粉
+baking soda|小苏打
+yeast|酵母
+salt|盐
+vinegar|醋
+spices|香辛料
+basil|罗勒
+dill weed|莳萝叶
+thyme|百里香
+rosemary|迷迭香
+sage|鼠尾草
+oregano|牛至
+spearmint|留兰香
+peppermint|胡椒薄荷
+mint|薄荷
+mustard|芥末
+horseradish|辣根
+wasabi|山葵
+capers|刺山柑花蕾
+cinnamon|肉桂
+nutmeg|肉豆蔻
+cloves|丁香
+cumin|孜然
+coriander|芫荽
+cardamom|小豆蔻
+turmeric|姜黄
+paprika|红椒粉
+saffron|藏红花
+anise|茴芹
+allspice|多香果
+vanilla extract|香草精
+vanilla|香草味
+sauce|酱汁
+sauces|酱汁
+gravy|肉汁酱
+dip|蘸酱
+dressing|调味酱
+salad dressing|沙拉酱
+mayonnaise|蛋黄酱
+sandwich spread|三明治涂抹酱
+pickles|腌菜
+pickle relish|腌菜调味酱
+sauerkraut|酸甘蓝
+soup|汤
+stew|炖菜
+stew/soup|炖菜/汤
+broth|清汤
+chili con carne with beans|辣味肉豆炖菜
+chili with beans|辣味豆炖菜
+chili|辣味炖菜（chili）|此处为菜名；香辛料 chili pepper 另译为辣椒
+meatballs|肉丸
+meatball|肉丸
+meatloaf|肉糕
+sausage|香肠
+sausages|香肠
+pork sausage|猪肉香肠
+frankfurter|法兰克福香肠
+bologna|博洛尼亚式熟香肠
+salami|萨拉米香肠
+pepperoni|美式辣味香肠
+bratwurst|布拉特香肠
+kielbasa|波兰式香肠
+bacon|培根
+ham|火腿
+luncheon meat|午餐肉
+pate|肉酱
+pate de foie gras|鹅肝酱
+headcheese|猪头肉冻
+corned beef|盐腌牛肉
+pastrami|熏腌肉（pastrami）
+mortadella|莫塔德拉香肠
+blood sausage|血肠
+meat|肉
+tea|茶
+coffee|咖啡
+wine|葡萄酒
+beer|啤酒
+lemonade|柠檬饮料
+limeade|青柠饮料
+milk shakes|奶昔
+shake|奶昔类饮品
+energy drink|能量饮料
+carbonated beverage|碳酸饮料
+malt beverage|麦芽饮料
+raw|生
+uncooked|未烹调
+cooked|熟
+boiled|水煮
+steamed|蒸制
+roasted|烘烤
+baked|烘焙
+broiled|上火烤制（broiled）
+grilled|烧烤
+braised|焖炖
+stewed|炖煮
+simmered|文火煮
+fried|油炸/煎制（fried）
+pan-fried|平底锅煎
+pan-broiled|无额外油锅煎（pan-broiled）
+pan-broil|无额外油锅煎
+pan-browned|锅内煎至褐色
+stir-fried|炒制
+microwaved|微波加热
+microwave|微波
+oven-heated|烤箱加热
+toasted|烤制
+dry roasted|干烤
+dry-roasted|干烤
+oil roasted|加油烤制
+oil-roasted|加油烤制
+slow roasted|慢烤
+fast roasted|快速烤制
+fast fried|快速煎炸
+dry heat|干热烹调
+moist heat|湿热烹调
+rotisserie|旋转烤制
+heating|加热
+heated|已加热
+unheated|未加热
+canned|罐装
+frozen|冷冻
+fresh|新鲜
+dried|干燥
+dehydrated|脱水
+dry|干
+powder|粉末
+powdered|粉状
+fluid|液态
+liquid|液态
+chilled|冷藏
+refrigerated|冷藏
+concentrated|浓缩
+condensed|浓缩
+frozen concentrate|冷冻浓缩物
+liquid concentrate|液态浓缩物
+bottled|瓶装
+canned or bottled|罐装或瓶装
+smoked|烟熏
+cured|腌制
+pickled|腌渍
+cultured|发酵
+sprouted|发芽
+drained|沥干
+drained solids|沥干固形物
+solids and liquids|固形物与液体一并计算
+solids|固形物
+unprepared|未制备
+prepared|已制备
+ready-to-eat|即食
+ready-to-drink|即饮
+ready to drink|即饮
+ready-to-serve|可直接食用
+ready-to-feed|即用型
+ready to feed|即用型
+ready-to-heat|待加热食用
+ready-to-bake or -fry|待烘烤或煎炸
+commercially prepared|商业制备
+commercial|商业产品
+home-prepared|家庭制备
+prepared from recipe|按配方制作
+prepared-from-recipe|按配方制作
+prepared with water|用水制备
+prepared with equal volume water|加等体积水制备
+prepared with equal volume milk|加等体积牛奶制备
+prepared with whole milk|用全脂牛奶制备
+prepared with 2% milk|用乳脂2%的牛奶制备
+cooked with water|加水烹调
+not reconstituted|未复原
+reconstituted|已复原
+undiluted|未稀释
+as purchased|购买时状态
+dry mix|干混合料
+mix|混合料
+mixture|混合物
+mixed|混合
+composite|综合样本
+mixed species|多物种综合
+all varieties|所有品种综合
+all types|所有类型综合
+all classes|所有类别综合
+all grades|所有等级综合
+whole|完整
+ground|绞碎/磨碎
+chopped|切碎
+sliced|切片
+slice|切片
+mashed|捣泥
+strained|过滤/过筛
+pureed|打成泥
+puree|泥
+flakes|片状
+granules|颗粒
+chunks|块状
+chunky|含块粒
+crumbles|碎粒
+patty|饼状
+patties|饼状食品
+loaf|糕/条状食品
+stick|条状
+bar|棒状
+filling|馅料
+flesh|果肉/肌肉可食部分
+flesh and skin|可食肉与皮
+with skin|带皮
+without skin|去皮
+skinless|去皮
+skin|皮
+skin only|仅皮
+meat only|仅肉
+meat and skin|肉与皮
+separable lean only|可分离瘦肉部分
+separable lean and fat|可分离瘦肉与脂肪
+separable fat|可分离脂肪
+boneless|去骨
+bone-in|带骨
+without bone|去骨
+with bone|带骨
+trimmed to 0" fat|外部脂肪修至0英寸
+trimmed to 1/8" fat|外部脂肪修至1/8英寸
+trimmed to 1/4" fat|外部脂肪修至1/4英寸
+trimmed to 1/2" fat|外部脂肪修至1/2英寸
+trimmed|修割
+untrimmed|未修割
+with added solution|添加溶液处理
+composite of trimmed retail cuts|修割后零售分割肉综合样本
+variety meats and by-products|内脏及副产品
+retail parts|零售分割部位
+from whole bird|取自整禽
+broilers or fryers|肉用仔鸡（broilers/fryers）|指鸡的类别，不表示已油炸
+broiler|肉用仔鸡
+roasting|烤制用
+stewing|炖煮用
+domesticated|家养
+free range|散养
+farmed|养殖
+wild|野生
+grass-fed|草饲
+wagyu|和牛
+new zealand|新西兰
+australian|澳大利亚
+imported|进口
+alaska native|阿拉斯加原住民食物资料
+includes foods for usda's food distribution program|含USDA食品分发计划食物
+choice|美国Choice级|美国分级，不能换算为国内质量等级
+select|美国Select级|美国分级，不能换算为国内质量等级
+prime|美国Prime级|美国分级，不能换算为国内质量等级
+loin|腰脊部（loin）|美式分割部位，国内具体对应须核对
+short loin|前腰脊部（short loin）|美式分割部位，保留原术语核对
+sirloin|腰臀部（sirloin）|各国分割和俗名不同，不直接等同西冷
+top sirloin|上腰臀部（top sirloin）|美式分割部位，国内具体对应须核对
+bottom sirloin|下腰臀部（bottom sirloin）|美式分割部位，国内具体对应须核对
+tenderloin|里脊部（tenderloin）
+chuck|肩胛部（chuck）|美式分割部位，国内具体对应须核对
+shoulder|肩部
+round|后腿部（round）|肉类部位术语，不按圆形翻译；具体分割须核对
+top round|后腿内侧部（top round）|美式分割部位，保留原术语核对
+bottom round|后腿外侧部（bottom round）|美式分割部位，保留原术语核对
+eye of round|后腿眼肉（eye of round）|美式分割部位，不能误作肋眼
+brisket|胸部肉（brisket）|与国内牛腩分类不完全对应
+flank|腹胁部（flank）|具体分割部位须核对
+rib|肋部
+ribs|肋排
+short ribs|短肋排
+back ribs|背肋排
+rib eye|肋眼部
+rib eye steak|肋眼牛排
+rib eye roast|肋眼烤肉块
+steak|肉排
+roast|烤肉块（切块类型）|roast 描述切块；是否已烹调由 raw/cooked 等字段决定
+chops|带骨肉排
+chop|带骨肉排
+leg|腿部
+breast|胸部
+thigh|大腿部
+drumstick|小腿部
+wing|翅部
+back|背部
+neck|颈部
+shank|腱部
+foreshank|前腱
+heart|心脏
+liver|肝脏
+kidney|肾脏
+kidneys|肾脏
+lungs|肺
+spleen|脾脏
+tongue|舌
+brain|脑
+pancreas|胰腺
+giblets|禽杂
+light meat|浅色肉
+dark meat|深色肉
+meat and skin and giblets and neck|肉、皮、禽杂与颈部
+skin and breading removed|去皮并去除裹粉层
+meat and skin with breading|带裹粉层的肉与皮
+whole (arm and blade)|完整肩部（arm与blade部位）
+whole (shank and sirloin)|完整腿部（腱端与腰臀端）
+small end (ribs 10-12)|肋部小端（第10至12肋）
+large end (ribs 6-9)|肋部大端（第6至9肋）
+whole (ribs 6-12)|完整肋部（第6至12肋）
+flat half|平坦半部（flat half）|保留美式分割术语，具体部位待核对
+lip-on|带边肉（lip-on）|肉类修割规格，具体范围待核对
+lip off|去边肉（lip off）|肉类修割规格，具体范围待核对
+without salt|不加盐
+with salt|加盐
+no salt added|未加盐
+without salt added|未加盐
+with salt added|添加盐
+salt added in processing|加工时加盐
+unsalted|未加盐
+salted|加盐
+unsweetened|未加甜味剂
+sweetened|加甜味剂
+no sugar added|未加糖
+sugar free|无糖（原标签）
+sugar-free|无糖（原标签）
+reduced sugar|减糖（原标签）
+low sodium|低钠（原标签）
+reduced sodium|减钠（原标签）
+low fat|低脂（原标签）
+lowfat|低脂（原标签）
+low-fat|低脂（原标签）
+reduced fat|减脂（原标签）
+fat-free|无脂（原标签）
+fat free|无脂（原标签）
+nonfat|脱脂/无脂（原标签）
+low calorie|低能量（原标签）
+reduced calorie|减能量（原标签）
+reduced-calorie|减能量（原标签）
+gluten-free|无麸质（原标签）
+gluten free|无麸质（原标签）
+decaffeinated|脱咖啡因
+enriched|营养强化
+unenriched|未营养强化
+fortified|强化
+with added nutrients|添加营养素
+with added calcium|添加钙
+with iron|含添加铁
+with added ascorbic acid|添加抗坏血酸
+with added vitamin A and vitamin D|添加维生素A和D
+with added vitamin D|添加维生素D
+fortified with vitamin D|强化维生素D
+vitamins A and D|维生素A和D
+with ARA and DHA|含ARA和DHA
+without added vitamin A and vitamin D|未添加维生素A和D
+without added vitamin A|未添加维生素A
+vitamin|维生素
+calcium|钙
+iron|铁
+potassium|钾
+sodium|钠
+protein|蛋白质
+carbohydrate|碳水化合物
+fiber|膳食纤维
+ascorbic acid|抗坏血酸
+aspartame|阿斯巴甜
+sucralose|三氯蔗糖
+stevia|甜菊糖
+saccharin|糖精
+pasteurized process|巴氏杀菌再制
+pasteurized|巴氏杀菌
+hydrogenated|氢化
+partially hydrogenated|部分氢化
+hydrolyzed|水解
+bleached|漂白
+unbleached|未漂白
+degermed|去胚芽
+self-rising|自发型
+whole-grain|全谷物
+whole grain|全谷物
+long-grain|长粒
+medium-grain|中粒
+short-grain|短粒
+parboiled|蒸谷处理
+instant|速食/速溶
+regular and quick|普通型与快熟型
+regular|普通型
+plain|原味
+original|原味（原标签）
+light|轻型（light，按原标签）|light可能指色泽或配方特征，不能一律解释为低脂
+diet|特殊配方（diet，按原标签）|diet标签含义需结合产品核对，不推断为减肥推荐
+sweet|甜味
+sour|酸味
+white|白色
+brown|棕色
+black|黑色
+red|红色
+yellow|黄色
+green|绿色
+purple|紫色
+pink|粉红色
+blue|蓝色
+dark|深色
+soft|软质
+hard|硬质
+ripe|成熟
+immature seeds|未成熟籽粒
+mature seeds|成熟籽粒
+leafy tips|嫩叶梢
+kernels on cob|棒上的玉米粒
+seedless|无籽
+with peel|带皮
+without peel|去皮
+peeled|去皮
+unpeeled|未去皮
+uncoated|无涂层
+coated|带涂层
+breaded|裹面包屑/裹粉
+breaded and fried|裹粉后油炸
+batter|面糊
+glazed|带糖衣/淋面
+with creme filling|含奶油状夹馅
+chocolate chip|巧克力豆
+heavy syrup pack|浓糖浆装
+extra heavy syrup pack|特浓糖浆装
+light syrup pack|淡糖浆装
+heavy syrup|浓糖浆
+light syrup|淡糖浆
+water pack|水浸装
+juice pack|果汁浸装
+regular pack|常规包装
+table|餐桌用
+table blends|餐桌用混合物
+industrial|工业用
+family style|家庭式
+from kid's menu|儿童菜单食品
+breakfast type|早餐型
+dinner|正餐
+junior|幼儿型（junior，原标签）
+toddler|幼儿型
+infant|婴儿型
+all flavors|所有口味综合
+mixed flavors|混合口味
+original seasoning|原味调味
+seasoned|已调味
+seasoning mix|混合调味料
+italian|意大利式
+greek|希腊式
+american|美式
+chinese|中式
+japanese|日式
+mexican|墨西哥式
+latino|拉美式
+english|英式
+european|欧洲式
+atlantic|大西洋
+pacific|太平洋
+eastern|东部
+western|西部
+northern|北部
+southern|南部
+salmon|鲑鱼（三文鱼类）|具体鲑鱼品种以原条目为准
+tuna|金枪鱼
+cod|鳕鱼
+haddock|黑线鳕
+pollock|狭鳕类（pollock）|具体物种待核对，不等同所有鳕鱼
+halibut|庸鲽类（halibut）|具体鲽鱼种类待核对
+flatfish|比目鱼类
+flounder|鲽鱼类（flounder）|具体物种待核对
+sole|鳎鱼类（sole）|具体物种待核对
+trout|鳟鱼
+steelhead trout|钢头鳟
+rainbow|虹鳟型（rainbow）
+chinook|奇努克鲑
+sockeye|红鲑
+coho|银鲑
+chum|狗鲑
+herring|鲱鱼
+mackerel|鲭鱼
+sardine|沙丁鱼
+sardines|沙丁鱼
+anchovy|鳀鱼
+anchovies|鳀鱼
+tilapia|罗非鱼
+catfish|鲶鱼
+carp|鲤鱼
+eel|鳗鱼
+perch|鲈形鱼（perch）|perch不直接等同国内鲈鱼，具体物种待核对
+bass|鲈类鱼（bass）|具体物种待核对
+snapper|笛鲷类（snapper）|具体物种待核对
+swordfish|剑鱼
+shark|鲨鱼
+sturgeon|鲟鱼
+whitefish|白鲑类（whitefish）|具体物种待核对
+smelt|胡瓜鱼类（smelt）|具体物种待核对
+shrimp|虾
+crab|蟹
+lobster|龙虾
+crayfish|螯虾
+oyster|牡蛎
+oysters|牡蛎
+clam|蛤类
+clams|蛤类
+scallop|扇贝
+scallops|扇贝
+mussel|贻贝
+mussels|贻贝
+octopus|章鱼
+squid|鱿鱼
+cuttlefish|乌贼
+abalone|鲍鱼
+sea cucumber|海参
+jellyfish|水母类（jellyfish）|可食种类与处理方式须按原文核对
+frog legs|蛙腿
+turtle|龟类
+salad|沙拉
+with|含
+without|不含
+and|与
+or|或
+in|在
+from|来自
+made from|以以下原料制成：
+made with|以以下原料制作：
+prepared with|用以下原料制备：
+added|添加
+not|未
+no|无
+with added|添加
+with no|不含
+of|的
+for|用于
+including|包括
+includes|包括
+only|仅
+all|全部
+other|其他
+style|式
+type|类型
+types|类型
+flavored|风味
+flavour|口味
+flavor|口味
+flavors|口味
+blend|混合
+blends|混合
+concentrate|浓缩物
+filling|馅料
+toppings|配料
+topping|配料
+spread|涂抹酱
+substitute|替代品
+substitutes|替代品
+replacement|替代品
+natural|天然（原标签）
+organic|有机（原标签）
+reduced|减少型
+low|低
+high|高
+less|较少
+more|较多
+total|总量
+per|每
+percent|百分比
+ounce|盎司
+ounces|盎司
+oz|盎司
+cup|杯
+cups|杯
+gram|克
+grams|克
+g|克
+mg|毫克
+ml|毫升
+liter|升
+litre|升
+lb|磅
+lbs|磅
+inch|英寸
+inches|英寸
+count|数量
+top|上部
+bottom|下部
+center|中心部
+centre|中心部
+half|半部
+tip|端部
+arm|肩臂侧（arm）|肉类分割位置需结合原名核对
+blade|肩胛侧（blade）|肉类分割位置需结合原名核对
+top blade|肩胛上部（top blade）|美式分割部位，国内对应待核对
+under blade|肩胛下部（under blade）|美式分割部位，国内对应待核对
+under blade center|肩胛下部中央（under blade center）|美式分割部位，国内对应待核对
+clod|肩肉块（clod）|美式分割部位，国内对应待核对
+shoulder clod|肩胛肉块（shoulder clod）|美式分割部位，国内对应待核对
+plate|胸腹部（plate）|美式分割部位，国内对应待核对
+eye|眼肉部（eye）|肉类分割术语，具体位置以完整原名为准
+roasts|烤肉块（切块类型）|不表示已经烤熟，须核对raw/cooked状态
+steaks|肉排
+lean|瘦肉
+extra lean|特瘦（原标签）
+porterhouse|波特豪斯分割（porterhouse）|具体分割规格待核对
+t-bone|T骨分割（t-bone）
+mock tender|肩胛嫩肉（mock tender）|不是tenderloin里脊，具体分割待核对
+petite tender|小嫩肩部（petite tender）|具体分割规格待核对
+petite|小份型（petite）
+rump|臀部（rump）|各国分割范围不同，须核对原术语
+arm pot roast|肩臂部炖烤肉块（arm pot roast）|切块类型，不表示已经炖熟
+under blade pot roast|肩胛下部炖烤肉块（under blade pot roast）|切块类型，不表示已经炖熟
+inside skirt|内裙肉（inside skirt）|具体分割范围待核对
+outside skirt|外裙肉（outside skirt）|具体分割范围待核对
+tri-tip|三角部位（tri-tip）|具体分割范围待核对
+knuckle|膝圆部（knuckle）|肉类分割术语，不是单纯指关节
+Denver Cut|丹佛分割（Denver Cut）|美国特定分割名称，国内对应待核对
+ribeye|肋眼部
+ribeye cap|肋眼盖部
+arm picnic|肩臂肉（arm picnic）|猪肉分割范围待核对
+Boston butt|肩胛肉（Boston butt）|不是臀肉；具体美式分割范围待核对
+country-style ribs|乡村式肋条（country-style ribs）|切块不必然来自肋骨部位，须核对来源部位
+country-style|乡村式
+filet|菲力式小切块（filet）|不凭filet一词判断为里脊；以完整部位名为准
+fillet|去骨肉片/鱼片（fillet）
+medallion|圆切小肉块
+rack|带骨肋架
+cap|盖部
+cap-off|去盖部
+square-cut|方形分割
+full cut|完整分割
+spareribs|排骨
+backribs|背肋排
+shortribs|短肋排
+subcutaneous|皮下
+external|外部
+seam|肌间
+outside|外侧
+inside|内侧
+frenched|法式修骨
+fully frenched|完整法式修骨
+partly frenched|部分法式修骨
+bone removed|去骨
+mechanically deboned|机械去骨
+mechanically separated|机械分离
+tunnel-boned|隧道式去骨
+chump off|去臀腰端（chump off）|分割规格待核对
+trotter off|去蹄部
+denuded|剔除表面覆盖组织（denuded）|具体修割规格待核对
+hind shin|后腱部
+hindshank|后腱部
+heel on|保留heel部位|肉类分割规格，heel的具体组织范围待核对
+bolar blade|肩胛肉块（bolar blade）|具体分割范围待核对
+striploin|外脊部（striploin）|不同国家分割范围不完全一致
+navel end|腹端（navel end）|具体分割规格待核对
+point end|尖端（point end）|具体分割规格待核对
+point half|尖端半部（point half）|具体分割规格待核对
+flap|腹瓣肉（flap）|具体分割范围待核对
+saddle|鞍部（saddle）|肉类分割范围待核对
+fore|前部
+hind|后部
+off|去除
+on|保留
+lower|较下部
+small end|小端
+large end|大端
+eye Country-Style ribs|眼肉乡村式肋条|须结合chuck等完整部位核对，不推定为肋骨肉
+Aust. marble score|澳大利亚大理石纹评分
+cut|分割/切块
+cuts|分割肉
+carcass|胴体
+bones|骨
+sweetbread|胸腺或胰腺（sweetbread）|不是甜面包，具体脏器以来源为准
+thymus|胸腺
+gizzard|禽胗
+tripe|肚
+chitterlings|肠
+stomach|胃
+feet|脚部
+ears|耳部
+tail|尾部
+goat|山羊肉
+capons|阉鸡
+cornish game hens|康沃尔小型肉鸡
+young duckling|幼鸭
+Pekin|北京鸭型
+fryers|肉用仔禽型
+drumsticks|小腿部
+thighs|大腿部
+french|法式
+spanish|西班牙式
+polish|波兰式
+canadian|加拿大式
+dutch|荷兰式
+oriental|东方风味（原标签）
+indian|印度式/原住民式（Indian）|须结合上下文地区核对
+Alaskan|阿拉斯加
+Alaska|阿拉斯加
+California|加利福尼亚
+Florida|佛罗里达
+Hawaii|夏威夷
+Navajo|纳瓦霍族食物资料
+Apache|阿帕奇族食物资料
+Hopi|霍皮族食物资料
+Plains Indians|北美平原原住民食物资料
+Shoshone Bannock|肖肖尼-班诺克族食物资料
+new england|新英格兰式
+southwest|西南风味
+manhattan|曼哈顿式
+tropical|热带风味
+common|普通品种
+assorted|什锦
+variety|品种
+medium|中等
+small|小型
+large|大型
+extra|额外/特制
+single|单份
+double|双份
+standard-type|标准型
+standard|标准型
+regular crust|普通饼底
+thick crust|厚饼底
+thin crust|薄饼底
+hand-tossed crust|手抛饼底
+stuffed crust|夹馅饼边
+rising crust|发酵膨起饼底
+pan crust|铁盘饼底
+deep dish|深盘式
+crust|饼皮/饼底
+thick|厚
+thin|薄
+dough|面团
+home|家庭式
+home recipe|家庭配方
+homemade|家庭制作
+recipe|配方
+cooking|烹调用
+baking|烘焙用
+bake|烘焙
+unbaked|未烘焙
+frying|煎炸用
+boiling|水煮
+reheated|复热
+precooked|预熟
+pre-cooked|预熟
+par fried|预炸
+par-fried|预炸
+brewed|冲泡
+distilled|蒸馏
+fermented|发酵
+freeze-dried|冻干
+sun-dried|日晒干燥
+sulfured|硫处理
+exposed to ultraviolet|经紫外线照射
+rinsed|冲洗
+soaked|浸泡
+blanched|焯烫
+sauteed|煸炒
+scalloped|切片焗制
+au gratin|焗烤覆脆层
+scrambled|炒散
+whipped|打发
+evaporated|蒸发浓缩
+stabilized|稳定化
+desiccated|干燥脱水
+extruded|挤压成型
+puffed|膨化
+popped|爆制
+air-popped|热风爆制
+coating|涂层
+covered|包覆
+filled|夹馅
+battered|裹面糊
+breading|裹粉层
+crumbs|碎屑
+crumb|碎屑
+crunchy|松脆
+crispy|酥脆
+crisped|制脆
+extra crispy|特酥脆
+chewy|耐嚼
+smooth|细滑
+silken|绢质细嫩
+creamy|奶油状
+cream-filled|奶油夹馅
+creme-filled|奶油状夹馅
+creme|奶油状配料
+skim|脱脂
+defatted|脱脂
+partially defatted|部分脱脂
+refined|精炼
+crude|粗制
+expressed|压榨
+groundcherries|酸浆果
+uncoated|无涂层
+non-carbonated|非碳酸
+carbonated|充气碳酸
+non-alcoholic|不含酒精
+non-dairy|非乳制
+lactose free|无乳糖（原标签）
+cholesterol-free|无胆固醇（原标签）
+cholesterol|胆固醇
+low-moisture|低水分
+moisture|水分
+incomplete|不完整
+may contain additives to retain moisture|可能含保水添加剂
+with added solution|添加溶液处理
+contains caffeine|含咖啡因
+caffeine|咖啡因
+contains|含有
+calories|千卡
+calorie|千卡
+vitamins|维生素
+fructose|果糖
+glucose|葡萄糖
+sulfate|硫酸盐
+propionate|丙酸盐
+linoleic|亚油酸
+oleic|油酸
+lauric acid|月桂酸
+starch|淀粉
+mineral|矿物质
+oleastra|脂肪替代物（原词oleastra）|原词及配料身份待核对
+olestra|蔗糖聚酯脂肪替代物（olestra）
+cottonseed|棉籽
+canola|低芥酸菜籽
+olive|橄榄
+palm|棕榈
+palm kernel|棕榈仁
+sunflower|向日葵
+safflower|红花籽
+poppy|罂粟籽
+maple|枫树
+malt|麦芽
+cacao|可可
+caramel|焦糖
+caramels|焦糖糖果
+butterscotch|黄油硬糖味
+fudge|软糖（fudge）
+fondant|翻糖
+marshmallow|棉花糖
+marshmallows|棉花糖
+icing|糖衣
+semisweet|半甜
+sweetbread|胸腺或胰腺（sweetbread）|不是甜面包，具体脏器以来源为准
+almond|杏仁
+pecan|碧根果
+filberts|榛子
+ginkgo|银杏果
+seed kernels|籽仁
+seed|籽
+kernel|仁
+kernels|籽粒
+glandless|无腺体型
+all-purpose|通用型
+whole-wheat|全麦
+multigrain|多谷物
+multi-grain|多谷物
+bran|麸皮
+grits|粗磨谷粒
+farina|小麦粗粉（farina）
+graham|全麦粗粉（graham）
+masa|碱处理玉米面团（masa）
+matzo|无酵饼
+sourdough|酸面团发酵
+leavened|膨松发酵
+corn grits|玉米糁
+cornish|康沃尔型
+pretzel|扭结饼
+saltines|苏打薄脆饼
+wafers|威化饼
+wafer|威化饼
+shortbread|黄油酥饼
+brownies|布朗尼
+sponge|海绵蛋糕型
+coffeecake|佐咖啡蛋糕
+cakes|蛋糕
+pies|派
+croissant|可颂
+hotcakes|热松饼
+pita|皮塔饼
+buns|小圆面包
+melba toast|薄脆烤面包片
+cheddar|切达奶酪
+mozzarella|马苏里拉奶酪
+parmesan|帕尔马式硬奶酪
+roquefort|洛克福蓝纹奶酪
+colby|科尔比奶酪
+monterey|蒙特雷奶酪型
+cottage|农家奶酪型（cottage）
+swiss|瑞士式
+emmental|埃门塔尔奶酪
+sandwich|三明治
+submarine sandwich|潜艇三明治
+hamburger|汉堡
+cheeseburger|奶酪汉堡
+hot dog|热狗
+hot dogs|热狗
+french fries|炸薯条
+fries|薯条
+hash brown|薯饼
+hash browns|薯饼
+hash|碎肉蔬菜混合菜
+nuggets|小块食品
+strips|条状食品
+sticks|条状食品
+link|香肠节
+links|香肠节
+tenders|嫩肉条（tenders）|具体肉部位以原条目为准
+coleslaw|甘蓝丝沙拉
+taco|塔可
+quesadilla|墨西哥奶酪夹饼
+enchilada|墨西哥酱汁卷饼
+pupusas|萨尔瓦多夹馅玉米饼
+nacho|墨西哥玉米片风味
+chow mein|美式炒面
+ramen noodle|拉面
+noodle|面条
+chowder|浓汤（chowder）
+minestrone|意式蔬菜汤
+bisque|法式浓汤
+bouillon|清汤/浓缩汤料
+stock|高汤
+stuffing|填馅料
+barbecue|烧烤风味
+BBQ|烧烤风味
+marinara|意式番茄酱汁
+pesto|青酱
+pomodoro|番茄风味
+tartar|塔塔酱风味
+ranch|牧场沙拉酱风味
+thousand island|千岛酱
+caesar|凯撒沙拉风味
+teriyaki|照烧风味
+sriracha|是拉差辣椒酱风味
+tahini|芝麻酱（tahini）
+imitation|仿制
+vegetarian|素食型
+meatless|无肉
+condiments|调味料
+entree|主菜
+entrees|主菜
+breakfast|早餐
+product|制品
+products|制品
+drink|饮品
+drinks|饮品
+juices|汁
+citrus|柑橘类
+berry|莓果
+berries|莓果
+cola|可乐
+punch|混合饮料
+cocktail|混合制品（cocktail）|是否含酒精须结合原条目核对
+ice|冰
+iced|加冰
+milkshake|奶昔
+malted drink|麦芽饮料
+smoothies|思慕雪
+whiskey|威士忌
+rum|朗姆酒
+vodka|伏特加
+gin|金酒
+liqueur|利口酒
+proof|美制酒精度proof|保留原数值，不直接当成酒精体积分数百分比
+tap|自来水
+home style|家常式
+premium|优质型（原标签）
+classic|经典型（原标签）
+special dietary|特殊膳食型（原标签）
+artificial|人工
+animal|动物
+herb|香草
+hot|热/辣（hot）|温度或辣味含义以完整名称为准
+mild|温和型（mild）
+quick|快熟
+young|幼嫩
+mature|成熟
+leaf|叶
+leaves|叶
+root|根
+bulb|鳞茎
+young leaves|嫩叶
+young pods|嫩豆荚
+pods|荚
+edible-podded|可食荚
+snap|嫩荚型（snap）|结合豆种核对，不能直接等同所有四季豆
+winter|冬季型
+summer|夏季型
+crookneck|曲颈型
+straightneck|直颈型
+butternut|奶油南瓜型（butternut）
+acorn|橡果南瓜型（acorn）|若原文为坚果类则须另核对橡实
+hubbard|哈伯德南瓜型
+globe|球形型
+netted|网纹型
+calabash|葫芦型
+savoy|皱叶甘蓝型
+fordhook|福德胡克品种
+limas|利马豆
+adzuki|红小豆
+crowder|密籽豇豆型（crowder）
+great northern|大白芸豆（great northern）
+garden|园艺型
+Nopales|食用仙人掌茎片
+jalapeno|墨西哥哈拉佩尼奥辣椒
+Rhubarb|大黄茎（rhubarb）|食品用茎，不对应药用大黄根
+Lambsquarters|藜嫩叶（lambsquarters）|具体可食植物种类待核对
+Butterbur|蜂斗菜（butterbur）|具体种类和可食部位待核对
+Cress|叶菜（cress）|英文可指不同植物，不能直接对应普通芹菜或西洋菜
+Borage|琉璃苣
+Chrysanthemum|菊属蔬菜（chrysanthemum）|须核对叶、花及品种，不能全部视为菊花茶
+garland|茼蒿型（garland）
+Sesbania flower|田菁属花（sesbania flower）|具体植物种类待核对
+Jute|黄麻嫩叶
+Salsify|婆罗门参
+Cardoon|刺菜蓟
+Dock|酸模类（dock）|可指不同植物，物种对应待核对
+Pokeberry shoots|商陆嫩芽（原食品条目）|仅翻译历史条目，不表示可直接生食或安全处理指南
+Tree fern|树蕨（原食品条目）|具体蕨类种类与食用部位待核对
+Fiddlehead ferns|蕨类卷芽|不能直接等同某一种蕨菜，物种与处理方式待核对
+succotash|玉米豆类混合菜（succotash）
+corn and limas|玉米与利马豆
+sea|海产
+ocean|海洋
+freshwater|淡水
+pike|狗鱼类
+lingcod|长蛇齿单线鱼（lingcod）|并非鳕鱼，中文物种名待核对
+sablefish|裸盖鱼（sablefish）|不直接以银鳕鱼商品名代替物种
+surimi|鱼糜制品
+channel|沟鲶型（channel）|仅在catfish语境使用，具体物种待核对
+alaska king|阿拉斯加帝王蟹型
+king|王型（king）|与鲑鱼、蟹等连用时指不同种类，保留原词核对
+striped|条纹型
+bowhead|弓头鲸
+beluga|白鲸
+bearded|髯海豹型（bearded）|海豹语境的物种词，须结合完整名称核对
+Oogruk|髯海豹（Oogruk）|地方名称对应待核对
+Steller|斯特勒型（Steller）|具体动物种类以完整原名为准
+bone|骨
+pitted|去核
+grated|刨丝
+shredded|切丝
+minced|切末
+cubed|切方块
+cube|方块
+dices|小丁
+pieces|块
+chunk|块
+sections|段
+spears|长条
+fingers|条状
+flat|扁平
+rolled|卷制
+cut off cob|脱粒
+kernels cut off cob|从玉米芯剥下的粒
+vacuum pack|真空包装
+packed|包装
+pack|包装
+tub|盒装
+bottle|瓶装
+tub/bottle|盒装/瓶装
+prepackaged|预包装
+shelf stable|可常温储存
+tabletop|餐桌用
+deli|熟食柜食品
+platter|拼盘
+volume|体积
+approximately|约
+than|比
+greater than|大于
+less than|小于
+higher|较高
+fully|完全
+partially|部分
+lightly|少量
+remaining|剩余
+except|除外
+any|任意
+based|为基础
+the|该
+company|公司
+ounce|盎司
+pound|磅
+minute cook time|分钟烹调时间（原制备标签）
+serving|份
+serve|供食用
+size|大小
+purpose|用途
+form|形态
+forms|形态
+process|加工
+processing|加工
+pre|预制
+include|包括
+with added calcium|添加钙
+noodles|面条
+styles|式样
+coated|带涂层
+globe or french|球形或法式品种
+spice|香辛料
+in oil|油浸
+in water|水浸
+on bottom|底层
+drained solids|沥干固形物
+lower leaf-portion|叶片下段
+special|特别型
+free|无（free，原标签）
+not specified|未说明
+unspecified|未说明
+english muffin|英式麦芬面包
+chocolate sandwich|巧克力夹心型
+sandwich cookie|夹心饼干
+chocolate-covered|巧克力包衣
+french fried|法式油炸
+ham with natural juices|含原汁火腿
+ham -- water added|加水火腿
+ham and water product|火腿与水制品
+in skin|带皮状态
+cooked in skin|带皮烹调
+skin with salt|加盐的皮
+salt not added in processing|加工时未加盐
+with salt added in processing|加工时添加盐
+without salt added in processing|加工时未添加盐
+cottage-cut|圆片切型（cottage-cut）|薯类切型，不是奶酪
+chips|脆片
+chip|碎粒/薄片
+custard|蛋奶糊
+baby|婴儿型
+store brand|零售商自有品牌
+brand|品牌
+brands|品牌
+sub|潜艇三明治
+pot|炖锅式
+pot roast|炖烤肉块（pot roast）|切块类型，不表示已经烹调
+America's Beef Roast|美国式牛肉烤肉块（原切块名）
+boston|波士顿式
+soda|苏打
+diluted|稀释
+pulp|果肉浆
+creamed|奶油状/奶油烹制
+premature|早产儿配方型（原标签）|仅为来源产品分类，不构成适用性判断
+oven|烤箱
+split|劈半/分瓣
+side|侧部
+tender|嫩（tender）|作为肉类部位名时须核对具体分割
+grain|谷粒
+trail mix|什锦果干坚果混合物
+frosted|糖霜包覆
+bars|棒状食品
+crunch|松脆型
+strip|条状
+meal|粉料/餐食（meal）|词义取决于完整食品名，保留原文核对
+oils|油脂
+ready to serve|可直接食用
+ready-to-bake|待烘焙
+firm|硬质
+extra firm|较硬质
+confectioner's|糖果糕点用
+kippered|腌熏
+seeded|带籽
+spiral|螺旋形
+chile|辣椒
+bolted|筛制
+lite|轻型（lite，原标签）|不能仅凭lite推断低脂或低能量
+sundae|圣代
+household|家用
+alcohol|酒精
+confection|糖果糕点
+nigari|卤水凝固（nigari）
+roman|罗马式
+plus|加配型（Plus，原标签）
+leather|果丹皮状薄片（leather）
+squares|方块
+rich|浓郁型
+extract|提取物
+non|非
+prickly pears|仙人掌果
+jellied|凝胶状
+puffs|膨化块
+pumpernickel|德式粗黑麦面包
+supreme|特选型（原标签）
+dishcloth (towelgourd)|丝瓜
+dishcloth|丝瓜型
+towelgourd|丝瓜
+potherb|食用叶菜型
+tendergreen|嫩绿叶型（tendergreen）|具体植物品种待核对
+dill|莳萝
+retail|零售
+bite|小口型
+fleshed|果肉型
+Salisbury steak|索尔兹伯里碎肉排
+Agutuk|阿拉斯加原住民混合食品（Agutuk）|传统配方差异大，具体原料按原条目核对
+Agave|龙舌兰
+kids' menu|儿童菜单
+curd|凝乳/凝块
+flowered|开花型
+tahitian|塔希提型
+decorticated|去外皮
+packaged|包装
+medley|混合
+tops|顶部嫩叶
+preserving|用于保存
+paste|糊/酱
+cold|冷制
+full|全型
+flaked|片状
+cobbler|酥皮水果烤点
+pigeon|鸽
+cubes|方块
+Beerwurst|啤酒风味香肠（Beerwurst）
+minute|分钟
+minutes|分钟
+Kiwi|猕猴桃
+griddle|铁板烹调
+heavy duty|高负荷烹调用
+woks|炒锅
+valencia|瓦伦西亚型（valencia）
+virginia|弗吉尼亚型（virginia）
+kabob|烤串
+vienna|维也纳式
+areas|部位
+sugared|加糖
+muscle|肌肉
+fan|扇形部（fan）|肉类分割形态，具体部位待核对
+royal|皇家型（原标签）
+catjang|豇豆型（catjang）|具体品种对应待核对
+ready|即用型
+formed|成型
+crisps|脆片
+hearty|丰盛型（原标签）
+broad|宽型
+tamale|墨西哥蒸玉米粉包
+like|类似
+preserves|糖渍保存制品
+bay|月桂叶型（bay）|香辛料语境以外需核对原词
+mamey|美洲热带果（mamey）|不同地方可指不同果实，物种对应待核对
+anjou|安茹梨型
+Nance|热带水果（nance）|中文物种对应待核对
+nougat|牛轧糖
+nougats|牛轧糖
+twists|扭结形
+skins|皮
+jelly|果冻/凝胶酱
+ringed|环斑型
+eyes|眼部
+Willow|柳属植物|食用部位和具体种类以原条目为准
+quarter|四分之一部位
+Chokecherries|稠李类（chokecherries）|具体种类对应待核对
+golden|金黄色
+whitener|增白型伴侣
+pop|冰棒/爆制品（pop）|具体含义按完整食品名核对
+enhanced|强化/改良型（enhanced）|未核对具体添加成分
+crimini|褐色双孢蘑菇（crimini）
+lotus|莲
+unblanched|未焯烫
+cashew|腰果
+pina colada|椰林飘香混合饮料
+mousse|慕斯
+fluffy|蓬松型
+glaze|糖衣/淋面
+glutinous|糯性
+spring|春季型
+soba|荞麦面
+somen|日式素面
+pilaf|皮拉夫烩饭
+seasoning|调味
+newborn|新生儿型（原标签）|仅翻译产品分类，不构成适用性判断
+transitions|过渡型（原标签）
+tuber|块茎
+Oregon|俄勒冈
+pond lily|水生睡莲类（pond lily）|具体植物种类待核对
+Klamath|克拉马斯族食物资料
+date|椰枣
+finger|条状
+muenster|明斯特式奶酪
+sorbitol|山梨糖醇
+base|基料
+agar|琼脂
+danish|丹麦式
+domestic|家养/本国型
+pointed|尖端型
+formulated|配方型
+shell|壳/外皮
+crosscuts|横切块
+butt|端部（butt）|肉类分割含义以完整原名为准，不直接译作臀肉
+daiquiri|代基里鸡尾酒
+carb|碳水化合物
+mini|迷你型
+bits|碎粒
+processed|加工
+alkali|碱
+granulated|颗粒状
+packets|小包
+phosphorus|磷
+box|盒装
+diced|切丁
+family|家庭型
+bush|灌木型
+tutti frutti|什锦水果味
+dietetic|特殊膳食型（原标签）
+edible|可食
+excluding|不包括
+hulled|去壳
+pearled|碾磨去麸
+nachos|墨西哥玉米片餐
+analyzed|分析值
+crinkle|波纹形
+using|使用
+shoestring|细条型
+breadnut tree|面包坚果树（breadnut tree）|物种与可食部分待核对
+club|总会式
+wrap|卷饼
+breadstick|面包棒
+part|部分
+provolone|普罗沃洛奶酪
+ricotta|里科塔乳清奶酪
+pressurized|加压
+acid|酸
+cone|蛋筒
+caraway|葛缕子
+savory|咸鲜型/香薄荷（savory）|在香辛料语境指植物，其他语境可指口味
+melba|梅尔巴式
+Mayo|蛋黄酱
+russian|俄式
+walnut|核桃
+poppyseed|罂粟籽
+backs|背部
+necks|颈部
+frankfurters|法兰克福香肠
+franks|法兰克福香肠
+gumbo|秋葵浓汤（gumbo）
+au jus|配原汁
+microwavable|可微波加热
+tallow|牛羊脂（tallow）|具体动物来源按原条目核对
+linolenic|亚麻酸
+basted|浇汁处理
+consomme|澄清汤
+Braunschweiger|不伦瑞克式肝香肠
+varieties|品种
+salsa|萨尔萨酱
+chapati|恰巴提薄饼
+roti|罗蒂薄饼
+naan|馕
+espresso|浓缩咖啡
+bottles|瓶
+parfait|芭菲甜点
+blended|混合
+dumplings|面团/饺类食品（dumplings）|不能直接视为中式饺子，需核对配方
+confectionery|糖果糕点用
+coatings|涂层
+used|使用
+buttery|黄油风味
+traditional|传统型
+unfortified|未强化
+magnesium chloride|氯化镁
+koyadofu|高野冻豆腐
+muskrat|麝鼠肉
+intermuscular|肌间
+chump|臀腰端（chump）|分割规格待核对
+testes|睾丸
+cutlet|薄肉排
+osso buco|带骨横切腱肉（osso buco）
+angelfood|天使蛋糕型
+gingerbread|姜饼
+cheesecake|奶酪蛋糕
+complete|完整
+meringue|蛋白霜
+hotdog|热狗
+acting|作用型
+gluten|麸质
+ladyfingers|手指饼干
+rind|外皮
+old fashioned|传统式
+country|乡村式
+manufacturing|生产用
+nutritional|营养型（原标签）
+Acai|巴西莓
+late harvest|晚收型
+dairy|乳制
+chamomile|洋甘菊
+bagel|贝果
+stuffed|填馅
+cider|苹果发酵饮料（cider）|是否含酒精须核对原条目
+principal uses|主要用途
+uses similar to|用途类似于
+can contents|罐内全部内容物
+weight control|体重控制型（原标签）|仅翻译产品名，不表示本项目认可其效果
+salsa con queso|奶酪萨尔萨酱
+mocha|摩卡
+species|物种
+roe|鱼卵
+fuyu|富有柿型（fuyu）
+brains|脑
+thompson|汤普森葡萄型
+store bakery|店内烘焙
+baker's|烘焙用
+horse|马肉
+beaver|河狸肉
+boar|野猪肉
+jerky|肉干
+cones|蛋筒
+trans|反式
+pastries|酥点
+bakery|烘焙食品
+rehydrated|复水
+as packaged|包装时状态
+brined|盐水腌制
+blubber|海洋哺乳动物脂肪
+muktuk|鲸皮与脂肪（muktuk）|传统食物，具体处理以原条目为准
+mush|谷物糊
+ash|灰分
+silver|银色型
+spotted|斑点型
+removed|去除
+empanadas|拉美夹馅饼
+general tso's|左宗棠式
+kung pao|宫保式
+lo mein|美式捞面
+bulk|散装
+cold pressed|冷压榨
+lactose|乳糖
+sake|清酒
+flake|片状
+cane|甘蔗
+snail|蜗牛
+maraschino cherries|酒渍/糖渍樱桃（maraschino）|处理方式以原条目为准
+Maraschino|马拉斯奇诺处理（maraschino）
+bartlett|巴特利特梨型
+bosc|博斯克梨型
+baobab|猴面包树果
+backfat|背脂
+belly|腹部
+flatbread|薄面饼
+carob|角豆
+gumdrops|软糖粒
+jellybeans|豆形软糖
+halavah|哈勒瓦甜食|芝麻或其他原料须按条目核对
+crosscut|横切
+roots|根
+seedlings|幼苗
+head|头部
+cheeks|颊部
+salmonberries|美洲莓果（salmonberries）|植物品种对应待核对
+unleavened|无酵
+farm raised|养殖
+star shaped|星形
+peppercorn|胡椒粒
+preserved|保藏
+sweetsop|番荔枝
+asian|亚洲型
+medjool|梅德卓椰枣型
+jowl|下颌部
+rendered|熬炼
+alfalfa|苜蓿
+butterhead|奶油生菜型
+bibb|比布生菜型
+irishmoss|角叉菜类（irishmoss）|海藻品种待核对
+solid|固态
+radicchio|红叶菊苣
+tomatillos|墨西哥酸浆
+napa|大白菜型
+citronella|香茅类（citronella）|具体植物种类待核对
+fava|蚕豆
+pod|荚
+lemongrass|柠檬草
+tarragon|龙蒿
+papad|印度豆粉薄脆饼（papad）
+pan dulce|拉美甜面包（pan dulce）
+luncheon slices|午餐型切片食品
+yokan|羊羹
+dulce de leche|焦糖牛奶酱
+hush puppies|炸玉米面团球
+cornsalad|羊莴苣
+kanpyo|干瓠瓜条（kanpyo）
+cockles|鸟蛤类（cockles）|贝类种类按原条目核对
+crabapples|海棠果类（crabapples）|具体苹果属品种待核对
+stinging nettles|荨麻|可食种类与处理状态须按原条目核对
+rose hips|玫瑰果
+cattail|香蒲|具体种类和食用部位须按原条目核对
+fireweed|柳兰类（fireweed）|具体植物种类待核对
+epazote|土荆芥（epazote）|仅为历史食品条目，不构成食用建议
+bockwurst|博克香肠
+cheesefurter|奶酪香肠（cheesefurter）
+knackwurst|克纳克香肠
+knockwurst|克纳克香肠
+thuringer|图林根式香肠
+cervelat|色拉米式香肠（cervelat）|与具体产品类型对应待核对
+yachtwurst|德式香肠（yachtwurst）|具体产品类别保留原名核对
+swisswurst|瑞士式香肠（swisswurst）
+scrapple|猪肉谷物糕（scrapple）
+eclair|闪电泡芙
+lasagne|千层面
+lentil|小扁豆
+chick pea|鹰嘴豆
+chick peas|鹰嘴豆
+thai|泰式
+vietnamese|越南式
+moroccan|摩洛哥式
+curry|咖喱
+masala|马萨拉混合香辛料
+artificially flavored|人工调味
+hand battered|手工裹面糊
+salvadoran|萨尔瓦多式
+salvadorena|萨尔瓦多式
+chews|耐嚼糖块
+bites|小块
+ultimate|特制型（原标签）
+super|加强型（原标签）
+plan|方案型（原标签）
+selects|精选型（原标签）
+totally|全然（原标签）
+item|食品项
+delicious|美味型（原标签）
+genuine|原真型（原标签）
+oat|燕麦
+herbal|草本
+crisp|酥脆
+over|上方
+confectionery coating|糖果用涂层
+flours|粉类
+filets|小切肉片（filets）|具体部位须按原名核对
+pastry dough|酥点面团
+formed meat|重组成型肉
+golden layer|金黄层酥型（Golden Layer）|系列或风格称呼保留原名核对
+crusty|脆皮型
+toaster|烤面包机用
+spoon-size|一匙大小
+spoon|匙
+flavored water|风味水
+salted butter|加盐黄油
+unsalted butter|无盐黄油
+goat milk|山羊奶
+goat's milk|山羊奶
+sheep milk|绵羊奶
+sheep's milk|绵羊奶
+goat cheese|山羊奶酪
+goat's cheese|山羊奶酪
+made from goat milk|以山羊奶制成
+grape juice concentrate|浓缩葡萄汁
+brewed from grounds|用研磨咖啡冲泡
+cocoa butter|可可脂
+nutmeg butter|肉豆蔻脂
+almond milk|杏仁饮料
+rice milk|米乳饮料
+oat milk|燕麦乳饮料
+coconut milk|椰乳（coconut milk）
+indian buffalo|印度水牛
+sheep|绵羊
+human|人乳来源
+blue cheese|蓝纹奶酪
+cream cheese|奶油奶酪
+cheese, cream|奶油奶酪
+semisoft|半软质
+part skim|部分脱脂
+part-skim|部分脱脂
+uncreamed|未加稀奶油
+gouda|高达奶酪
+gruyere|格鲁耶尔奶酪
+fontina|芳提娜奶酪
+brie|布里奶酪
+camembert|卡芒贝尔奶酪
+feta|菲达奶酪
+edam|伊丹奶酪
+neufchatel|讷沙泰勒奶酪
+romano|罗马诺奶酪
+limburger|林堡奶酪
+sharp|浓烈味型
+omelet|煎蛋饼
+poached|水波蛋式煮制
+hard-boiled|硬煮熟
+soft-boiled|软煮
+grapeseed|葡萄籽
+teaseed|茶籽
+tomatoseed|番茄籽
+lecithin|卵磷脂
+salads|沙拉
+chervil|细叶芹
+fenugreek|胡芦巴
+cayenne|卡宴辣椒
+chili powder|辣椒混合粉
+mace|肉豆蔻衣
+marjoram|马郁兰
+lotus root|莲藕
+corn, sweet|甜玉米
+peppers, sweet|甜椒
+grouper|石斑鱼类|具体鱼种以原条目为准
+milkfish|虱目鱼
+monkfish|鮟鱇鱼类|具体鱼种以原条目为准
+mahimahi|鲯鳅
+skipjack|鲣鱼型
+yellowfin|黄鳍型
+bluefin|蓝鳍型
+yellowtail|黄尾型（yellowtail）|可能对应不同鱼种，须核对完整原名
+turbot|大菱鲆类（turbot）|具体鱼种以原条目为准
+rockfish|岩鱼类（rockfish）|对应多个鱼种，不直接用单一中文鱼名替代
+spiny|有棘型
+whelk|海螺类（whelk）|具体种类待核对
+antelope|羚羊肉
+beefalo|牛与美洲野牛杂交肉（beefalo）
+salmon, pink|粉鲑（pink salmon）|鱼种译名，不凭外观颜色对应实际鱼种
