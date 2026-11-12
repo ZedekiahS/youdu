@@ -1,4 +1,5 @@
 import {validateProfileRecords} from './validate-profile.js';
+import {batchEntries} from './workflows.js';
 import {pauseSession} from './follow-clock.js';
 export const SCHEMA_VERSION=2;
 const lists=['weights','meals','workouts','plans','reports','batches','changes','saved','shopping','sharedRecipes','family'];
@@ -10,11 +11,14 @@ export function migrateState(input,id='legacy-local'){
  for(const k of ['measurements','indicators','combos','deletedRecords','pendingMeals'])s[k]||=[];
  if(s.removedMeal){if(!s.meals.some(m=>m.id===s.removedMeal.id)&&!s.deletedRecords.some(d=>d.kind==='meals'&&d.record.id===s.removedMeal.id))s.deletedRecords.push({kind:'meals',record:s.removedMeal,deletedAt:null});delete s.removedMeal;}
  for(const k of ['chats','water','moods','completeness'])s[k]||={};
+ delete s.recordContext;
  s.settings||={};s.settings.cloudAI=false;s.settings.sync=false;
  for(const k of owned)for(const r of s[k]||[])r.ownerId||=s.profileId;
  return s;
 }
 export function profileSnapshot(s){const copy=structuredClone(s);delete copy.otherProfiles;delete copy.loadError;if(copy.activeWorkout)pauseSession(copy.activeWorkout);return copy}
+// A single-profile backup reserves other members' allocations without exporting their records.
+export function backupSnapshot(state){const copy=profileSnapshot(state);for(const b of copy.batches)b.reservedPortions=Number(((b.reservedPortions||0)+batchEntries(state,b.id).filter(m=>m.profileId!==state.profileId).reduce((n,m)=>n+m.batchPortions,0)).toFixed(2));return copy}
 export function switchProfile(s,id){const target=s.otherProfiles[id];if(!target)throw Error('未找到本机档案');const next=migrateState(target);next.otherProfiles={...s.otherProfiles,[s.profileId]:profileSnapshot(s)};delete next.otherProfiles[id];return next}
 export function validateBackup(input){
  if(input?.format!=='youdu-backup'||input.version!==2||!input.state)throw Error('只接受有度 v2 备份；原档案保持不变');
@@ -31,10 +35,14 @@ export function validateBackup(input){
 }
 export function asNewProfile(backup,newId,makeId){
  const data=validateBackup(backup),s=data.state,reportIds=new Map(s.reports.map(r=>[r.id,makeId()]));
+ delete s.reportDeletions;
+ const batchIds=new Map(s.batches.map(b=>[b.id,makeId()]));
+ for(const b of s.batches){b.id=batchIds.get(b.id);b.detachedFromFamily=true;}
+ for(const r of [...s.meals,...s.deletedRecords.filter(d=>d.kind==='meals').map(d=>d.record)]){if(r.batchId)r.batchId=batchIds.get(r.batchId)||r.batchId;for(const c of r.corrections||[])if(c.before.batchId)c.before.batchId=batchIds.get(c.before.batchId)||c.before.batchId;}
  s.profileId=newId;s.profile.name+='（恢复）';s.settings.cloudAI=false;s.settings.sync=false;
  for(const k of owned)for(const r of s[k]){r.ownerId=newId;if(k==='reports')r.id=reportIds.get(r.id);if(k==='indicators')r.reportId=reportIds.get(r.reportId)||r.reportId;}
- for(const d of s.deletedRecords)d.record.ownerId=newId;
- for(const records of [...owned.map(k=>s[k]),s.deletedRecords.map(d=>d.record)])for(const r of records)for(const c of r.corrections||[])c.before.ownerId=newId;
+ for(const d of s.deletedRecords){d.record.ownerId=newId;if(d.kind==='indicators')d.record.reportId=reportIds.get(d.record.reportId)||d.record.reportId;}
+ for(const records of [...owned.map(k=>s[k]),s.deletedRecords.map(d=>d.record)])for(const r of records)for(const c of r.corrections||[]){c.before.ownerId=newId;if(c.before.reportId)c.before.reportId=reportIds.get(c.before.reportId)||c.before.reportId;}
  if(s.activeWorkout){pauseSession(s.activeWorkout,s.activeWorkout.pausedAt||s.activeWorkout.follow?.pausedAt||s.activeWorkout.startedAt);s.activeWorkout.ownerId=newId;}
  data.files=data.files.map(f=>({...f,id:reportIds.get(f.id)}));return data;
 }

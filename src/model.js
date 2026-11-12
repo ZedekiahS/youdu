@@ -4,8 +4,8 @@ import {calculate,revisionOf} from './nutrition-core.js';
 import foods from './foods.json';
 import motionExercises from './motion-exercises.json';
 export { foods };
-export const localDate=(d=new Date())=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-export const TODAY = localDate();
+import {TODAY,localDate} from './day-clock.js';
+export {TODAY,localDate} from './day-clock.js';
 export const foodById = Object.fromEntries(foods.map(f => [f.id, f]));
 export const uid = () => crypto.randomUUID?.() || '10000000-1000-4000-8000-100000000000'.replace(/[018]/g,c=>(Number(c)^crypto.getRandomValues(new Uint8Array(1))[0]&15>>Number(c)/4).toString(16));
 export const round = (v, n=1) => v==null?null:Number(v.toFixed(n));
@@ -50,6 +50,6 @@ export function loadState(){
 export async function reportStore(mode,id,file) {
  const db=await new Promise((resolve,reject)=>{const r=indexedDB.open('youdu-prototype-files',1);r.onupgradeneeded=()=>r.result.createObjectStore('reports');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});
  return new Promise((resolve,reject)=>{const tx=db.transaction('reports',mode==='get'?'readonly':'readwrite');const st=tx.objectStore('reports');let result;
-  if(mode==='putMany'){for(const entry of file)st.put(entry.blob,entry.id)}else{const r=mode==='get'?st.get(id):st.put(file,id);r.onsuccess=()=>{result=r.result}}
+  if(mode==='putMany'){for(const entry of file)st.put(entry.blob,entry.id)}else{const r=mode==='get'?st.get(id):mode==='delete'?st.delete(id):st.put(file,id);r.onsuccess=()=>{result=r.result}}
   tx.oncomplete=()=>{db.close();resolve(result)};tx.onabort=tx.onerror=()=>{db.close();reject(tx.error||Error('本机文件保存失败'))};});
 }

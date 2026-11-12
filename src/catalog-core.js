@@ -19,3 +19,9 @@ export function searchCatalog(entries,query,category='全部',energy='all'){
  const q=query.trim().toLowerCase(),translated=hints[q];
  return entries.filter(f=>(category==='全部'||f.category===category)&&(energy==='all'||Number.isFinite(f.kcal)&&(energy==='0-100'?f.kcal>=0&&f.kcal<=100:energy==='100-300'?f.kcal>100&&f.kcal<=300:energy==='300+'?f.kcal>300:false))&&(!q||`${f.name} ${f.originalName} ${f.fdcId} ${(f.aliases||[]).join(' ')}`.toLowerCase().includes(q)||translated&&f.originalName.toLowerCase().includes(translated)));
 }
+
+// This is literal catalog lookup, not semantic matching or a nutrition recommendation.
+export function assistantFoodQuery(text){
+ return text.trim().replace(/^(?:请)?(?:帮我)?(?:查询|查找|搜索|查一下|查|找一下|找)[：:\s]*/, '').replace(/[？?]$/, '').replace(/(?:的)?(?:营养成分|营养|热量)(?:是多少|多少)?$/, '').trim();
+}
+export function assistantFoodMatches(entries,text){const query=assistantFoodQuery(text);return query?searchCatalog(entries,query).slice(0,8):[];}

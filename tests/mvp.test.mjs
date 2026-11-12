@@ -23,7 +23,7 @@ test('follow-along advances, freezes on pause, resumes and ends without inventin
  assert.equal(followPhase(run,21000).kind,'done');assert.equal('checked' in run,false);
 });
 test('migration and backup round trip retain snapshots, draft and report links without overwriting other profiles',()=>{
- const old={version:1,profile:{name:'测试档案'},meals:[structuredClone(meal)],reports:[{id:'report-test',name:'测试.png'}],indicators:[{id:'indicator-test',reportId:'report-test'}],chats:{draft:'未发送的测试草稿'}};
+ const old={version:1,profile:{name:'测试档案'},meals:[structuredClone(meal)],reports:[{id:'report-test',name:'测试.png'}],indicators:[{id:'indicator-test',reportId:'report-test',date:'2026-11-03',name:'测试指标',value:1,comparator:'=',unit:'mmol/L'}],chats:{draft:'未发送的测试草稿'}};
  const s=migrateState(old,'test-a');assert.equal(old.version,1);assert.equal(s.version,2);
  const pack={format:'youdu-backup',version:2,state:profileSnapshot(s),files:[{id:'report-test',type:'image/png',base64:'dGVzdA=='}]};
  const restored=asNewProfile(JSON.parse(JSON.stringify(pack)),'test-b',()=> 'restored-report');assert.equal(restored.state.meals[0].items[0].grams,150);assert.equal(restored.state.meals[0].items[0].snapshot.revision,'test-r1');assert.equal(restored.state.chats.draft,old.chats.draft);assert.equal(restored.state.indicators[0].reportId,'restored-report');assert.equal(restored.files[0].id,'restored-report');assert.equal(restored.files[0].base64,pack.files[0].base64);

@@ -8,7 +8,7 @@ export function loadCatalog(){
  if(cache)return Promise.resolve(cache);
  return pending||=(Promise.all([json('/data/sr-legacy/manifest.json'),json('/data/sr-legacy/index.json'),json('/data/sr-legacy/names-zh.json')]).then(([manifest,rows,names])=>{
   if(names.sourceIndexSha256!==manifest.indexSha256||names.count!==rows.length)throw Error('中文名称版本与食品库不匹配，请重新核对资料');
-  return cache={manifest,rows,names,entries:rows.map(row=>{const f=curated.get(row[0]),translation=nameFor(row,names);return {id:f?.id||'usda-'+row[0],revision:f?.revision||`sr2018-${row[0]}-r1`,fdcId:row[0],name:f?.name||translation.name,originalName:row[1],category:manifest.groups[row[2]]?.name||'其他',state:f?.state||nameStatus(translation),kcal:row[3],aliases:f?.aliases||[],curated:!!f}}).sort((a,b)=>Number(b.curated)-Number(a.curated))};
+  return cache={manifest,rows,names,entries:rows.map(row=>{const f=curated.get(row[0]),translation=nameFor(row,names);return {id:f?.id||'usda-'+row[0],revision:f?.revision||`sr2018-${row[0]}-r1`,fdcId:row[0],name:f?.name||translation.name,originalName:row[1],category:manifest.groups[row[2]]?.name||'其他',state:f?.state||nameStatus(translation),kcal:row[3],aliases:f?.aliases||[],curated:!!f,needsReview:translation.status==='needs-review',identityNote:translation.notes?.[0]||''}}).sort((a,b)=>Number(b.curated)-Number(a.curated))};
  }).catch(e=>{pending=null;throw e}));
 }
 export async function loadFood(id){

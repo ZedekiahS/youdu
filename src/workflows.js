@@ -1,3 +1,4 @@
+import {localDate} from './day-clock.js';
 import {sessionElapsed} from './follow-clock.js';
 // Shared prototype workflow rules. No model calls or background health decisions.
 export const trainingFor = minutes => ({
@@ -70,7 +71,7 @@ export function restoreAdjustment(state,id) {
 export function beginTraining(state, plan, id) {
   if(state.activeWorkout) return false;
   const training=plan?planTraining(plan):trainingFor(20);
-  state.activeWorkout={id,planId:plan?.id||null,planRevision:plan?.revision||0,title:plan?.title||'居家基础练习',
+  state.activeWorkout={id,date:localDate(),planId:plan?.id||null,planRevision:plan?.revision||0,title:plan?.title||'居家基础练习',
     targetMinutes:training.minutes,prescription:training.moves,moves:training.moves.map(m=>m.exerciseId),checked:[],startedAt:Date.now()};
   return true;
 }
@@ -82,7 +83,7 @@ export function finishTraining(state,date) {
   if(!s?.checked.length) return false;
   const prescription=sessionPrescription(s);
   const completedSets=prescription.flatMap(m=>Array.from({length:m.sets},(_,i)=>({exerciseId:m.exerciseId,set:i+1,reps:m.reps,key:m.exerciseId+'-'+i}))).filter(m=>s.checked.includes(m.key));
-  state.workouts.push({id:s.id,planId:s.planId||null,planRevision:s.planRevision||0,date,title:s.title||'居家基础练习',
+  state.workouts.push({id:s.id,planId:s.planId||null,planRevision:s.planRevision||0,date:s.date||localDate(new Date(s.startedAt)),title:s.title||'居家基础练习',
     duration:Math.max(1,Math.round(sessionElapsed(s)/60000)),targetMinutes:s.targetMinutes??20,
     prescription:structuredClone(prescription),completedSets,sets:completedSets.length,moves:[...new Set(completedSets.map(m=>m.exerciseId))],source:'逐组记录'});
   const plan=state.plans.find(p=>p.id===s.planId);
@@ -92,10 +93,14 @@ export function finishTraining(state,date) {
   }
   state.activeWorkout=null;return true;
 }
+export function batchEntries(state,batchId){
+ return [state,...Object.values(state.otherProfiles||{})].flatMap(p=>(p.meals||[]).filter(m=>m.batchId===batchId).map(m=>({...m,profileId:p.profileId,profileName:p.profile?.name})));
+}
 export function remainingServings(state,batchId,excludeMealId) {
-  const batch=(state.batches||[]).find(b=>b.id===batchId);
-  if(!batch)return 0;
-  return Math.max(0,Number((batch.servings-state.meals.filter(m=>m.batchId===batchId && m.id!==excludeMealId).reduce((n,m)=>n+(m.batchPortions||0),0)).toFixed(2)));
+ const batch=[state,...Object.values(state.otherProfiles||{})].flatMap(p=>p.batches||[]).find(b=>b.id===batchId);
+ if(!batch)return 0;
+ const used=batchEntries(state,batchId).filter(m=>m.id!==excludeMealId).reduce((n,m)=>n+(m.batchPortions||0),0);
+ return Math.max(0,Number((batch.servings-(batch.reservedPortions||0)-used).toFixed(2)));
 }
 export function portionItems(batch,portion) {
   return batch.items.map(i=>({...structuredClone(i),grams:Number((i.grams*portion/batch.servings).toFixed(3))}));

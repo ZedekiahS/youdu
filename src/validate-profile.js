@@ -20,6 +20,7 @@ function moves(rows){
 }
 function record(kind,r,state,history=false){
  if(!r||typeof r.id!=='string'||r.date!=null&&!validDate(r.date))fail('记录编号或日期无效');
+ if(kind==='indicators'&&(!validDate(r.date)||!Number.isFinite(r.value)||!['=','<','>','≤','≥'].includes(r.comparator)||typeof r.name!=='string'||typeof r.unit!=='string'||!state.reports.some(x=>x.id===r.reportId)))fail('指标或关联报告无效');
  if(kind==='pendingMeals'&&(!validDate(r.date)||!['早餐','午餐','晚餐','加餐'].includes(r.meal)||typeof r.title!=='string'||!r.title.trim()||typeof r.amountText!=='string'||!r.amountText.trim()))fail('待核对摄入记录无效');
  if(kind==='meals'){
   if(!validDate(r.date)||!['早餐','午餐','晚餐','加餐'].includes(r.meal))fail('餐次或日期无效');items(r.items);
@@ -36,11 +37,11 @@ function record(kind,r,state,history=false){
 export function validateProfileRecords(s){
  for(const key of ['settings','chats','water','moods','completeness'])if(!s[key]||typeof s[key]!=='object'||Array.isArray(s[key]))fail('档案偏好或记录结构无效');
  for(const key of ['changes','saved','shopping','sharedRecipes','family','combos','deletedRecords'])if(!list(s[key]))fail('档案列表无效');
- for(const b of s.batches){if(!validDate(b.date)||!positive(b.servings))fail('制作日期或份量无效');items(b.items);}
- for(const kind of ['meals','workouts','weights','measurements','pendingMeals'])for(const r of s[kind])record(kind,r,s);
- for(const b of s.batches){const used=s.meals.filter(m=>m.batchId===b.id).reduce((n,m)=>n+m.batchPortions,0);if(used>b.servings+0.000001)fail('摄入份量超过本次制作');}
+ for(const b of s.batches){if(!validDate(b.date)||!positive(b.servings)||b.reservedPortions!=null&&(!Number.isFinite(b.reservedPortions)||b.reservedPortions<0||b.reservedPortions>b.servings))fail('制作日期或份量无效');items(b.items);}
+ for(const kind of ['meals','workouts','weights','measurements','pendingMeals','indicators'])for(const r of s[kind])record(kind,r,s);
+ for(const b of s.batches){const used=s.meals.filter(m=>m.batchId===b.id).reduce((n,m)=>n+m.batchPortions,0);if(used+(b.reservedPortions||0)>b.servings+0.000001)fail('摄入份量超过本次制作');}
  for(const c of s.combos)items(c.items);
- const deleted=new Set();for(const d of s.deletedRecords){if(!d||!['meals','workouts','weights','measurements','pendingMeals'].includes(d.kind))fail('已删除记录无效');record(d.kind,d.record,s);const key=d.kind+':'+d.record.id;if(deleted.has(key)||s[d.kind].some(r=>r.id===d.record.id))fail('已删除记录重复或仍在使用');deleted.add(key);}
+ const deleted=new Set();for(const d of s.deletedRecords){if(!d||!['meals','workouts','weights','measurements','pendingMeals','indicators'].includes(d.kind))fail('已删除记录无效');record(d.kind,d.record,s);const key=d.kind+':'+d.record.id;if(deleted.has(key)||s[d.kind].some(r=>r.id===d.record.id))fail('已删除记录重复或仍在使用');deleted.add(key);}
  for(const p of s.plans){if(!validDate(p.date)||typeof p.time!=='string'||!/^([01]\d|2[0-3]):[0-5]\d$/.test(p.time)||!['meal','workout','habit'].includes(p.type))fail('计划日期、时间或类型无效');if(p.training)moves(p.training.moves);}
  const active=s.activeWorkout;if(active){
   if(typeof active.id!=='string'||!positive(active.startedAt)||active.pausedMs!=null&&(!Number.isFinite(active.pausedMs)||active.pausedMs<0)||active.pausedAt!=null&&(!positive(active.pausedAt)||active.pausedAt<active.startedAt))fail('训练计时状态无效');
