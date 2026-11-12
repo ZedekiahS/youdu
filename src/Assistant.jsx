@@ -38,7 +38,7 @@ export function AssistantPage({state,go,update,route,notify}) {
         answer='以下是本地演示规则的处理结果。训练内容会与计划、执行页面同步；不会改动已记录的活动。';kind='adjust';
       } else if(matches.length){kind='food-search';foodRefs=matches.map(f=>({id:f.id,revision:f.revision,name:f.name,needsReview:f.needsReview}));answer='找到以下食品，请按实际生熟、品种和加工状态选择（最多显示 8 项）。';
       } else if(/来源|食材|营养|这道|菜谱/.test(text)) {
-        answer=food?`${food.name}采用 ${food.state} 条目，每 100 克可食部分的原始数据来自 USDA。点击下方回到具体食品核对。`:`${recipe?.name||'番茄炒蛋'}按原料用量与 USDA 条目计算。你可以查看食材，并返回这段对话继续。`;kind='recipe';
+        answer=food?`${food.name}采用 ${food.state} 条目，原始基准为${food.basis}，数据来自 ${food.source}。点击下方回到具体食品核对。`:`${recipe?.name||'番茄炒蛋'}按原料用量与 USDA 条目计算。你可以查看食材，并返回这段对话继续。`;kind='recipe';
       } else if(/今天|记录|复盘|体重/.test(text)) {
         const ms=s.meals.filter(m=>m.date===TODAY);
         answer=`今天有 ${ms.length} 条饮食记录，已记录约 ${fmt(totals(ms.flatMap(m=>m.items)).kcal)} 千卡；有 ${s.workouts.filter(w=>w.date===TODAY).length} 次活动。另有 ${pendingInRange(s,TODAY).length} 条摄入待核对，未计入上述营养。记录完整度未确认，不判断吃多或吃少。`;kind='review';

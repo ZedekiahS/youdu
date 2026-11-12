@@ -1,0 +1,443 @@
+# Project-authored English drafts for missing source names. Not official translations.
+# sourceCode|English descriptive name|specific unresolved identity (optional)
+A0120101|Barley kernel flour
+A0320601|Multigrain all-purpose wheat flour
+A0320702|Multigrain bread flour
+A0510301|Mixed-grain rice blend
+B0100214|Yam, white-fleshed|山药的具体物种未确定；不用某一英文物种名替代
+B1000201|Water caltrop kernels, raw|菱角不等于荸荠 water chestnut；未确定具体种
+B9900201|Konjac powder mixture|原料描述含海藻抽出物和葡萄糖，不作为纯魔芋粉
+C0905101|Plain hazelnuts
+C1005101|Seeds sold as 山粉圓|地方名的具体植物种未确定，不直接写成 chia seeds
+C1800101|Fox nuts (gorgon nuts)
+D0800601|Banana, 李林蕉 cultivar, sampled in 2007|保留品种原名，英文品种名待核对
+D0800602|Banana, 李林蕉 cultivar, sampled in 2012|保留品种原名，英文品种名待核对
+D1900204|Watermelon, 鳳光 cultivar|保留品种原名
+D1900501|Orange-fleshed watermelon, 嘉寶瓜|保留品种原名
+D2000301|Melon, 新世紀 cultivar|保留品种原名，不自动等同于一种 cantaloupe
+D28002|Firm-fleshed peaches, average
+D4800101|Indian gooseberry (amla)
+E1500301|Cooked bamboo shoot pieces for salad
+E1700204|Green asparagus, short type
+E1700301|Asparagus product sold as 蘆筍花|花部、嫩梢或商品名称对应关系待核对
+E2100301|Green garlic shoots
+E2800101|Wheatgrass
+E3000301|Cabbage sprouts
+E3010101|Dehydrated cabbage
+E3201001|Flowering shoots of 油菜|油菜心的具体品种和英文商品名待核对
+E3201601|Leafy vegetable sold as 廣島野菜|不能仅凭商品名推定植物种
+E3201801|Organic leafy vegetable sold as 青松菜|具体植物种及英文商品名待核对
+E3300201|Chinese cabbage sprouts
+E3600101|Ashitaba
+E3900201|Chinese kale sprouts
+E4300101|Leafy vegetable named 香樁 in source|原名可能涉及异体或笔误，未改写成其他植物名
+E4600301|Leafy vegetable sold as 昭和草|具体植物种待核对
+E4700101|Chayote shoots
+E5000201|Spinach leaves, organic
+E5100101|Leafy vegetable sold as 菾菜|可能涉及叶用甜菜品种，未确定具体对应
+E5600401|Water spinach
+E5700101|Radish leaves
+E5800601|Broccoli shoots|青花菜笋的商品形态待核对
+E6010101|Dried roselle
+E7000101|Bottle gourd, long type
+E7210101|Dried goji berries
+E74006|Small tomatoes, orange varieties, average
+E7700301|Purple cabbage sprouts
+E8900101|Edible succulent sold as 石蓮花|具体植物种待核对
+E9100101|Leafy vegetable sold as 假人蔘|具体植物种待核对，不译为真正人参
+E9200101|Tender shoots of wild bitter melon
+E9400101|Ginseng rootlets|具体人参种及加工状态待核对
+E9700101|Houttuynia (fish mint)
+E9900201|Herb sold as 香芫荽|不能仅凭名称等同于普通 coriander，具体种待核对
+E9900501|Leafy vegetable sold as 義大利茼蒿|具体植物种待核对
+E9900601|Herb named 龍延草 in source|可能涉及地方名或笔误，未推定为 tarragon
+F0110101|Dried seaweed sold as 紅毛苔|藻种待核对
+F0400101|Seaweed sold as 麒麟菜|藻种待核对
+F0410101|Dried seaweed sold as 麒麟菜|藻种待核对
+F0500101|Seaweed sold as 礁膜|藻种待核对
+F0610101|Dried seaweed core sold as 海茸芯|商品名不能唯一确定藻种
+F0700102|Kelp product sold as 海帶茸|商品形态和藻种待核对
+F0700103|Kelp stalks
+F0700104|Kelp knots
+F0700105|Kelp strips
+F0800101|Wakame
+F0810101|Dried wakame
+F0810201|Dried wakame basal portion|原文菜根为商品部位名，不表示海藻有植物根
+F0910101|Dried seaweed sold as 鳳尾藻|藻种待核对
+F9900201|Nori sheets for sushi
+G0110201|Dried wood ear mushrooms sold as 川耳|具体菌种待核对
+G0200201|Wood ear mushrooms sold as 白毛木耳|具体菌种待核对
+G0210101|Dried white jelly mushrooms
+G0500101|Matsutake mushrooms
+G1100101|Mushrooms sold as 酒杯菇|具体菌种待核对
+G1200201|Mushrooms sold as 天喜菇|具体菌种待核对
+G1200401|Mushrooms sold as 玫瑰菇|具体菌种待核对
+G1400301|Mushrooms sold as 珊瑚菇|商品名不能唯一确定菌种
+G1600201|Mushrooms sold as 華翠菇|具体菌种待核对
+G1800101|Maitake mushrooms
+G2310101|Dried lion's mane mushrooms
+G9000101|Mushrooms sold as 松茸白菇|不能按商品名认定为真正松茸
+G9000301|Mushrooms sold as 喜來菇|具体菌种待核对
+G9000401|Mushrooms sold as 富珍茸|具体菌种待核对
+H1120102|Soybean flour, organic
+H1150201|Soy milk, unsweetened
+I01001|Beef short ribs, average
+I0100103|Boneless beef short ribs, US beef
+I01101|Beef slices for hot pot, average
+I0110101|Fatty beef slices for hot pot, 牛五花 cut|分割部位不可仅按五花推定为 beef belly
+I0110102|New York strip beef slices for hot pot|采用原商品部位名，具体分割标准待核对
+I0110103|Beef slices for hot pot, 牛梅花 cut|梅花分割部位没有确认的单一英文对应
+I0110104|Beef slices for hot pot, 嫩肩里肌 cut|不直接等同于 tenderloin，具体分割部位待核对
+I01201|Beef tripe, average
+I0210301|Boneless sheep shoulder-neck meat|肩颈眼分割标准待核对，原料为绵羊，年龄未注明
+I03104|Ground pork, average
+I0320301|Pork skin
+I0321301|Pork fat cracklings
+I03214|Pork bone broth, average
+I0321501|Pork cartilage with some meat
+I0322501|Pork foot tendons
+I04021|Chicken breast inner fillet, average|依据样品描述为鸡胸，不译为猪里脊
+I04024|Skinless chicken breast meat, average
+I04041|Chicken leg, 骨腿 cut, average|来源称骨腿，但检测前去骨；具体分割范围待核对
+I04042|Chicken leg, 清腿 cut, average|具体分割范围待核对；检测前去骨
+I04043|Chicken drumsticks, average
+I04044|Chicken leg cutlets, average|依据样品描述为鸡腿；不是炸鸡排
+I0404403|Chicken leg cutlets, broiler, sampled in 2021|依据样品描述为生鸡腿；不是炸鸡排
+I0404501|Skinless boneless chicken leg meat, broiler
+I04061|Two-section chicken wings, average
+I04062|Three-section chicken wings, average
+I0420201|Chicken tail portion|检测前去骨，不把营养值按整块尾骨重量换算
+I0420901|Chicken knee cartilage, broiler
+I0421001|Chicken skin, broiler
+I0502101|Duck breast slices, 櫻桃鴨 type|品系英文名待核对，不擅自使用品牌名
+I0520301|Boneless duck feet
+I0520601|Duck wings
+I0520701|Duck head edible parts, including brain
+I0520801|Duck tongues
+I0804101|Ostrich steak sold as 沙朗|具体分割部位待核对，不等同于牛沙朗分割
+J0400603|Processed whitebait|魩仔鱼可能涉及多种幼鱼，不推定单一物种
+J0401201|Milkfish belly meat
+J0403001|Anglerfish|具体物种待核对
+J0404601|Fish sold as 白鱸|具体鱼种待核对
+J0404801|Mandarin fish|具体鱼种待核对
+J0409801|Fish named 阿部牙鯛|具体鱼种英文名待核对
+J0415701|Flatfish slices|原名鰈鱼未确定具体种
+J0416401|Fish fillets named 低眼無齒芒魚 (芒加魚邊)|具体鱼种与商品名对应待核对
+J0600101|Gill-area meat of fish sold as 圓鱈|圆鳕是商品名，未直接译成 true cod
+J0600201|Fish collar sold as 潮鯛魚下巴|鱼种及商品名待核对，不直接译为 sea bream
+J0600401|Fish product named 魚翅唇|原料物种和部位待核对
+J0600701|Fish paste made from 旗魚|旗鱼涵盖多种鱼，不擅自指定 swordfish 或 marlin
+J0800101|Dried small fish|具体鱼种待核对
+J2100201|Processed shrimp named 北方長額蝦|具体物种英文名待核对
+J2100401|Shrimp named 胭脂蝦|具体物种英文名待核对
+J2100501|Shrimp named 日本玻璃蝦|具体物种英文名待核对
+J2101201|Shrimp named 藍對蝦|具体物种英文名待核对
+J2200701|Peeled shrimp named 鬚赤蝦|具体物种英文名待核对
+J2300301|Dried shrimp sold as 金鉤蝦|商品名不唯一确定物种
+J3501001|Marine snails sold as 泥螺|具体物种英文名待核对
+J3501101|Marine snails sold as 雪螺|具体物种英文名待核对
+J4100301|Rehydrated sea cucumber sold as 南美刺參|具体物种英文名待核对
+L1000101|Cocoa drink with milk
+L1000201|Papaya milk drink
+M1400101|Flaxseed oil
+M2200101|Tea-seed oil
+M2200201|Tea-seed oil, source-labelled 熟油茶油|熟可能涉及制油工艺，未推定为熟油或烘焙籽油
+N0800101|Dark cane sugar syrup mixture|成分含甘蔗糖蜜、麦芽糖和原糖，不作为纯 molasses
+O0100101|Watermelon juice drink, not pure juice
+O0100401|Orange juice, 100%
+O0100501|Dark-plum drink (wumei)
+O0100601|Dark-jujube tea drink|黑枣原料具体对应待核对，不译为 prune tea
+O0101001|Cranberry juice drink, not pure juice
+O0101301|Apple juice, 100%
+O0200201|Grass-jelly herbal drink with honey
+O0200601|Guiling herbal drink|不据名称推定含龟甲，具体配方以来源为准
+O0200701|Barley tea drink
+O0200801|Rye malt drink
+O0600401|Sarsaparilla-flavoured soda with added salt
+O0600701|Vitamin-fortified soda
+O0700101|Americano coffee, unsweetened
+O0700201|Unsweetened coffee beverage
+O0700301|Caffe latte, unsweetened
+O0700701|Apple-flavoured black tea
+O0701001|Oolong tea, no ice, lightly sweetened
+O0701101|Oolong tea, no ice, half sweetness
+O0701201|Oolong tea, no ice, full sweetness
+O0701501|Tea with milk, unsweetened
+O0701701|Oolong milk tea, no ice, lightly sweetened
+O0701801|Oolong milk tea, no ice, half sweetness
+O0701901|Oolong milk tea, no ice, full sweetness
+O0702001|Bubble milk tea, no ice, lightly sweetened
+O0702101|Bubble milk tea, no ice, half sweetness
+O0702201|Bubble milk tea, no ice, full sweetness
+O0702701|Green tea with fermented milk drink, full sweetness
+O0702901|Lactic-acid drink|不把产品名称等同于活菌或益生菌功效
+O0900401|Instant lemon black-tea drink mix
+O0901601|Matcha powder
+O0901801|Wheatgrass powder
+P0100301|Wasabi seasoning powder|配方含淀粉和芥子，不作为纯山葵粉
+P0100401|Five-spice powder
+P0100501|Licorice powder
+P0100801|Ground Sichuan pepper
+P0101001|Onion seasoning powder|原料含盐，不作为纯洋葱粉
+P0101201|Red peppercorns|胡椒具体植物对应待核对，不推定为 pink peppercorns
+P0101401|Green peppercorns
+P0102001|Ground ginger
+P0102201|Sichuan peppercorns
+P0200201|Shacha seasoning powder
+P0200301|Seasoned soybean crumbs (dousu)
+P0200701|Preserved-plum seasoning powder
+P0200901|Crispy fried garlic
+P0201101|Coconut milk mixture
+P0201201|Astragalus root decoction
+P0201301|Dried astragalus root slices
+P0201501|Dried hawthorn
+P0400201|Umami seasoning with MSG|配方未充分说明，不当作纯谷氨酸钠
+P0400401|Bonito-flavoured seasoning powder|配方含味素、盐和糖，不作为纯鱼粉
+P0500101|Pork-rib stock cubes
+P0500201|Chicken stock cubes
+P0500301|Pork bone stock
+P0500401|Low-fat stock
+P0500501|Vegetarian stock
+P0600401|Job's tears vinegar
+P0700701|Thick soy sauce
+P0700801|Thick black-soybean sauce
+P0700901|Reduced-salt thick black-soybean sauce
+P0800201|Liquid umami seasoning
+P0800301|Oyster sauce
+P0800401|Fish sauce
+P0900101|Red chili oil
+P0900201|Fragrant seasoning oil (香油)|具体油种及是否混合油须按原配方核对
+P1000101|Scallop sauce
+P1000201|Beef sauce
+P1000301|Minced-meat sauce (rouzao)|不由菜名单独推定肉种
+P1000401|Vegetarian mince sauce
+P1000501|Italian-style cheese sauce
+P1000601|Zhajiang bean-and-meat sauce|以本条来源配方为准，不等同所有炸酱
+P1000701|Vegetarian zhajiang sauce
+P1000801|Seaweed sauce
+P1001001|Sesame sauce packet for instant dry noodles
+P1001101|White sauce
+P1001201|Green pasta sauce (pesto-style)|具体香草和坚果配方以原条目为准
+P1001301|Tomato pasta sauce
+P1001401|Five-flavour dipping sauce
+P1001601|Dipping sauce for mutton hot pot
+P1001701|Shacha sauce
+P1001801|Vegetarian shacha sauce
+P1002001|Wasabi seasoning paste|可能含其他芥末原料，不作为纯山葵
+P1002101|Kumquat sauce
+P1002201|Hoisin sauce|名称含海鲜不代表原料一定含海鲜
+P1002501|Sweet chili sauce
+P1002601|Sweet flour-based bean paste sauce (tianmianjiang)
+P1002701|Korean-style sauce named 朝鮮醬|未直接等同于某一种 gochujang 配方
+P1002801|Black pepper sauce
+P1002901|Japanese-style teriyaki sauce
+P1003301|Scallion sauce
+P1003401|Sweet-and-sour sauce
+P1003801|Rice-and-bean paste sauce
+P1003901|Garlic fermented-black-bean sauce
+P1004001|Seasoned soybean-crumb sauce
+P1004201|Chili bean paste (doubanjiang)
+P1004301|Red yeast rice sauce
+P1004401|Chive-flower sauce
+P1004501|Chinese toon sauce
+P1004601|Mapo sauce
+P1100201|Egg-free salad dressing
+P1100301|Thousand Island dressing
+P1100401|Japanese-style salad dressing
+P1100501|Caesar dressing
+P1200101|Miso
+P1300101|French-style sweet butter-and-milk spread
+P1300201|Chocolate sauce, liquid
+P1300501|Citrus jam named 柚子果醬|柚子在不同产品中可能对应不同柑橘，不擅定 pomelo 或 yuzu
+P1300601|Mulberry jam
+P1300701|White sesame bread spread
+P1300801|Black sesame bread spread
+P1301001|Onion bread spread
+P1301101|French-style garlic spread
+P1500101|Breading mix for fried cutlets
+P1500201|Coating mix for fried chicken
+P1500301|Five-spice rice powder for steamed meat
+P1500401|Batter mix for hot dogs
+Q0100101|Refrigerated Ningbo-style rice cakes
+Q0100201|Refrigerated sweet glutinous rice cakes
+Q0100501|Sweet filled mochi, red-bean filling
+Q0200101|Savoury mochi
+Q0300101|Taro cakes
+Q0300401|Sweet potato cakes
+Q0400101|Wheel cakes with red-bean filling
+Q0400201|Wheel cakes with preserved-radish filling
+Q0500201|Ox-tongue-shaped pastry (niushébing)|形状名称，不代表含牛舌
+Q0500301|Egg-yolk and taro pastries
+Q0600701|Phoenix-eye confection (fengyangao)|地方点心名称，不擅自补入原文未列的主原料
+Q0600801|Puffed-rice confection (milao)
+Q0700101|Croissant
+Q0700301|Egg tart
+Q0700401|Portuguese-style egg tart
+Q0700501|Batter cake sold as 鬆餅|原文无法区分 waffle 和 pancake
+Q0800101|Frozen ma lai steamed cake
+Q0800201|Dorayaki
+Q0800301|Frozen pastry sold as 馬蹄條|来源原料含粉类、春卷皮、花生，未见荸荠；不按字面翻译成 water chestnut sticks
+Q0900201|Sponge cake, round
+Q0900301|Tiramisu, round
+Q0900701|Black Forest cake
+Q1000201|Sandwich bread containing whole-grain flour
+Q1000301|Red-bean sandwich bread
+Q1000601|Honey-glazed doughnut, 波/摩堤 style|产品造型或系列名待核对，未添加品牌认定
+Q1000701|Sugar-coated doughnut, deep-fried
+Q1000901|Raisin bread with sweet milk crumble
+Q1001001|Hamburger bun|仅面包，不是含肉汉堡
+Q1001101|Dinner roll
+Q1001201|Twin-shaped dough bread (shuangbaotai)|地方点心名称，具体制作方式仍需核对
+Q2100101|Grass jelly
+Q2100102|Grass jelly, sampled in 2020
+Q2100201|Coffee-flavoured jelly
+Q2100601|Starch jelly (fenguǒ)
+Q2104101|Tofu pudding with peanut
+Q2104201|Traditional tofu pudding, no sugar added
+Q2106101|Yokan
+Q4100101|Square layered shortbread-style biscuits
+Q4100301|Rolled wafer biscuits
+Q4100501|Sweet crisp biscuits (jianbing)|按本条配料为饼干类，不等同早餐煎饼
+Q4100601|Ration biscuits
+Q4100701|Vegetable soda crackers
+Q4200101|Plain corn crackers
+Q4200301|Crispy fish snack
+Q4200401|Dry instant-noodle snack
+Q4300101|Sugar-coated rice crackers
+Q4900101|Sachima
+Q6200601|Walnut and jujube confection
+Q6800101|Vitamin C lozenges, lemon flavour
+Q6800201|Yeast chewable tablets
+Q6900101|Milk-based candy balls named 乳酸球|不据名称推定活菌或益生菌
+Q6900301|Red-bean candy balls
+Q6900401|Mung-bean candy balls
+Q8100101|Candied sweet potato
+Q8100201|Candied green mango
+Q8100401|Dried guava snack
+Q8100501|Dried pineapple snack
+Q8100601|Dried lemon snack
+Q9100101|Diced dried tofu snack, five-spice
+Q9100202|Sliced dried tofu snack, shacha flavour
+Q9900301|Puff pastry sheets
+R0300101|Triangular rice ball with meat floss
+R0300201|Glutinous rice roll (fantuan)
+R0300301|Sushi in fried tofu pockets (inari sushi)
+R0400101|Pork-filled glutinous rice dumpling (zongzi)
+R0400201|Alkaline glutinous rice dumpling (jianshui zongzi)
+R0500301|Frozen tube-shaped glutinous rice cake (tongzai migao)
+R0500401|Tube-shaped glutinous rice cake (tongzai migao)
+R0600101|Pork-blood rice cake
+R0600201|Duck-blood rice cake
+R0700101|Taiwanese pork-filled starch dumpling (ba-wan)
+R0700201|Steamed shrimp-and-pork starch dumpling (ba-wan)
+R0800201|Fermented purple-rice preparation (jiuniang)
+R0900101|Frozen glutinous rice balls with sesame filling
+R0900201|Frozen glutinous rice balls with peanut filling
+R0900301|Frozen glutinous rice balls with pork filling
+R1100501|Wide flat rice noodles (bantiao)
+R1300101|Rice drink, sold loose
+R1300201|Shelf-stable rice-and-peanut drink
+R1300301|Brown-rice and peanut drink
+R1300401|Brown indica-rice and peanut drink
+R1300501|Glutinous-rice and peanut drink
+R1300601|Black glutinous-rice drink
+R1500101|Oat drink
+R2001201|Kinmen yellow noodles
+R2001301|Frozen udon noodles
+R2100101|Stir-fried flat rice noodles
+R2100401|Danzai noodles|本条去汤后分析，不能直接代表连汤整碗
+R2201401|Pork potstickers
+R2201501|Cooked cabbage dumplings
+R2300101|Frozen char siu buns
+R2300201|Frozen buns with pickled mustard greens and braised pork
+R2300701|Frozen char siu steamed buns
+R2301301|Bamboo-shoot buns
+R2400101|Frozen plain steamed buns (mantou)
+R2400201|Plain steamed buns (mantou)
+R2400301|Taro steamed buns (mantou)
+R2400401|Twisted steamed rolls (huajuan)
+R2400501|Refrigerated nut steamed buns
+R2400601|Dark-sugar steamed buns
+R2400701|Frozen silver-thread rolls with custard
+R2500101|Ham-and-egg sandwich
+R2600101|Hawaiian-style pizza
+R2700101|Scallion pancake
+R2700201|Frozen scallion pancake
+R2700301|Frozen wrappers for egg pancakes
+R2700401|Baked flatbread (shaobing)
+R2800101|Chinese chive pockets
+R2800201|Crisp pastry wrapped in flatbread, red-bean flavour
+R2800301|Pan-fried buns
+R2800401|Beef-filled pastry
+R2800501|Pork-filled pastry
+R2900101|Frozen shumai
+R2900201|Frozen crystal dumplings (shuijing bao)
+R2900301|Frozen crystal dumplings (shuijing jiao)
+R3000301|Oyster omelette, without sauce
+R3000401|Filled toast box (coffin bread)
+R3000501|Fried tofu stuffed with glass noodles (a-gei)
+R3100101|Frozen cream-sauce croquettes
+R4100101|Taro balls, uncooked
+R4100201|Starch pearls (fenyuan), uncooked|未凭品名认定淀粉一定为木薯
+R4400101|Taiwanese-style pickled vegetables
+R4400201|Golden-style pickled vegetables|配方及蔬菜种类不能从商品名确定
+R4400301|Korean-style kimchi
+R4400401|Canned pickled cucumber (huagua)
+R4400601|Pickled chili peppers
+R4400701|Bamboo shoot slices, 桂竹 type|竹种英文名待核对
+R4400801|Preserved bamboo shoots, 麻竹 type|本条加工后含水状态不明确，不直接当纯干货
+R4401101|Pickled cabbage
+R4401201|Salted fermented mustard greens (meigan cai)
+R4500101|Canned white jelly mushrooms, drained
+R4500701|Canned lion's mane mushrooms, drained
+R4600301|Wide starch noodles
+R4700101|Black soybeans simmered in sweet soy sauce
+R4700301|Dark-coloured firm tofu|配料为黄豆，不译为 black-soybean tofu
+R4700701|Soybean snack named 豆棗|造型名称，不认定含枣
+R4701201|Soft tofu
+R4701401|Chili fermented tofu with sesame oil
+R4800101|Vegetarian meat substitute
+R4800201|Frozen vegetarian chicken-style nuggets
+R4900501|Sweetened beans (amanatto)
+R5100701|Sauced pork hock product|样品说明为猪肉火腿，不能当普通生猪肘
+R5400101|Frozen rice-coated pork meatballs
+R5400301|Frozen chicken meatballs
+R5500101|Frozen beef burger patties|来源配料同时含禽肉，不表示纯牛肉
+R5900101|Pork and starch pieces (rougeng)|不根据菜名自行计入汤汁
+R5900201|Frozen sweet-and-sour pork
+R5900301|Pork-trotter aspic
+R6100101|Frozen cuttlefish balls
+R6200201|Frozen cuttlefish patties|混合鱼浆加工品，不作为纯花枝肉
+R6200301|Frozen tuna patties|配料含鱼浆，不作为纯金枪鱼排
+R6300301|Frozen scallop-flavoured fritters|来源含鳕鱼、蛋白、淀粉及干贝，不作为纯干贝
+R6300401|Frozen cuttlefish-style pieces|来源含花枝、鱿鱼和鱼浆，不作为纯花枝
+R6300501|Frozen billfish-style pieces|具体旗鱼种未确定，且含淀粉
+R6400101|Frozen oyster rolls
+R6400201|Frozen fish rolls
+R6400301|Frozen shrimp rolls
+R6600101|Frozen cuttlefish dumplings
+R6600201|Frozen shiitake dumplings|来源含猪肉和鱼肉，不表示素食
+R6600301|Frozen egg-wrapper dumplings
+R6600401|Frozen dumplings with 雪螺|螺种待核对；同时含鱼浆和淀粉
+R6600501|Frozen fish dumplings
+R6600601|Frozen shrimp dumplings
+R6600701|Frozen pork dumplings (yanjiao)|燕为产品名称，不表示燕肉
+R6700101|Frozen imitation crab sticks
+R6700301|Fish cake slices
+R6700501|Frozen cuttlefish paste mixture
+R6900101|Canned tuna with bamboo shoots
+R6900201|Canned mackerel in tomato sauce
+R7300401|Tea-smoked goose
+R7500101|Smoked shark
+R7500501|Capelin, coated but not fried
+R7500901|Marinated salmon roe
+R8100101|Instant seafood soup mix
+R8100201|Corn soup mix
+R8100301|Three-in-one instant cereal mix
+R8100401|Three-in-one cereal mix, vegetable and mushroom flavour
+R8100501|Instant brown-rice powder drink mix|原配料含糙米与白糖，不按字面直接译为纯 rice bran
+R8100701|Fortified oat-based plant drink powder
+R8100801|Instant 杏仁 tea mix|杏仁可能指杏核仁或扁桃仁，未确定前保留中文
+R8101001|Instant mixed-nut and cereal drink mix
+R8200101|Agar-based crunchy seaweed-style food|配料为寒天、水、昆布萃取物，不作为完整藻体
+R9901101|Chicken essence

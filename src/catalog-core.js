@@ -17,7 +17,7 @@ export function expandFood(row,raw,manifest,translation){
 const hints={鸡:'chicken',鸡肉:'chicken',鸡蛋:'egg',鸭:'duck',猪:'pork',牛肉:'beef',羊:'lamb',鱼:'fish',虾:'shrimp',米饭:'rice',大米:'rice',燕麦:'oats',面条:'noodles',面包:'bread',豆腐:'tofu',豆奶:'soymilk',牛奶:'milk',酸奶:'yogurt',苹果:'apple',香蕉:'banana',橙:'orange',番茄:'tomato',西红柿:'tomato',土豆:'potato',红薯:'sweet potato',菠菜:'spinach',西兰花:'broccoli',蘑菇:'mushroom',花生:'peanut',核桃:'walnut',杏仁:'almond',芝麻:'sesame',酱油:'soy sauce',生:'raw',熟:'cooked'};
 export function searchCatalog(entries,query,category='全部',energy='all'){
  const q=query.trim().toLowerCase(),translated=hints[q];
- return entries.filter(f=>(category==='全部'||f.category===category)&&(energy==='all'||Number.isFinite(f.kcal)&&(energy==='0-100'?f.kcal>=0&&f.kcal<=100:energy==='100-300'?f.kcal>100&&f.kcal<=300:energy==='300+'?f.kcal>300:false))&&(!q||`${f.name} ${f.originalName} ${f.fdcId} ${(f.aliases||[]).join(' ')}`.toLowerCase().includes(q)||translated&&f.originalName.toLowerCase().includes(translated)));
+ return entries.filter(f=>(category==='全部'||f.category===category)&&(energy==='all'||Number.isFinite(f.kcal)&&(energy==='0-100'?f.kcal>=0&&f.kcal<=100:energy==='100-300'?f.kcal>100&&f.kcal<=300:energy==='300+'?f.kcal>300:false))&&(!q||`${f.name} ${f.originalName} ${f.fdcId||f.sourceCode||''} ${(f.aliases||[]).join(' ')}`.toLowerCase().includes(q)||translated&&f.originalName.toLowerCase().includes(translated)));
 }
 
 // This is literal catalog lookup, not semantic matching or a nutrition recommendation.

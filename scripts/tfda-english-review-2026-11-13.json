@@ -1,0 +1,1884 @@
+{
+  "version": "2026-11-13",
+  "baselineVersion": "tfda-en-2026-11-12-v1",
+  "sourceIndexSha256": "ce5c98835d8f1a213b1f50d498adf7ed4b24d2aa9448056f9c11195107da888e",
+  "scope": "逐条核对上一版93条未解析限定词；mapped仅指限定词有对应依据，不代表整条名称通过专业审校。",
+  "entries": {
+    "A0500101": {
+      "originalName": "秈米(台中在來2號)",
+      "originalEnglishName": "Long grain rice",
+      "originalDescription": "樣品狀態:生,白秈米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台中在來2號"
+      ],
+      "mappings": [],
+      "retained": [
+        "台中在來2號"
+      ],
+      "notes": [
+        "检索到台中秈2号及旧品系台中在来育2号，尚不足以证明与本条台中在来2号等同。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "A0500102": {
+      "originalName": "秈米(台中秈10號)",
+      "originalEnglishName": "Long grain rice,Taichung Sen No. 10",
+      "originalDescription": "樣品狀態:生,白秈米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台中秈10號"
+      ],
+      "mappings": [
+        {
+          "zh": "台中秈10號",
+          "en": "Taichung Sen No. 10",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500103": {
+      "originalName": "秈米(台中秈10號)(2024年取樣)",
+      "originalEnglishName": "Long grain rice,Taichung Sen No. 10",
+      "originalDescription": "樣品狀態:生,白秈米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台中秈10號"
+      ],
+      "mappings": [
+        {
+          "zh": "台中秈10號",
+          "en": "Taichung Sen No. 10",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500201": {
+      "originalName": "稉米(台中189號)",
+      "originalEnglishName": "Short grain rice",
+      "originalDescription": "樣品狀態:生,白稉米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台中189號"
+      ],
+      "mappings": [
+        {
+          "zh": "台中189號",
+          "en": "Taichung 189",
+          "basis": "primary-reference",
+          "reference": "https://www.tcdares.gov.tw/upload/tdais/files/web_structure/1157/TC022400.pdf"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://www.tcdares.gov.tw/upload/tdais/files/web_structure/1157/TC022400.pdf"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500202": {
+      "originalName": "稉米(台南11號)",
+      "originalEnglishName": "Short grain rice",
+      "originalDescription": "樣品狀態:生,白稉米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台南11號"
+      ],
+      "mappings": [
+        {
+          "zh": "台南11號",
+          "en": "Tainan 11",
+          "basis": "primary-reference",
+          "reference": "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500203": {
+      "originalName": "稉米(台稉2號)",
+      "originalEnglishName": "Short grain rice",
+      "originalDescription": "樣品狀態:生,白稉米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台稉2號"
+      ],
+      "mappings": [
+        {
+          "zh": "台稉2號",
+          "en": "Taikeng 2",
+          "basis": "primary-reference",
+          "reference": "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500204": {
+      "originalName": "稉米(台稉8號)",
+      "originalEnglishName": "Short grain rice",
+      "originalDescription": "樣品狀態:生,白稉米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台稉8號"
+      ],
+      "mappings": [
+        {
+          "zh": "台稉8號",
+          "en": "Taikeng 8",
+          "basis": "primary-reference",
+          "reference": "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500205": {
+      "originalName": "稉米(台稉9號)",
+      "originalEnglishName": "Short grain rice",
+      "originalDescription": "樣品狀態:生,白稉米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台稉9號"
+      ],
+      "mappings": [
+        {
+          "zh": "台稉9號",
+          "en": "Taikeng 9",
+          "basis": "primary-reference",
+          "reference": "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500206": {
+      "originalName": "稉米(台農71號)",
+      "originalEnglishName": "Short grain rice: Yih-Chuan aromatic rice",
+      "originalDescription": "樣品狀態:生,白稉米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台農71號"
+      ],
+      "mappings": [
+        {
+          "zh": "台農71號",
+          "en": "Tainung 71",
+          "basis": "primary-reference",
+          "reference": "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500207": {
+      "originalName": "稉米(高雄139號)",
+      "originalEnglishName": "Short grain rice",
+      "originalDescription": "樣品狀態:生,白稉米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "高雄139號"
+      ],
+      "mappings": [
+        {
+          "zh": "高雄139號",
+          "en": "Kaohsiung 139",
+          "basis": "primary-reference",
+          "reference": "https://www.tcdares.gov.tw/upload/tdais/files/web_structure/1157/TC022400.pdf"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://www.tcdares.gov.tw/upload/tdais/files/web_structure/1157/TC022400.pdf"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500208": {
+      "originalName": "稉米(高雄142號)",
+      "originalEnglishName": "Short grain rice",
+      "originalDescription": "樣品狀態:生,白稉米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "高雄142號"
+      ],
+      "mappings": [
+        {
+          "zh": "高雄142號",
+          "en": "Kaohsiung 142",
+          "basis": "primary-reference",
+          "reference": "https://www.tcdares.gov.tw/upload/tdais/files/web_structure/1157/TC022400.pdf"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://www.tcdares.gov.tw/upload/tdais/files/web_structure/1157/TC022400.pdf"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500209": {
+      "originalName": "稉米(高雄145號)",
+      "originalEnglishName": "Short grain rice",
+      "originalDescription": "樣品狀態:生,白稉米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "高雄145號"
+      ],
+      "mappings": [
+        {
+          "zh": "高雄145號",
+          "en": "Kaohsiung 145",
+          "basis": "primary-reference",
+          "reference": "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500210": {
+      "originalName": "稉米(高雄139號)(2021年取樣)",
+      "originalEnglishName": "Rice (Kaohsiung 139)",
+      "originalDescription": "樣品狀態:生,白稉米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "高雄139號"
+      ],
+      "mappings": [
+        {
+          "zh": "高雄139號",
+          "en": "Kaohsiung 139",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500211": {
+      "originalName": "稉米(高雄147)",
+      "originalEnglishName": "Rice; Kaohsiung 147",
+      "originalDescription": "樣品狀態:生,袋裝; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "高雄147"
+      ],
+      "mappings": [
+        {
+          "zh": "高雄147",
+          "en": "Kaohsiung 147",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500302": {
+      "originalName": "越光米(台南16號)(2024年取樣)",
+      "originalEnglishName": "Rice Tainan 16",
+      "originalDescription": "樣品狀態:生,白稉米; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台南16號"
+      ],
+      "mappings": [
+        {
+          "zh": "台南16號",
+          "en": "Tainan 16",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500401": {
+      "originalName": "秈型糯米(台中糯70號)",
+      "originalEnglishName": "White glutinous rice: long-grain",
+      "originalDescription": "樣品狀態:生; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台中糯70號"
+      ],
+      "mappings": [],
+      "retained": [
+        "台中糯70號"
+      ],
+      "notes": [
+        "农业资料将台中糯70号列为稉型圆糯，但本条来源称秈型长糯；品种与分类冲突，不能直接确认对应。"
+      ],
+      "references": [
+        "https://kmweb.moa.gov.tw/redirect_files.php?id=227818&theme=knowledgebase"
+      ],
+      "decision": "retained",
+      "identityWarning": "品种与分类存在疑点，请核对原始资料。"
+    },
+    "A0500502": {
+      "originalName": "稉型糯米(台稉糯1號)",
+      "originalEnglishName": "White glutinous rice, short-grain",
+      "originalDescription": "樣品狀態:生; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台稉糯1號"
+      ],
+      "mappings": [
+        {
+          "zh": "台稉糯1號",
+          "en": "Taikeng Glutinous No. 1",
+          "basis": "primary-reference",
+          "reference": "https://book.tndais.gov.tw/RBulletin/26-1.pdf"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://book.tndais.gov.tw/RBulletin/26-1.pdf"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0500901": {
+      "originalName": "胚芽秈米(台中秈10號)",
+      "originalEnglishName": "Germ rice; Rice with germ; Milled rice with embryo",
+      "originalDescription": "樣品狀態:生; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台中秈10號"
+      ],
+      "mappings": [
+        {
+          "zh": "台中秈10號",
+          "en": "Taichung Sen No. 10",
+          "basis": "source-row-A0500102",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0501001": {
+      "originalName": "胚芽稉米(台稉10號）",
+      "originalEnglishName": "Germ rice; Rice with germ; Milled rice with embryo",
+      "originalDescription": "樣品狀態:生; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台稉10號"
+      ],
+      "mappings": [
+        {
+          "zh": "台稉10號",
+          "en": "Taikeng 10",
+          "basis": "primary-reference",
+          "reference": "https://www.tari.gov.tw/scholars/100down/%E5%8F%B0%E8%BE%B2%E7%A0%94%E7%A9%B6/53-4/53-4-6.pdf"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://www.tari.gov.tw/scholars/100down/%E5%8F%B0%E8%BE%B2%E7%A0%94%E7%A9%B6/53-4/53-4-6.pdf"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0501002": {
+      "originalName": "胚芽稉米(台稉9號)",
+      "originalEnglishName": "Germ rice; Rice with germ; Milled rice with embryo",
+      "originalDescription": "樣品狀態:生; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台稉9號"
+      ],
+      "mappings": [
+        {
+          "zh": "台稉9號",
+          "en": "Taikeng 9",
+          "basis": "primary-reference",
+          "reference": "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0501103": {
+      "originalName": "發芽稉米(台稉71號)",
+      "originalEnglishName": "Sprout rice",
+      "originalDescription": "樣品狀態:生; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台稉71號"
+      ],
+      "mappings": [],
+      "retained": [
+        "台稉71號"
+      ],
+      "notes": [
+        "原文是台稉71号，不是台农71号；未找到足以确认前者的品种资料，不纠正为相近名称。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "A0501104": {
+      "originalName": "發芽稉米(台稉9號）",
+      "originalEnglishName": "Sprout rice",
+      "originalDescription": "樣品狀態:生; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台稉9號"
+      ],
+      "mappings": [
+        {
+          "zh": "台稉9號",
+          "en": "Taikeng 9",
+          "basis": "primary-reference",
+          "reference": "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0501301": {
+      "originalName": "糙稉米(台稉71號)",
+      "originalEnglishName": "Brown rice",
+      "originalDescription": "樣品狀態:生; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台稉71號"
+      ],
+      "mappings": [],
+      "retained": [
+        "台稉71號"
+      ],
+      "notes": [
+        "原文是台稉71号，不是台农71号；未找到足以确认前者的品种资料，不纠正为相近名称。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "A0501302": {
+      "originalName": "糙稉米(台稉9號)",
+      "originalEnglishName": "Brown rice",
+      "originalDescription": "樣品狀態:生; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台稉9號"
+      ],
+      "mappings": [
+        {
+          "zh": "台稉9號",
+          "en": "Taikeng 9",
+          "basis": "primary-reference",
+          "reference": "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://kmweb.moa.gov.tw/redirect_files.php?id=426307&theme=knowledgebase"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "A0501303": {
+      "originalName": "糙稉米(台中194)",
+      "originalEnglishName": "Brown Rice,Taichung 194,TC194",
+      "originalDescription": "樣品狀態:生,袋裝; 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "台中194"
+      ],
+      "mappings": [
+        {
+          "zh": "台中194",
+          "en": "Taichung 194",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "B0100201": {
+      "originalName": "山藥(二刺)",
+      "originalEnglishName": "Chinese yam: Ell-Tsyh",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "二刺"
+      ],
+      "mappings": [
+        {
+          "zh": "二刺",
+          "en": "Ell-Tsyh",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "B0100202": {
+      "originalName": "山藥(大汕1號)",
+      "originalEnglishName": "Chinese yam: Da-Shan 1",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "大汕1號"
+      ],
+      "mappings": [
+        {
+          "zh": "大汕1號",
+          "en": "Da-Shan 1",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "B0100203": {
+      "originalName": "山藥(大汕3號)",
+      "originalEnglishName": "Chinese yam: Da-Shen 3",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "大汕3號"
+      ],
+      "mappings": [
+        {
+          "zh": "大汕3號",
+          "en": "Da-Shen 3",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "B0100204": {
+      "originalName": "山藥(大刺)",
+      "originalEnglishName": "Chinese yam: Da-Tsyh",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "大刺"
+      ],
+      "mappings": [
+        {
+          "zh": "大刺",
+          "en": "Da-Tsyh",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "B0100205": {
+      "originalName": "山藥(中國長品)",
+      "originalEnglishName": "Chinese yam: Tong-Gwo-Taang-Piin",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "中國長品"
+      ],
+      "mappings": [],
+      "retained": [
+        "中國長品"
+      ],
+      "notes": [
+        "来源英文 Tong-Gwo-Taang-Piin 与中文的转写对应仍有疑点，保留原始拼写。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "B0100206": {
+      "originalName": "山藥(台農1號)",
+      "originalEnglishName": "Chinese yam: TNu 1",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "台農1號"
+      ],
+      "mappings": [
+        {
+          "zh": "台農1號",
+          "en": "TNu 1",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "B0100207": {
+      "originalName": "山藥(台農2號)",
+      "originalEnglishName": "Chinese yam: TNu 2",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "台農2號"
+      ],
+      "mappings": [
+        {
+          "zh": "台農2號",
+          "en": "TNu 2",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "B0100208": {
+      "originalName": "山藥(白皮削)",
+      "originalEnglishName": "Chinese yam: Bair-Pyi-Shiau",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "白皮削"
+      ],
+      "mappings": [
+        {
+          "zh": "白皮削",
+          "en": "Bair-Pyi-Shiau",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "B0100209": {
+      "originalName": "山藥(尖石原生種)",
+      "originalEnglishName": "Chinese yam: Jian-Shyr",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "尖石原生種"
+      ],
+      "mappings": [
+        {
+          "zh": "尖石原生種",
+          "en": "Jian-Shyr",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "B0100210": {
+      "originalName": "山藥(宜蘭原生種)",
+      "originalEnglishName": "Chinese yam: Yi-Lan",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "宜蘭原生種"
+      ],
+      "mappings": [
+        {
+          "zh": "宜蘭原生種",
+          "en": "Yi-Lan",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "B0100211": {
+      "originalName": "山藥(花蓮3號)",
+      "originalEnglishName": "Chinese yam: Hua-Lian 3",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "花蓮3號"
+      ],
+      "mappings": [
+        {
+          "zh": "花蓮3號",
+          "en": "Hua-Lian 3",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "B0100212": {
+      "originalName": "山藥(青森)",
+      "originalEnglishName": "Chinese yam: Ching-Sen",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "青森"
+      ],
+      "mappings": [
+        {
+          "zh": "青森",
+          "en": "Ching-Sen",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "B0100213": {
+      "originalName": "山藥(高田)",
+      "originalEnglishName": "Chinese yam: Gau-Tyan",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "高田"
+      ],
+      "mappings": [
+        {
+          "zh": "高田",
+          "en": "Gau-Tyan",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "B0500201": {
+      "originalName": "小芋頭(山芋)",
+      "originalEnglishName": "Taro; Dasheen; Cocoyam; Eddoe",
+      "originalDescription": "樣品狀態:生; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "山芋"
+      ],
+      "mappings": [],
+      "retained": [
+        "山芋"
+      ],
+      "notes": [
+        "本条主名为小芋头；山芋在不同地区可指不同植物，不以别名推定新物种。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "B0700101": {
+      "originalName": "紅馬鈴薯(粉紅珍珠馬鈴薯)",
+      "originalEnglishName": "Potato; White potato; Irish potato",
+      "originalDescription": "樣品狀態:生,紅皮種; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "粉紅珍珠馬鈴薯"
+      ],
+      "mappings": [],
+      "retained": [
+        "粉紅珍珠馬鈴薯"
+      ],
+      "notes": [
+        "未确认当地品种或商品名的正式英文，不直译后当作已核准品种。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "B0700301": {
+      "originalName": "小馬鈴薯(珍珠馬鈴薯)",
+      "originalEnglishName": "Potato; White potato; Irish potato",
+      "originalDescription": "樣品狀態:生,黃皮種; 前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "珍珠馬鈴薯"
+      ],
+      "mappings": [],
+      "retained": [
+        "珍珠馬鈴薯"
+      ],
+      "notes": [
+        "未确认珍珠是品种名还是规格/商品名，保留原文。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "C1410101": {
+      "originalName": "咖啡豆(曼特寧)",
+      "originalEnglishName": "Coffee bean: Mandeling",
+      "originalDescription": "樣品狀態:熟(純曼特寧咖啡豆烘焙而成); 前處理描述:混合均勻打碎",
+      "previousUnresolved": [
+        "曼特寧"
+      ],
+      "mappings": [
+        {
+          "zh": "曼特寧",
+          "en": "Mandeling",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "D0400101": {
+      "originalName": "百香果(台農一號)",
+      "originalEnglishName": "Passion fruit",
+      "originalDescription": "前處理描述:去皮,混合均勻打碎",
+      "previousUnresolved": [
+        "台農一號"
+      ],
+      "mappings": [
+        {
+          "zh": "台農一號",
+          "en": "Tainung No. 1",
+          "basis": "primary-reference",
+          "reference": "https://www.tcdares.gov.tw/upload/tdais/files/web_structure/11627/151-6-%E9%90%B5%E6%BF%83%E5%BA%A6%E5%B0%8D%E2%80%98%E5%8F%B0%E8%BE%B21%E8%99%9F%E2%80%99%E7%99%BE%E9%A6%99%E6%9E%9C%E7%94%9F%E8%82%B2%E4%B9%8B%E5%BD%B1%E9%9F%BF.pdf"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://www.tcdares.gov.tw/upload/tdais/files/web_structure/11627/151-6-%E9%90%B5%E6%BF%83%E5%BA%A6%E5%B0%8D%E2%80%98%E5%8F%B0%E8%BE%B21%E8%99%9F%E2%80%99%E7%99%BE%E9%A6%99%E6%9E%9C%E7%94%9F%E8%82%B2%E4%B9%8B%E5%BD%B1%E9%9F%BF.pdf"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "D1500201": {
+      "originalName": "番石榴(珍珠拔)(有機)",
+      "originalEnglishName": "Guavas",
+      "originalDescription": "前處理描述:去蒂及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "珍珠拔"
+      ],
+      "mappings": [],
+      "retained": [
+        "珍珠拔"
+      ],
+      "notes": [
+        "来源写珍珠拔，未据此擅自改为珍珠芭乐或指定英文品种。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "D18001": {
+      "originalName": "蓮霧平均值(粉紅色種)",
+      "originalEnglishName": "Wax(Java) apple; Wax gambuor; Wax jumbo;Bell fruit",
+      "originalDescription": "樣品狀態:粉紅色種; 前處理描述:去蒂及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "粉紅色種"
+      ],
+      "mappings": [
+        {
+          "zh": "粉紅色種",
+          "en": "pink varieties",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "D1800101": {
+      "originalName": "蓮霧(紅寶石)",
+      "originalEnglishName": "Wax(Java) apple; Wax gambuor; Wax jumbo;Bell fruit",
+      "originalDescription": "樣品狀態:粉紅色種; 前處理描述:去蒂及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "紅寶石"
+      ],
+      "mappings": [],
+      "retained": [
+        "紅寶石"
+      ],
+      "notes": [
+        "莲雾地方品种名未确认正式英文，不直接认定 Ruby 品种。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "D1800102": {
+      "originalName": "蓮霧(黑金剛)",
+      "originalEnglishName": "Wax(Java) apple; Wax gambuor; Wax jumbo;Bell fruit",
+      "originalDescription": "樣品狀態:粉紅色種; 前處理描述:去蒂及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "黑金剛"
+      ],
+      "mappings": [],
+      "retained": [
+        "黑金剛"
+      ],
+      "notes": [
+        "莲雾地方品种名未确认正式英文，保留原名。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "D1800103": {
+      "originalName": "蓮霧(黑珍珠)",
+      "originalEnglishName": "Wax(Java) apple; Wax gambuor; Wax jumbo;Bell fruit",
+      "originalDescription": "樣品狀態:粉紅色種; 前處理描述:去蒂及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "黑珍珠"
+      ],
+      "mappings": [],
+      "retained": [
+        "黑珍珠"
+      ],
+      "notes": [
+        "莲雾地方品种名未确认正式英文，不与其他作物同名品种合并。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "D1900101": {
+      "originalName": "華寶大西瓜(花蓮)",
+      "originalEnglishName": "Watermelon",
+      "originalDescription": "樣品狀態:紅肉大瓜,長球型,淡綠色皮; 前處理描述:去皮及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "花蓮"
+      ],
+      "mappings": [],
+      "retained": [
+        "花蓮"
+      ],
+      "notes": [
+        "此处可能标示产地或品系来源，原记录未明确，保留原词。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "D19002": {
+      "originalName": "西瓜平均值(紅肉小瓜)",
+      "originalEnglishName": "Watermelon",
+      "originalDescription": "樣品狀態:紅肉小瓜; 前處理描述:去皮及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "紅肉小瓜"
+      ],
+      "mappings": [
+        {
+          "zh": "紅肉小瓜",
+          "en": "small red-fleshed watermelon",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "D19004": {
+      "originalName": "西瓜平均值(黃肉小瓜)",
+      "originalEnglishName": "Watermelon",
+      "originalDescription": "樣品狀態:黃肉小瓜種; 前處理描述:去皮及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "黃肉小瓜"
+      ],
+      "mappings": [
+        {
+          "zh": "黃肉小瓜",
+          "en": "small yellow-fleshed watermelon",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "D20001": {
+      "originalName": "甜瓜平均值(光皮洋香瓜)",
+      "originalEnglishName": "Melon; Cantaloupe; Honeydew melon; Maskmelon",
+      "originalDescription": "樣品狀態:光皮洋香瓜種; 前處理描述:去皮及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "光皮洋香瓜"
+      ],
+      "mappings": [
+        {
+          "zh": "光皮洋香瓜",
+          "en": "smooth-skinned melon",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "D20002": {
+      "originalName": "甜瓜平均值(東洋系脆瓜)",
+      "originalEnglishName": "Melon; Cantaloupe; Honeydew melon; Maskmelon",
+      "originalDescription": "樣品狀態:東洋系脆瓜種; 前處理描述:去皮及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "東洋系脆瓜"
+      ],
+      "mappings": [],
+      "retained": [
+        "東洋系脆瓜"
+      ],
+      "notes": [
+        "区域分类词不能直接等同于单一英文甜瓜类型，保留原分类。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "D2000301": {
+      "originalName": "洋香瓜(新世紀)",
+      "originalEnglishName": null,
+      "originalDescription": "樣品狀態:哈蜜瓜種,橢圓形,綠皮橙肉系; 前處理描述:去皮及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "新世紀"
+      ],
+      "mappings": [],
+      "retained": [
+        "新世紀"
+      ],
+      "notes": [
+        "未确认本条甜瓜品种的正式英文，保留原名。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "D2000303": {
+      "originalName": "洋香瓜(卡蜜拉)",
+      "originalEnglishName": "Aurora melon;Muskmelon;Cantaloupe",
+      "originalDescription": "前處理描述:去皮及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "卡蜜拉"
+      ],
+      "mappings": [],
+      "retained": [
+        "卡蜜拉"
+      ],
+      "notes": [
+        "来源英文含 Aurora melon，但尚无证据确认与卡蜜拉品种等同；两者均保留。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "D20004": {
+      "originalName": "甜瓜平均值(網紋洋香瓜)",
+      "originalEnglishName": "Melon; Cantaloupe; Honeydew melon; Maskmelon",
+      "originalDescription": "樣品狀態:網紋洋香瓜種; 前處理描述:去皮及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "網紋洋香瓜"
+      ],
+      "mappings": [
+        {
+          "zh": "網紋洋香瓜",
+          "en": "netted melon",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "D21002": {
+      "originalName": "芒果平均值(西洋種)",
+      "originalEnglishName": "Mango",
+      "originalDescription": "樣品狀態:西洋種; 前處理描述:去皮及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "西洋種"
+      ],
+      "mappings": [],
+      "retained": [
+        "西洋種"
+      ],
+      "notes": [
+        "原库的芒果分类范围未定义，不推定为某个英文品种组。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "D21004": {
+      "originalName": "芒果平均值(新興種)",
+      "originalEnglishName": "Mango",
+      "originalDescription": "樣品狀態:新興種; 前處理描述:去皮及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "新興種"
+      ],
+      "mappings": [],
+      "retained": [
+        "新興種"
+      ],
+      "notes": [
+        "原库的芒果分类范围未定义，不推定为单一品种或新品种。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "D2700201": {
+      "originalName": "富有甜柿(大雪山)",
+      "originalEnglishName": "Persimmon",
+      "originalDescription": "前處理描述:去皮及蒂,混合均勻打碎",
+      "previousUnresolved": [
+        "大雪山"
+      ],
+      "mappings": [],
+      "retained": [
+        "大雪山"
+      ],
+      "notes": [
+        "可能为产地或商品限定，缺少字段说明，不认定品种。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "D2900101": {
+      "originalName": "青梅(胭脂梅)",
+      "originalEnglishName": "Yentsu Mei; Japanese Apricot",
+      "originalDescription": "前處理描述:去蒂及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "胭脂梅"
+      ],
+      "mappings": [
+        {
+          "zh": "胭脂梅",
+          "en": "Yentsu Mei",
+          "basis": "same-source-row",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "D36001": {
+      "originalName": "甜橙平均值(普遍系)",
+      "originalEnglishName": "Mandarin orange; Sweet orange; Lin-cheng (orange);",
+      "originalDescription": "樣品狀態:普遍系; 前處理描述:去皮及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "普遍系"
+      ],
+      "mappings": [],
+      "retained": [
+        "普遍系"
+      ],
+      "notes": [
+        "原库甜橙分类词未定义，不推断为 common orange 品种组。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "D3700201": {
+      "originalName": "紅寶石葡萄柚(古坑)",
+      "originalEnglishName": "Ruby Grapefruit; Pomelo; Ruby Red; ",
+      "originalDescription": "樣品狀態:紅皮粉紅肉; 前處理描述:取果肉,混合均勻打碎",
+      "previousUnresolved": [
+        "古坑"
+      ],
+      "mappings": [],
+      "retained": [
+        "古坑"
+      ],
+      "notes": [
+        "地名可译 Gukeng，但本条未说明是产地或其他限定，暂保留原词。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "D4130101": {
+      "originalName": "可可椰子汁(屏東)",
+      "originalEnglishName": "Coconut juice; Coco palm juice; Coconut terr juice",
+      "originalDescription": "樣品狀態:綠皮種; 前處理描述:倒出內部汁液混合均勻分裝",
+      "previousUnresolved": [
+        "屏東"
+      ],
+      "mappings": [],
+      "retained": [
+        "屏東"
+      ],
+      "notes": [
+        "地名可译 Pingtung，但本条未说明是产地或其他限定，暂保留原词。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "E7500202": {
+      "originalName": "甜椒(紅皮)(20205年取樣)",
+      "originalEnglishName": "Sweet pepper,Bell pepper",
+      "originalDescription": "樣品狀態:生,彩椒; 前處理描述:去蒂及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "20205年取樣"
+      ],
+      "mappings": [],
+      "retained": [
+        "20205年取樣"
+      ],
+      "notes": [
+        "取样年份有五位数字，来源疑似笔误，不猜成2025年。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "E7500401": {
+      "originalName": "甜椒(橙皮)",
+      "originalEnglishName": "Sweet pepper; Bell pepper",
+      "originalDescription": "樣品狀態:生,彩椒; 前處理描述:去蒂及籽,混合均勻打碎",
+      "previousUnresolved": [
+        "橙皮"
+      ],
+      "mappings": [
+        {
+          "zh": "橙皮",
+          "en": "orange skin",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "G0110101": {
+      "originalName": "乾木耳(紅耳仔)",
+      "originalEnglishName": "Jew's ear: dry; Juda's ear: dry; Agaric: dry",
+      "originalDescription": "樣品狀態:乾貨; 前處理描述:混合均勻打碎",
+      "previousUnresolved": [
+        "紅耳仔"
+      ],
+      "mappings": [],
+      "retained": [
+        "紅耳仔"
+      ],
+      "notes": [
+        "木耳地方类型名未确认分类对应，不从颜色推定菌种。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "G0110102": {
+      "originalName": "乾木耳(黑耳仔)",
+      "originalEnglishName": "Jew's ear: dry; Juda's ear: dry; Agaric: dry",
+      "originalDescription": "前處理描述:以新鮮木耳熱風乾燥,混合均勻打碎",
+      "previousUnresolved": [
+        "黑耳仔"
+      ],
+      "mappings": [],
+      "retained": [
+        "黑耳仔"
+      ],
+      "notes": [
+        "木耳地方类型名未确认分类对应，不从颜色推定菌种。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "H0505101": {
+      "originalName": "紅雲豆(大紅豆)",
+      "originalEnglishName": "Red kidney bean",
+      "originalDescription": "樣品狀態:乾貨(Red kidney bean); 前處理描述:混合均勻磨碎",
+      "previousUnresolved": [
+        "大紅豆"
+      ],
+      "mappings": [],
+      "retained": [
+        "大紅豆"
+      ],
+      "notes": [
+        "本条主名红芸豆且英文 red kidney bean；别名不能推广为红小豆等同物，暂保留。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "H1100201": {
+      "originalName": "毛豆莢(高雄13號)",
+      "originalEnglishName": "Vegetable soy bean",
+      "originalDescription": "樣品狀態:生; 前處理描述:去外莢,混合均勻打碎",
+      "previousUnresolved": [
+        "高雄13號"
+      ],
+      "mappings": [],
+      "retained": [
+        "高雄13號"
+      ],
+      "notes": [
+        "未取得与本条毛豆精确对应的英文品种证据，保留编号原文。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "J0400902": {
+      "originalName": "日本銀帶鯡魚干(丁香魚脯)",
+      "originalEnglishName": "Silver stripe round herring",
+      "originalDescription": "樣品狀態:乾貨; 前處理描述:混合均勻打碎",
+      "previousUnresolved": [
+        "丁香魚脯"
+      ],
+      "mappings": [],
+      "retained": [
+        "丁香魚脯"
+      ],
+      "notes": [
+        "地方加工品别名，不直接译成 anchovy，也不外推至同名鱼干。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "J0401201": {
+      "originalName": "虱目魚腹肉(虱目魚肚)",
+      "originalEnglishName": null,
+      "originalDescription": "樣品狀態:生,冷凍包裝; 前處理描述:去皮及骨刺,混合均勻打碎",
+      "previousUnresolved": [
+        "虱目魚肚"
+      ],
+      "mappings": [
+        {
+          "zh": "虱目魚肚",
+          "en": "milkfish belly",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "J0402901": {
+      "originalName": "狗母魚(蛇鯔)",
+      "originalEnglishName": "Lizardfish; Dog-head fish",
+      "originalDescription": "樣品狀態:生; 前處理描述:去鱗,含皮,去頭尾,去內臟及骨刺,混合均勻打碎",
+      "previousUnresolved": [
+        "蛇鯔"
+      ],
+      "mappings": [],
+      "retained": [
+        "蛇鯔"
+      ],
+      "notes": [
+        "来源通用英文 lizardfish 未确定到该别名的具体分类，不补物种名。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "J0411601": {
+      "originalName": "花尾唇指翁(翁加魚邊) ",
+      "originalEnglishName": "White-spot-tail morwong; Spottedtail morwong; Flagfish; Flag fish; Morwong ",
+      "originalDescription": "樣品狀態:生; 前處理描述:去鱗,含皮,去頭尾,去內臟及骨刺,混合均勻打碎",
+      "previousUnresolved": [
+        "翁加魚邊"
+      ],
+      "mappings": [],
+      "retained": [
+        "翁加魚邊"
+      ],
+      "notes": [
+        "疑似合字拆写或地方别名，无可靠对应，保留原文。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "J0413802": {
+      "originalName": "白帶魚(油帶)(2025年取樣)",
+      "originalEnglishName": "Hairtail,cutlassfish,silverfish",
+      "originalDescription": "樣品狀態:生; 前處理描述:去鱗,含皮,去頭尾,去內臟及骨刺,混合均勻打碎",
+      "previousUnresolved": [
+        "油帶"
+      ],
+      "mappings": [],
+      "retained": [
+        "油帶"
+      ],
+      "notes": [
+        "市场或地方鱼名对应未确认，不从白带鱼推定具体种。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "J0416401": {
+      "originalName": "低眼無齒芒魚片(芒加魚邊)",
+      "originalEnglishName": null,
+      "originalDescription": "樣品狀態:生,冷凍產品; 前處理描述:混合均勻打碎",
+      "previousUnresolved": [
+        "芒加魚邊"
+      ],
+      "mappings": [],
+      "retained": [
+        "芒加魚邊"
+      ],
+      "notes": [
+        "疑似合字拆写，具体物种及商品名仍待确认。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "J0600701": {
+      "originalName": "魚漿(旗魚)",
+      "originalEnglishName": null,
+      "originalDescription": "樣品狀態:生; 前處理描述:混合均質",
+      "previousUnresolved": [
+        "旗魚"
+      ],
+      "mappings": [],
+      "retained": [
+        "旗魚"
+      ],
+      "notes": [
+        "涵盖多种鱼，不能擅自指定 swordfish、sailfish 或 marlin。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "J3100202": {
+      "originalName": "帶殼真牡蠣(生蠔)",
+      "originalEnglishName": "Giant pacific oyster; Japanese oyster",
+      "originalDescription": "樣品狀態:生; 前處理描述:去殼,混合均勻打碎",
+      "previousUnresolved": [
+        "生蠔"
+      ],
+      "mappings": [],
+      "retained": [
+        "生蠔"
+      ],
+      "notes": [
+        "此处可为牡蛎别名，不直接等同于 raw oyster；不能以别名认定生食状态。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "K0123201": {
+      "originalName": "荷包蛋(加油1小匙)",
+      "originalEnglishName": "Hen's egg: over medium with 1 teaspoon of oil ",
+      "originalDescription": "前處理描述:不沾鍋中加入1小匙油,待油熱打入蛋,約1~2分鐘後翻面,每粒約煎2~3分鐘,取出放冷均質",
+      "previousUnresolved": [
+        "加油1小匙"
+      ],
+      "mappings": [
+        {
+          "zh": "加油1小匙",
+          "en": "1 teaspoon of oil added",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "K0150201": {
+      "originalName": "炒蛋(加油3大匙)",
+      "originalEnglishName": "Hen's egg: scrambled with 3 tablespoons of oil ",
+      "originalDescription": "前處理描述:雞蛋去殼打勻,於不沾鍋中加入3大匙油,熱鍋2分鐘,倒入蛋液以小火快炒3分鐘,取出放冷均質",
+      "previousUnresolved": [
+        "加油3大匙"
+      ],
+      "mappings": [
+        {
+          "zh": "加油3大匙",
+          "en": "3 tablespoons of oil added",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "L0124601": {
+      "originalName": "中脂調味乳(纖維&維生素E強化)",
+      "originalEnglishName": "Reduced fat flavored composite and recombined milk: fiber & vitamin E enriched ",
+      "originalDescription": "樣品狀態:中脂(≧1.5%)調味乳; 前處理描述:混合均勻",
+      "previousUnresolved": [
+        "纖維&維生素E強化"
+      ],
+      "mappings": [
+        {
+          "zh": "纖維&維生素E強化",
+          "en": "fibre and vitamin E fortified",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "L0214201": {
+      "originalName": "部份脫脂強化奶粉(纖維&DHA強化)",
+      "originalEnglishName": "Partly skimmed fortified milk powder: fiber & DHA enriched",
+      "originalDescription": "樣品狀態:部份脫脂強化奶粉(奶粉,卵磷脂,菊芋粉,啤酒酵母,DHA等); 前處理描述:混合均勻",
+      "previousUnresolved": [
+        "纖維&DHA強化"
+      ],
+      "mappings": [
+        {
+          "zh": "纖維&DHA強化",
+          "en": "fibre and DHA fortified",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "L0214301": {
+      "originalName": "部份脫脂強化奶粉(纖維&鈣強化)",
+      "originalEnglishName": "Partly skimmed fortified milk powder: fiber & calcium enriched",
+      "originalDescription": "樣品狀態:部份脫脂(1.5-26%)強化奶粉(部份脫脂奶粉,菊芋粉等); 前處理描述:混合均勻",
+      "previousUnresolved": [
+        "纖維&鈣強化"
+      ],
+      "mappings": [
+        {
+          "zh": "纖維&鈣強化",
+          "en": "fibre and calcium fortified",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "L0217201": {
+      "originalName": "脫脂強化奶粉(鈣&維生素A強化)",
+      "originalEnglishName": "Skimmed fortified milk powder: calcium & vitamin A enriched",
+      "originalDescription": "樣品狀態:脫脂(<1.5%)強化奶粉; 前處理描述:混合均勻",
+      "previousUnresolved": [
+        "鈣&維生素A強化"
+      ],
+      "mappings": [
+        {
+          "zh": "鈣&維生素A強化",
+          "en": "calcium and vitamin A fortified",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "L0217301": {
+      "originalName": "脫脂強化奶粉(鈣&維生素C,E強化)",
+      "originalEnglishName": "Skimmed fortified milk powder: calcium & vitamin C/E enriched",
+      "originalDescription": "樣品狀態:脫脂(<1.5%)強化奶粉(脫脂牛奶,碳酸鈣,維生素等); 前處理描述:混合均勻",
+      "previousUnresolved": [
+        "鈣&維生素C",
+        "E強化"
+      ],
+      "mappings": [
+        {
+          "zh": "鈣&維生素C,E強化",
+          "en": "calcium and vitamins C and E fortified",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "L0217401": {
+      "originalName": "脫脂強化奶粉(鈣&鐵強化)",
+      "originalEnglishName": "Skimmed fortified milk powder: calcium & iron enriched",
+      "originalDescription": "樣品狀態:脫脂(<1.5%)強化奶粉(脫脂奶粉,維生素,礦物質等); 前處理描述:混合均勻",
+      "previousUnresolved": [
+        "鈣&鐵強化"
+      ],
+      "mappings": [
+        {
+          "zh": "鈣&鐵強化",
+          "en": "calcium and iron fortified",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "L0314201": {
+      "originalName": "中脂濃稠發酵乳(無糖&纖維強化)",
+      "originalEnglishName": "Medium fat concentrated fermented milk: non-sugar, fiber enriched",
+      "originalDescription": "樣品狀態:中脂(1.5-3.0%)濃稠發酵乳(生乳,膳食纖維,寡糖等); 前處理描述:混合均勻",
+      "previousUnresolved": [
+        "無糖&纖維強化"
+      ],
+      "mappings": [
+        {
+          "zh": "無糖&纖維強化",
+          "en": "unsweetened and fibre fortified",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "L0348101": {
+      "originalName": "脫脂保久濃稠發酵乳(草莓&蘋果)",
+      "originalEnglishName": "Skimmed concentrated fermented milk: sterilized, strawberry & apple flavor",
+      "originalDescription": "樣品狀態:脫脂(<0.5%)保久濃稠發酵乳(草莓+蘋果等); 前處理描述:混合均勻",
+      "previousUnresolved": [
+        "草莓&蘋果"
+      ],
+      "mappings": [
+        {
+          "zh": "草莓&蘋果",
+          "en": "strawberry and apple",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "Q0300201": {
+      "originalName": "月餅(棗泥)",
+      "originalEnglishName": "Moon cake",
+      "originalDescription": "前處理描述:混合均勻打碎",
+      "previousUnresolved": [
+        "棗泥"
+      ],
+      "mappings": [
+        {
+          "zh": "棗泥",
+          "en": "jujube paste",
+          "basis": "literal-description",
+          "reference": "https://data.gov.tw/dataset/8543"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "Q1000601": {
+      "originalName": "蜜糖甜甜圈(波/摩堤)",
+      "originalEnglishName": null,
+      "originalDescription": "前處理描述:混合均勻打碎",
+      "previousUnresolved": [
+        "波/摩堤"
+      ],
+      "mappings": [],
+      "retained": [
+        "波/摩堤"
+      ],
+      "notes": [
+        "来源的产品造型或系列名对应未确认，不添加品牌或配方认定。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "R3000501": {
+      "originalName": "油豆腐粉絲(阿給)",
+      "originalEnglishName": null,
+      "originalDescription": "前處理描述:混合均勻打碎(豆腐皮,粉絲等)",
+      "previousUnresolved": [
+        "阿給"
+      ],
+      "mappings": [],
+      "retained": [
+        "阿給"
+      ],
+      "notes": [
+        "保留地方菜名；配料支持油豆腐与粉丝，但未核实统一英文转写。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "R7500201": {
+      "originalName": "日本鰻鱺魚片(蒲燒)",
+      "originalEnglishName": "Japanese eel; Freshwater eel; Eel ",
+      "originalDescription": "前處理描述:混合均勻打碎",
+      "previousUnresolved": [
+        "蒲燒"
+      ],
+      "mappings": [
+        {
+          "zh": "蒲燒",
+          "en": "kabayaki-style",
+          "basis": "primary-reference",
+          "reference": "https://kmweb.moa.gov.tw/subject/subject.php?id=28834&print=Y"
+        }
+      ],
+      "retained": [],
+      "notes": [],
+      "references": [
+        "https://kmweb.moa.gov.tw/subject/subject.php?id=28834&print=Y"
+      ],
+      "decision": "mapped",
+      "identityWarning": ""
+    },
+    "R7500301": {
+      "originalName": "鹽漬小鱗脂眼鯡(鹹馧仔)",
+      "originalEnglishName": "Round herring",
+      "originalDescription": "前處理描述:去頭尾及骨刺,混合均勻打碎",
+      "previousUnresolved": [
+        "鹹馧仔"
+      ],
+      "mappings": [],
+      "retained": [
+        "鹹馧仔"
+      ],
+      "notes": [
+        "地方腌制鱼品名，不从相似字或通用英文外推其他鱼种。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    },
+    "R7500501": {
+      "originalName": "毛鱗魚(柳葉魚)(裹粉未炸)",
+      "originalEnglishName": null,
+      "originalDescription": "樣品狀態:冷凍包裝; 前處理描述:混合均勻打碎",
+      "previousUnresolved": [
+        "柳葉魚"
+      ],
+      "mappings": [],
+      "retained": [
+        "柳葉魚"
+      ],
+      "notes": [
+        "本条主名毛鳞鱼已补 capelin；市场俗称可涉及不同鱼，别名不作为全库物种等价词。"
+      ],
+      "references": [],
+      "decision": "retained",
+      "identityWarning": ""
+    }
+  }
+}

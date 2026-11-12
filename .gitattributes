@@ -1,0 +1,9 @@
+# These files carry byte-level source checksums. Preserve their exact bytes.
+public/data/tfda/** -text whitespace=cr-at-eol
+scripts/vendor/opencc/** -text whitespace=cr-at-eol
+scripts/tfda-english-*.tsv -text whitespace=cr-at-eol
+scripts/tfda-english-review-*.json -text whitespace=cr-at-eol
+public/licenses/opencc-Apache-2.0.txt -text whitespace=cr-at-eol
+# Preserve upstream license whitespace instead of altering the pinned source.
+scripts/vendor/opencc/LICENSE whitespace=cr-at-eol,-blank-at-eof
+public/licenses/opencc-Apache-2.0.txt whitespace=cr-at-eol,-blank-at-eof
