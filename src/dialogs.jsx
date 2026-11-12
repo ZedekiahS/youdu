@@ -1,15 +1,17 @@
+import {writeReportFiles} from './report-write.js';
+import {profileFor} from './report-management.js';
 import {DateInput} from './DateInput';
 import {resolvePending} from './pending-food';
 import {reviseRecord,addMeal} from './record-history.js';
 import React,{useState,useEffect,useRef} from 'react';
 import {X,BookOpen,ForkKnife,Scales,Drop,PersonSimpleWalk} from '@phosphor-icons/react';
 import {nav} from './Shell';
-import {foodById,recipeById,TODAY,uid,round,totals,makeMeal,reportStore} from './model';
+import {foodById,recipeById,TODAY,uid,round,totals,makeMeal,reportStore,STORE_KEY} from './model';
 import {remainingServings,portionItems} from './workflows';
 import {Btn,Note,Nutri,Empty,fmt} from './ui';
 const titles={weight:'记录体重',meal:'确认饮食记录',water:'记录饮水',activity:'记录活动',plan:'添加计划',report:'保存身体资料',modules:'全部功能',quick:'快捷记录',editMeal:'修改饮食记录',preview:'资料原件预览',member:'添加模拟成员',goal:'调整阶段目标',shopping:'备餐购物清单'};
 export function Modal({modal,close,...props}){const ref=useRef();useEffect(()=>{const prev=document.activeElement,old=document.body.style.overflow;document.body.style.overflow='hidden';ref.current?.querySelector('button,input')?.focus();const key=e=>{if(e.key==='Escape')close();if(e.key==='Tab'){const els=[...ref.current.querySelectorAll('button,input,select,textarea,a[href]')].filter(x=>!x.disabled&&x.getClientRects().length);if(e.shiftKey&&document.activeElement===els[0]){e.preventDefault();els.at(-1)?.focus()}else if(!e.shiftKey&&document.activeElement===els.at(-1)){e.preventDefault();els[0]?.focus()}}};document.addEventListener('keydown',key);return()=>{document.body.style.overflow=old;document.removeEventListener('keydown',key);prev?.focus()}},[]);useEffect(()=>{ref.current?.querySelector('button')?.focus()},[modal.type]);return <div className="modal-backdrop" onClick={e=>{if(e.target===e.currentTarget)close()}}><div ref={ref} className="modal" role="dialog" aria-modal="true" aria-label={titles[modal.type]||'详情'}><div className="modal-title"><h2>{titles[modal.type]||'详情'}</h2><button aria-label="关闭对话框" className="icon-btn" onClick={close}><X size={23}/></button></div><Content key={modal.type+(modal.entry?.id||modal.batchId||'')} modal={modal} close={close} {...props}/></div></div>}
-function Content({modal,state,update,go,open,notify,close}){
+function Content({modal,state,update,getState,go,open,notify,close}){
  const saving=useRef(false),entryId=useRef(uid());
  const pending=modal.type==='meal'?state.pendingMeals?.find(m=>m.id===state.recordContext?.pendingId):null;
  const [error,setError]=useState(''),[busy,setBusy]=useState(false),[portion,setPortion]=useState(modal.entry?.batchPortions||Math.min(1,modal.batchId?remainingServings(state,modal.batchId):1)),[url,setUrl]=useState('');const [items,setItems]=useState(()=>structuredClone(modal.items||modal.entry?.items||[]));const batchId=modal.batchId||modal.entry?.batchId;const batch=state.batches?.find(b=>b.id===batchId);const servings=batch?.servings||modal.servings||1;const available=batch?remainingServings(state,batch.id,modal.entry?.id):servings;
@@ -32,7 +34,7 @@ function Content({modal,state,update,go,open,notify,close}){
  if(modal.type==='plan')save(s=>{s.plans.push({id:uid(),date:f.date,time:f.time,type:f.type,title:f.title,minutes:f.type==='workout'?Number(f.minutes):undefined,templateId:f.type==='workout'?f.templateId:undefined})},'已加入计划，尚未计入完成');
  if(modal.type==='member')save(s=>s.family.push({id:uid(),name:f.name,recipes:true,progress:false}),'模拟成员已添加，没有发送邀请');
  if(modal.type==='goal')save(s=>{s.changes.push({id:uid(),time:new Date().toISOString(),kind:'goal',before:{...s.profile},reason:'用户手动调整阶段目标'});s.profile.goal=f.goal;s.profile.targetWeight=f.targetWeight?Number(f.targetWeight):null;s.profile.kcal=f.kcal?Number(f.kcal):null},'目标已更新，保留了修改历史');
- if(modal.type==='report'){const file=f.file;if(!file?.size){setError('请选择一份文件');return}if(file.size>15*1024*1024){setError('每份文件最多 15 MB');return}if(!['image/png','image/jpeg','image/webp','application/pdf'].includes(file.type)){setError('请选择 PNG、JPEG、WebP 或 PDF');return}setBusy(true);try{const id=uid();await reportStore('put',id,file);save(s=>s.reports.push({id,name:file.name,type:file.type,size:file.size,date:f.date,note:f.note,status:'未提取 · 待核对'}),'资料已保存至本机，未发送给 AI')}catch{setError('保存失败，请检查浏览器存储空间。')}finally{setBusy(false)}}
+ if(modal.type==='report'){const file=f.file;if(!file?.size){setError('请选择一份文件');return}if(file.size>15*1024*1024){setError('每份文件最多 15 MB');return}if(!['image/png','image/jpeg','image/webp','application/pdf'].includes(file.type)){setError('请选择 PNG、JPEG、WebP 或 PDF');return}if(saving.current)return;saving.current=true;setBusy(true);try{const id=uid(),owner=state.profileId;const warning=await writeReportFiles({files:[{id,blob:file}],operationId:id,storage:localStorage,key:STORE_KEY,store:reportStore,getState,persist:()=>update(s=>profileFor(s,owner).reports.push({id,name:file.name,type:file.type,size:file.size,date:f.date,note:f.note,status:'未提取 · 待核对'}))});notify(warning||'资料已保存至本机，未发送给 AI');close()}catch(e){setError('保存失败：'+e.message)}finally{saving.current=false;setBusy(false)}}
  };
  if(modal.type==='modules')return <div className="module-grid">{nav.map(([id,name,Icon])=><button key={id} onClick={()=>{close();go(id)}}><Icon size={26}/><span>{name}</span></button>)}<button onClick={()=>{close();go('sources')}}><BookOpen size={26}/><span>来源与依据</span></button></div>;
  if(modal.type==='quick')return <div className="module-grid">{[['meal','饮食',ForkKnife],['weight','体重',Scales],['water','饮水',Drop],['activity','活动',PersonSimpleWalk]].map(([id,name,Icon])=><button key={id} onClick={()=>{if(id==='meal'){close();go('food/foods')}else open(id)}}><Icon size={29}/><span>记录{name}</span></button>)}</div>;

@@ -49,7 +49,9 @@ export function loadState(){
 }
 export async function reportStore(mode,id,file) {
  const db=await new Promise((resolve,reject)=>{const r=indexedDB.open('youdu-prototype-files',1);r.onupgradeneeded=()=>r.result.createObjectStore('reports');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});
- return new Promise((resolve,reject)=>{const tx=db.transaction('reports',mode==='get'?'readonly':'readwrite');const st=tx.objectStore('reports');let result;
-  if(mode==='putMany'){for(const entry of file)st.put(entry.blob,entry.id)}else{const r=mode==='get'?st.get(id):mode==='delete'?st.delete(id):st.put(file,id);r.onsuccess=()=>{result=r.result}}
-  tx.oncomplete=()=>{db.close();resolve(result)};tx.onabort=tx.onerror=()=>{db.close();reject(tx.error||Error('本机文件保存失败'))};});
+ return new Promise((resolve,reject)=>{const tx=db.transaction('reports',mode==='get'?'readonly':'readwrite');const st=tx.objectStore('reports');let result,failure;
+  tx.oncomplete=()=>{db.close();resolve(result)};tx.onabort=tx.onerror=()=>{db.close();reject(failure||tx.error||Error('本机文件保存失败'))};
+  try{if(mode==='putMany'){for(const entry of file)st.put(entry.blob,entry.id)}else{const r=mode==='get'?st.get(id):mode==='delete'?st.delete(id):st.put(file,id);r.onsuccess=()=>{result=r.result}}}
+  catch(e){failure=e;tx.abort()}
+ });
 }
