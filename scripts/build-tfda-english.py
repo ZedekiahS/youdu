@@ -7,7 +7,7 @@ import re
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 BASE = ROOT / 'public/data/tfda'
-VERSION = 'tfda-en-2026-11-13-v2'
+VERSION = 'tfda-en-2026-11-13-v3'
 
 
 def load(path):
@@ -135,13 +135,22 @@ for entry in index:
 
     state = re.search(r'樣品狀態:([^;]+)', description)
     state_text = state[1] if state else ''
-    # Only explicit state boundaries; 生 does not match 生產, 熟 does not imply frozen is cooked.
-    for zh, en in [('生', 'raw'), ('熟', 'cooked'), ('乾貨', 'dried product'),
+    # Translate exact state tokens, including limits inside parentheses; never infer
+    # unknown species/cuts or confuse laboratory preparation with food state.
+    state_terms = dict([('生', 'raw'), ('熟', 'cooked'), ('乾貨', 'dried product'),
                    ('未烹調', 'uncooked'), ('烘烤過', 'roasted'), ('水煮', 'boiled'),
                    ('冷凍包裝', 'frozen packaged product'), ('冷凍產品', 'frozen product'),
-                   ('乾麵條', 'dry noodles'), ('濕麵條', 'wet noodles'), ('已泡發', 'rehydrated')]:
-        if re.search(r'(^|[,，])' + re.escape(zh) + r'($|[,，(（])', state_text):
-            add(zh, en, 'sampleState')
+                   ('乾麵條', 'dry noodles'), ('濕麵條', 'wet noodles'), ('已泡發', 'rehydrated'),
+                   ('經鹽醃脫水處理', 'salt-cured and dehydrated'), ('無加糖', 'no sugar added'),
+                   ('未加糖', 'no sugar added'), ('無糖', 'unsweetened'), ('果乾', 'dried fruit'),
+                   ('紅葡萄', 'red grapes'), ('冷藏袋裝', 'refrigerated, bagged'),
+                   ('袋裝', 'bagged'), ('瓶裝', 'bottled'), ('包裝產品', 'packaged product')])
+    state_untranslated = []
+    for token in filter(None, (s.strip() for s in re.split(r'[,，()（）]', state_text))):
+        if token in state_terms:
+            add(token, state_terms[token], 'sampleState')
+        elif token not in state_untranslated:
+            state_untranslated.append(token)
     prep = description.split('前處理描述:', 1)[-1] if '前處理描述:' in description else ''
     for zh, en in [('去皮', 'skin/peel removed'), ('含皮', 'skin retained'), ('去骨', 'bones removed'),
                    ('去皮及骨刺', 'skin and bones removed'), ('去殼', 'shell removed'),
@@ -159,16 +168,29 @@ for entry in index:
         notes.append('来源年份位数异常，保留原文，未擅自修正')
     if checked and list(dict.fromkeys(unresolved)) != checked['retained']:
         raise ValueError('Qualifier review outcome mismatch: ' + code)
-    qualifiers = list(dict.fromkeys(q['en'] for q in translated if q['origin'] != 'samplePreparation'
-                                   and not re.search(r'(?<![a-z])' + re.escape(q['en']) + r'(?![a-z])', base, re.I)))
+    def already_in_base(en):
+        if re.search(r'(?<![a-z])' + re.escape(en) + r'(?![a-z])', base, re.I):
+            return True
+        if en == 'bones removed' and re.search(r'\bboneless\b', base, re.I):
+            return True
+        return (code == 'L0217301' and en == 'calcium and vitamins C and E fortified'
+                and 'calcium & vitamin C/E enriched' in base)
+
+    # Food-specific wording; do not globally turn a skin colour into a food name.
+    def display_term(en):
+        return en.replace(' skin', '-skinned') if original.startswith('甜椒') and en in ('red skin', 'orange skin') else en
+    qualifiers = list(dict.fromkeys(display_term(q['en']) for q in translated if q['origin'] != 'samplePreparation'
+                                   and not already_in_base(q['en'])))
     name = base + (' — ' + '; '.join(qualifiers) if qualifiers else '')
-    if unresolved:
-        name += ' [untranslated qualifiers: ' + '; '.join(dict.fromkeys(unresolved)) + ']'
+    unseen = [s for s in dict.fromkeys(unresolved) if s not in name]
+    if unseen:
+        name += ' [untranslated qualifiers: ' + '; '.join(unseen) + ']'
     names[code] = {
         'originalName': original, 'originalEnglishName': original_en, 'originalDescription': description,
         'name': name, 'origin': 'project-supplement' if code in supplements else 'source-with-project-qualifiers',
         'status': 'needs-review' if notes else 'draft', 'notes': notes,
         'qualifiers': translated, 'unresolved': list(dict.fromkeys(unresolved)),
+        'sampleState': {'original': state_text.strip() or None, 'untranslated': state_untranslated},
         'references': list(dict.fromkeys(references.get(code, []) + (checked['references'] if checked else []))),
         **({'qualifierReview': review['version'], 'identityWarning': checked['identityWarning']} if checked else {}),
     }

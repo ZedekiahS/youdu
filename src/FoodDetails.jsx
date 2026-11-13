@@ -2,16 +2,18 @@ import {RecordContext} from './DateInput';
 import {nameStatus} from './catalog-core.js';
 import {revisionOf,nutrientLabels} from './nutrition-core.js';
 import {loadFood} from './catalog';
+import {tfdaStateSummary} from './tfda-core.js';
 import React,{useState,useEffect} from 'react';
 import {ArrowLeft,Plus,Sparkle} from '@phosphor-icons/react';
 import {foodById,recipeById,totals,round} from './model';
 import {Btn,Section,Empty,Note,Nutri,fmt,LinkOut} from './ui';
 
 function EnglishNameDetails({translation:t}) {
-  return <details><summary>英文名称{t.status==='needs-review'?'（部分待核对）':''}</summary>
+  return <details><summary>英文名称{t.status==='needs-review'||t.sampleState?.untranslated?.length?'（部分待核对）':''}</summary>
     <p lang="en">{t.name}</p>
     <p>{t.origin==='project-supplement'?'项目补译，非官方英文名称。':'来源英文附项目补充说明。'}尚未经过专业审校。</p>
-    {t.unresolved?.length>0&&<p>保留原文：{t.unresolved.join('、')}</p>}
+    {t.sampleState?.untranslated?.length>0&&<p>未译样品状态（保留原文）：{t.sampleState.untranslated.join('、')}</p>}
+    {t.sampleState&&t.sampleState.original===null&&<p lang="en">Sample state not specified by source.</p>}
     <details><summary>译名核对依据</summary>
       <p>译名版本：{t.version}</p>
       {t.notes.length>0&&<ul>{t.notes.map(note=><li key={note}>{note}</li>)}</ul>}
@@ -43,7 +45,7 @@ export function FoodDetail({state,go,route,open,update}) {
   const chatRoute='assistant'+(chatKey&&chatKey!=='general'?'/'+chatKey:'');
   return <>
   <RecordContext state={state}/>{record&&<button className="back-link" onClick={()=>go('meal/'+record.id)}>返回这次摄入：{record.date} {record.meal}</button>}<div className="workflow-actions">{chatKey&&<button className="back-link" onClick={()=>go(chatRoute)}><ArrowLeft/>返回 AI 对话</button>}{recipe?<button className="back-link" onClick={()=>go('recipe/'+recipe.id+(chatKey?'/chat/'+encodeURIComponent(chatKey):''))}><ArrowLeft/>返回：{recipe.name}</button>:<button className="back-link" onClick={()=>go('food/foods',state.recordContext)}><ArrowLeft/>食品库</button>}</div>
-  <div className="page-heading"><div><h1>{f.name}</h1>{!f.translation&&!f.sourceCode&&<p>{f.state}</p>}{f.translation?.status==='needs-review'&&<p className="source-pill">名称待核对：{f.translation.notes?.[0]||'请核对原文与实际食品'}</p>}{f.englishTranslation?.identityWarning&&<p className="source-pill">{f.englishTranslation.identityWarning}</p>}</div></div>
+  <div className="page-heading"><div><h1>{f.name}</h1>{f.sourceCode?<p>{tfdaStateSummary(f.originalDescription)}</p>:!f.translation&&<p>{f.state}</p>}{f.translation?.status==='needs-review'&&<p className="source-pill">名称待核对：{f.translation.notes?.[0]||'请核对原文与实际食品'}</p>}{f.englishTranslation?.identityWarning&&<p className="source-pill">{f.englishTranslation.identityWarning}</p>}</div></div>
   {recipe&&<div className="recipe-context"><strong>来自「{recipe.name}」</strong><span>当前 {draft.servings} 人份配方使用 {currentGrams} 克{f.name}。以下数值随你选择的查看基准变化。</span></div>}
   <div className="detail-columns"><Section title={mode==='recipe'?'这份食材在菜谱中的营养贡献':'食品营养成分'} sub={`原始基准：${f.basis} · 当前按 ${grams} 克换算`}>
     <div className="chips">{currentGrams!=null&&<button className={mode==='recipe'?'selected':''} onClick={()=>selectView('recipe',manual)}>菜谱实际用量 {currentGrams} 克</button>}<button className={mode==='standard'&&manual===100?'selected':''} onClick={()=>selectView('standard',100)}>标准 100 克</button></div>

@@ -1,4 +1,15 @@
 // A source adapter only: reuse the existing gram-based calculation and snapshots.
+export function tfdaStateSummary(description){
+ const state=description?.match(/樣品狀態:([^;]+)/)?.[1]?.trim();
+ // Keep the whole source state, including parenthetical sugar/processing limits.
+ // Do not mix laboratory preparation into the food's state or guess missing states.
+ return state||'来源未注明样品状态，请核对生熟与加工方式。';
+}
+export function tfdaCatalogEntry(entry,names){
+ const en=tfdaEnglishFor(entry,names);
+ return {...entry,stateSummary:tfdaStateSummary(en.originalDescription),identityWarning:en.identityWarning||'',
+  needsReview:!!en.identityWarning,aliases:[...entry.aliases,en.name]};
+}
 export function tfdaEnglishFor(entry,names){
  const translation=names.entries?.[entry.sourceCode];
  if(!translation||translation.originalName!==entry.originalName)throw Error('英文补译与食品身份不匹配，请重新核对资料库');

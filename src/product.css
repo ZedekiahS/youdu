@@ -217,3 +217,5 @@ a.text-link{text-decoration:underline;text-underline-offset:4px}
 .help-content{color:var(--muted);font-size:14px;line-height:1.7;padding:4px 0 12px;overflow-wrap:anywhere}
 .help-content>p:first-child{margin-top:0}.help-content>p:last-child{margin-bottom:0}
 .motion-player .help-details{border:0;border-radius:0;padding:0}
+
+.food-identity{min-width:0;overflow-wrap:anywhere}.food-identity>small{display:block;margin-top:3px}.food-browser .food-identity>strong{font-size:14px}

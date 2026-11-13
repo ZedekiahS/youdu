@@ -1,7 +1,7 @@
 import {useEffect,useState} from 'react';
 import {foods,foodById} from './model';
 import {expandFood,nameFor,nameStatus} from './catalog-core.js';
-import {expandTfdaFood,tfdaEnglishFor} from './tfda-core.js';
+import {expandTfdaFood,tfdaEnglishFor,tfdaCatalogEntry} from './tfda-core.js';
 const curated=new Map(foods.map(f=>[f.fdcId,f]));
 let cache,pending;const shards=new Map();
 async function json(url){const res=await fetch(url);if(!res.ok)throw Error('资料库暂时无法读取，请重试');return res.json()}
@@ -11,7 +11,7 @@ export function loadCatalog(){
   if(names.sourceIndexSha256!==manifest.indexSha256||names.count!==rows.length)throw Error('中文名称版本与食品库不匹配，请重新核对资料');
   if(tfdaEntries.length!==tfdaManifest.count)throw Error('食药署索引与来源版本不匹配');
   if(tfdaEnglish.sourceIndexSha256!==tfdaManifest.indexSha256||tfdaEnglish.count!==tfdaEntries.length)throw Error('英文补译版本与食品库不匹配');
-  const englishEntries=tfdaEntries.map(e=>({...e,aliases:[...e.aliases,tfdaEnglishFor(e,tfdaEnglish).name]}));
+  const englishEntries=tfdaEntries.map(e=>tfdaCatalogEntry(e,tfdaEnglish));
   return cache={manifest,rows,names,tfdaManifest,tfdaEntries,tfdaEnglish,entries:rows.map(row=>{const f=curated.get(row[0]),translation=nameFor(row,names);return {id:f?.id||'usda-'+row[0],revision:f?.revision||`sr2018-${row[0]}-r1`,fdcId:row[0],name:f?.name||translation.name,originalName:row[1],category:manifest.groups[row[2]]?.name||'其他',state:f?.state||nameStatus(translation),kcal:row[3],aliases:f?.aliases||[],curated:!!f,needsReview:translation.status==='needs-review',identityNote:translation.notes?.[0]||''}}).concat(englishEntries).sort((a,b)=>Number(!!b.curated)-Number(!!a.curated))};
  }).catch(e=>{pending=null;throw e}));
 }

@@ -86,6 +86,8 @@ for code, evidence in sorted(selected.items()):
     original = source['樣品名稱']
     description = source['內容物描述'] or ''
     state = re.search(r'樣品狀態:([^;]+)', description)
+    # Compact name label only; runtime selection/detail must also display the
+    # complete sample state from the bound description (tfdaStateSummary).
     label = re.split(r'[,，(（]', state.group(1))[0].strip() if state else ''
     name = original + (f'（{label}）' if label and len(label) <= 12 and label not in original else '')
     energy = next(e['data']['每100克含量'] for e in evidence if e['data']['分析項'] == '熱量')

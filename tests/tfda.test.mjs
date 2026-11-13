@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {expandTfdaFood,tfdaEnglishFor} from '../src/tfda-core.js';
+import * as tfda from '../src/tfda-core.js';
 import {searchCatalog,assistantFoodMatches} from '../src/catalog-core.js';
 import {calculate} from '../src/nutrition-core.js';
 import {migrateState,profileSnapshot,asNewProfile} from '../src/storage-core.js';
@@ -12,6 +13,36 @@ const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(new URL(p,base))
 const manifest=read('manifest.json'),entries=read('index.json'),raw={};
 for(const shard of Object.keys(manifest.shards))Object.assign(raw,read(shard+'.json'));
 const food=code=>expandTfdaFood(entries.find(e=>e.sourceCode===code),raw[code],manifest);
+
+test('selection and English names preserve processing states, missing state and actual identity warnings without changing old snapshots',()=>{
+ const names=read('names-en.json'),q=id=>names.entries[id];
+ assert.match(q('F0800101').name,/salt-cured and dehydrated/);
+ const catalog=entries.map(e=>tfda.tfdaCatalogEntry(e,names));
+ const row=id=>catalog.find(e=>e.sourceCode===id);
+ assert.match(row('F0800101').stateSummary,/生.*鹽醃脫水/);
+ assert.match(row('D1710101').stateSummary,/無加糖/);
+ assert.match(row('I01001').stateSummary,/冷凍/);
+ assert.match(row('P0700201').stateSummary,/来源未注明/);
+ assert.match(q('F0800101').name,/salt-cured and dehydrated/);
+ assert.match(q('D1710101').name,/no sugar added/);
+ assert.match(q('I01001').name,/frozen/);
+ assert.equal(row('A0500401').needsReview,true);assert.match(row('A0500401').identityWarning,/品种/);
+ assert.equal(row('A0501103').needsReview,false); // Translation uncertainty is not a food-identity conflict.
+ assert.ok(assistantFoodMatches(catalog,'A0500401')[0].identityWarning);
+ for(const [id,token] of [['D2000301','新世紀'],['J0416401','芒加魚邊'],['J0600701','旗魚'],['Q1000601','波/摩堤']]){
+  assert.equal(q(id).name.split(token).length-1,1);assert.ok(q(id).unresolved.includes(token));assert.equal(q(id).status,'needs-review');
+ }
+ assert.doesNotMatch(q('L0217301').name,/ — calcium and/);assert.doesNotMatch(q('I0100101').name,/bones removed/);
+ assert.match(q('E7500202').name,/red-skinned/);assert.match(q('E7500401').name,/orange-skinned/);
+ for(const e of entries){const state=raw[e.sourceCode][0].data['內容物描述']?.match(/樣品狀態:([^;]+)/)?.[1]?.trim()||null;
+  assert.equal(q(e.sourceCode).sampleState.original,state);
+  for(const unknown of q(e.sourceCode).sampleState.untranslated)assert.ok(state.includes(unknown));
+ }
+ assert.ok(q('I01001').sampleState.untranslated.includes('牛肋脊部位'));
+ const snapshot=food('F0800101'),before=structuredClone(snapshot);
+ assert.match(tfda.tfdaStateSummary(snapshot.originalDescription),/鹽醃脫水/);assert.deepEqual(snapshot,before);
+ assert.equal(snapshot.nutrients.sodium,9172);assert.equal(calculate([{snapshot,grams:10}]).sodium,917.2);
+});
 
 test('93 qualifier reviews apply only to bound source identities and keep unresolved names and source conflicts explicit',()=>{
  const review=JSON.parse(fs.readFileSync(new URL('../scripts/tfda-english-review-2026-11-13.json',import.meta.url))),names=read('names-en.json');
