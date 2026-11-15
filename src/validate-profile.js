@@ -35,8 +35,11 @@ function record(kind,r,state,history=false){
  if(!history){if(r.corrections!=null&&!list(r.corrections))fail('更正历史无效');for(const c of r.corrections||[]){if(c?.before?.id!==r.id)fail('更正历史与记录不符');record(kind,c.before,state,true);}}
 }
 export function validateProfileRecords(s){
- for(const key of ['settings','chats','water','moods','completeness'])if(!s[key]||typeof s[key]!=='object'||Array.isArray(s[key]))fail('档案偏好或记录结构无效');
+ for(const key of ['settings','chats','water','moods','completeness','cookingDrafts','shoppingChecked','ingredientChecks'])if(!s[key]||typeof s[key]!=='object'||Array.isArray(s[key]))fail('档案偏好或记录结构无效');
  for(const key of ['changes','saved','shopping','sharedRecipes','family','combos','deletedRecords'])if(!list(s[key]))fail('档案列表无效');
+ for(const d of Object.values(s.cookingDrafts)){if(!d||typeof d.id!=='string'||!d.id||!Number.isInteger(d.step)||d.step<0||d.step>99||!positive(d.startedAt)||!Number.isFinite(d.pausedMs)||d.pausedMs<0||d.pausedAt!=null&&(!positive(d.pausedAt)||d.pausedAt<d.startedAt))fail('做菜进度或计时无效');}
+ for(const checks of Object.values(s.ingredientChecks)){if(!checks||typeof checks!=='object'||Array.isArray(checks)||Object.values(checks).some(v=>!positive(v)))fail('备料勾选数量无效');}
+ for(const grams of Object.values(s.shoppingChecked))if(!positive(grams))fail('备餐勾选数量无效');
  for(const b of s.batches){if(!validDate(b.date)||!positive(b.servings)||b.reservedPortions!=null&&(!Number.isFinite(b.reservedPortions)||b.reservedPortions<0||b.reservedPortions>b.servings))fail('制作日期或份量无效');items(b.items);}
  for(const kind of ['meals','workouts','weights','measurements','pendingMeals','indicators'])for(const r of s[kind])record(kind,r,s);
  for(const b of s.batches){const used=s.meals.filter(m=>m.batchId===b.id).reduce((n,m)=>n+m.batchPortions,0);if(used+(b.reservedPortions||0)>b.servings+0.000001)fail('摄入份量超过本次制作');}
@@ -47,6 +50,7 @@ export function validateProfileRecords(s){
   if(typeof active.id!=='string'||!positive(active.startedAt)||active.pausedMs!=null&&(!Number.isFinite(active.pausedMs)||active.pausedMs<0)||active.pausedAt!=null&&(!positive(active.pausedAt)||active.pausedAt<active.startedAt))fail('训练计时状态无效');
   const keys=moves(active.prescription||active.moves?.map(exerciseId=>({exerciseId,sets:2,reps:5})));
   if(!Array.isArray(active.checked)||new Set(active.checked).size!==active.checked.length||active.checked.some(k=>!keys.has(k)))fail('已完成组与训练安排不符');
+  const rest=active.manualRest;if(rest&&(!active.checked.includes(rest.key)||!positive(rest.untilElapsed)))fail('休息计时与已完成组不符');
   const f=active.follow;if(f){if(!positive(f.startedAt)||!positive(f.work)||!positive(f.rest)||!Number.isFinite(f.pausedMs)||f.pausedMs<0||f.pausedAt!=null&&(!positive(f.pausedAt)||f.pausedAt<f.startedAt)||!Array.isArray(f.queue)||!f.queue.length||new Set(f.queue.map(q=>q?.key)).size!==f.queue.length||f.queue.some(q=>!keys.has(q?.key)||!q.key.startsWith(q.exerciseId+'-')))fail('跟练计时或动作队列无效');}
  }
 }

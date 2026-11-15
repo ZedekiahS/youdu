@@ -21,3 +21,8 @@ export function resumeSession(session,now=Date.now()){
  if(session.pausedAt!=null){session.pausedMs=(session.pausedMs||0)+now-session.pausedAt;delete session.pausedAt;}
  if(session.follow?.pausedAt!=null){session.follow.pausedMs=(session.follow.pausedMs||0)+now-session.follow.pausedAt;delete session.follow.pausedAt;}
 }
+
+// Remaining rest uses the same elapsed-time axis as training, so pauses need no second clock.
+export function restSeconds(session,now=Date.now()){
+ return session?.manualRest?Math.max(0,Math.ceil((session.manualRest.untilElapsed-sessionElapsed(session,now))/1000)):0;
+}

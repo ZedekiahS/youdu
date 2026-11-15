@@ -1,5 +1,5 @@
 import {planStatus} from './plan-state.js';
-import {sessionElapsed,pauseSession,resumeSession} from './follow-clock.js';
+import {sessionElapsed,pauseSession,resumeSession,restSeconds} from './follow-clock.js';
 import {RemoveRecord,DeletedRecords} from './RecordRecovery';
 import {WorkoutBuilder} from './WorkoutBuilder';
 import {FollowAlong} from './FollowAlong';
@@ -9,7 +9,7 @@ import media from './motion.json';
 import {Plus,ArrowRight,ArrowLeft,Clock,Play,Check,Barbell,ArrowsClockwise,MagnifyingGlass} from '@phosphor-icons/react';
 import {TODAY,exercises,exerciseById,uid} from './model';
 import {Btn,Section,Disclosure,Help,Empty,Note} from './ui';
-import {planTraining,trainingFor,trainingSummary,isStructuredPlan,beginTraining,sessionPrescription,finishTraining} from './workflows';
+import {planTraining,trainingFor,trainingSummary,isStructuredPlan,beginTraining,sessionPrescription,finishTraining,toggleTrainingSet} from './workflows';
 
 export function WorkoutPage({state,go,open,update,notify}) {
   const [tab,setTab]=useState('今日训练'),[q,setQ]=useState('');
@@ -30,7 +30,7 @@ export function WorkoutPlanPage({state,go,route,update,open,notify}) {
   if(!template&&!plan)return <Empty title="没有找到这项安排" action={<Btn onClick={()=>go('plan')}>返回计划</Btn>}/>;
   const structured=template||isStructuredPlan(plan),training=template?trainingFor(20):structured?planTraining(plan):null;
   const records=state.workouts.filter(w=>w.planId===plan?.id);
-  const start=()=>{if(state.activeWorkout){notify('先继续或结束当前训练，未覆盖它的进度');go('session');return}update(s=>{beginTraining(s,plan,uid())});go('session')};
+  const start=()=>{if(state.activeWorkout){notify('先继续或结束当前训练，未覆盖它的进度');go('session');return}if(update(s=>{beginTraining(s,plan,uid())}))go('session')};
   return <><button className="back-link" onClick={()=>go('plan')}><ArrowLeft/>目标与计划</button><div className="page-heading"><div><div className="eyebrow">{template?'可复用示例模板':'这一次的训练安排'}</div><h1>{plan?.title||'居家基础练习'}</h1><p>{template?'独立体验，不关联某天的计划':`${plan.date} ${plan.time} · ${planStatus(plan)}`}</p></div></div>
   <Section title={structured?trainingSummary(training):'自由活动'} sub={structured?'按自己的节奏完成，预留时长不是计时目标':'完成后填写实际活动时长'}>
     {structured?training.moves.map((m,i)=><button key={m.exerciseId} className="exercise-row" onClick={()=>go('exercise/'+m.exerciseId+'/plan/'+(plan?.id||'template'))}><span className="exercise-number">0{i+1}</span><div><strong>{exerciseById[m.exerciseId].name}</strong><p>{m.sets} 组 × {m.reps} 次 · {exerciseById[m.exerciseId].equipment}</p></div><ArrowRight size={18}/></button>):<p>这项安排没有绑定动作模板，不会擅自替换成居家训练。</p>}
@@ -43,16 +43,17 @@ export function WorkoutPlanPage({state,go,route,update,open,notify}) {
 export function SessionPage({state,go,update,notify}) {
   const session=state.activeWorkout;
   const [preview,setPreview]=useState(null);
-  const [seconds,setSeconds]=useState(()=>session?Math.floor(sessionElapsed(session)/1000):0),[rest,setRest]=useState(0);
-  useEffect(()=>{const id=setInterval(()=>{setSeconds(session?Math.floor(sessionElapsed(session)/1000):0);if(!session?.pausedAt)setRest(v=>Math.max(0,v-1))},1000);return()=>clearInterval(id)},[session]);
+  const [,setNow]=useState(Date.now),now=Date.now();
+  useEffect(()=>{const id=setInterval(()=>setNow(Date.now()),1000);return()=>clearInterval(id)},[]);
+  const seconds=session?Math.floor(sessionElapsed(session,now)/1000):0,rest=restSeconds(session,now);
   if(!session)return <Empty title="没有进行中的训练" action={<Btn onClick={()=>go('workout')}>运动与训练</Btn>}/>;
   const prescription=sessionPrescription(session),total=prescription.reduce((n,m)=>n+m.sets,0);
-  const finish=()=>{if(!session.checked.length){notify('请先记录至少一组');return}update(s=>{finishTraining(s,TODAY)});notify('已保存实际训练及对应安排的进度');go('workout')};
-  return <><button className="back-link" onClick={()=>{update(s=>pauseSession(s.activeWorkout));go('workout')}}><ArrowLeft/>暂时离开，暂停并保留进度</button><div className="page-heading"><div><div className="eyebrow">{session.title||'居家基础练习'} · 开始时的安排</div><h1>专注这一组</h1><p>{session.targetMinutes?`预留 ${session.targetMinutes} 分钟`:'未设定预留时长'} · {prescription.length} 个动作 · 已完成 {session.checked.length} / {total} 组</p></div><div className="session-clock"><Clock/>{String(Math.floor(seconds/60)).padStart(2,'0')}:{String(seconds%60).padStart(2,'0')}</div></div><div className="progress-track"><div style={{width:session.checked.length/total*100+'%'}}/></div>
-  <div className="workflow-actions"><Btn kind="secondary" onClick={()=>update(s=>{if(s.activeWorkout.pausedAt)resumeSession(s.activeWorkout);else pauseSession(s.activeWorkout)})}>{session.pausedAt?'继续训练计时':'暂停训练计时'}</Btn>{!session.checked.length&&<Btn kind="secondary" onClick={()=>{update(s=>{s.activeWorkout=null});notify('已结束未完成任何组的训练，未生成活动记录，原安排保留');go('workout')}}>结束本次，不记录活动</Btn>}</div><Help title="计时与进度说明">暂停、离开训练页或切到后台会停止计时；回来后点继续。动作示范的暂停和重播不改变训练计时。</Help>
+  const finish=()=>{if(!session.checked.length){notify('请先记录至少一组');return}if(!update(s=>{finishTraining(s,TODAY)}))return;notify('已保存实际训练及对应安排的进度');go('workout')};
+  return <><button className="back-link" onClick={()=>{if(update(s=>pauseSession(s.activeWorkout)))go('workout')}}><ArrowLeft/>暂时离开，暂停并保留进度</button><div className="page-heading"><div><div className="eyebrow">{session.title||'居家基础练习'} · 开始时的安排</div><h1>专注这一组</h1><p>{session.targetMinutes?`预留 ${session.targetMinutes} 分钟`:'未设定预留时长'} · {prescription.length} 个动作 · 已完成 {session.checked.length} / {total} 组</p></div><div className="session-clock"><Clock/>{String(Math.floor(seconds/60)).padStart(2,'0')}:{String(seconds%60).padStart(2,'0')}</div></div><div className="progress-track"><div style={{width:session.checked.length/total*100+'%'}}/></div>
+  <div className="workflow-actions"><Btn kind="secondary" onClick={()=>update(s=>{if(s.activeWorkout.pausedAt)resumeSession(s.activeWorkout);else pauseSession(s.activeWorkout)})}>{session.pausedAt?'继续训练计时':'暂停训练计时'}</Btn>{!session.checked.length&&<Btn kind="secondary" onClick={()=>{if(!update(s=>{s.activeWorkout=null}))return;notify('已结束未完成任何组的训练，未生成活动记录，原安排保留');go('workout')}}>结束本次，不记录活动</Btn>}</div><Help title="计时与进度说明">暂停、离开训练页或切到后台会停止计时；回来后点继续。动作示范的暂停和重播不改变训练计时。</Help>
   <FollowAlong state={state} update={update} notify={notify} prescription={prescription}/>{!session.follow&&preview&&<Section title={exerciseById[preview].name+' · 动作示范'} action={<button className="text-link" onClick={()=>setPreview(null)}>收起示范</button>}><MotionPlayer key={preview} exercise={exerciseById[preview]}/></Section>}
   {!session.follow&&prescription.map((m,idx)=><Section key={m.exerciseId} title={exerciseById[m.exerciseId].name} sub={exerciseById[m.exerciseId].equipment} action={<div className="workflow-actions"><button className="text-link" onClick={()=>setPreview(m.exerciseId)}>查看示范</button><button className="text-link" onClick={()=>go('exercise/'+m.exerciseId)}>完整说明</button></div>}>
-    {Array.from({length:m.sets},(_,i)=><div className="set-row" key={i}><span>第 {i+1} 组</span><strong>{m.reps} 次</strong><button className={`set-check ${session.checked.includes(m.exerciseId+'-'+i)?'done':''}`} onClick={()=>{update(s=>{const key=m.exerciseId+'-'+i;const active=s.activeWorkout;active.checked=active.checked.includes(key)?active.checked.filter(x=>x!==key):[...active.checked,key]});setRest(45)}}>{session.checked.includes(m.exerciseId+'-'+i)?'已完成':'完成这一组'}<Check size={18}/></button></div>)}
-    {!session.checked.some(k=>k.startsWith(m.exerciseId+'-'))&&<button className="text-link" onClick={()=>{const other=exercises.find(e=>!prescription.some(p=>p.exerciseId===e.id));if(other)update(s=>{s.activeWorkout.prescription=structuredClone(prescription);s.activeWorkout.prescription[idx].exerciseId=other.id;s.activeWorkout.moves=s.activeWorkout.prescription.map(p=>p.exerciseId)});notify('仅替换本次动作，安排和模板保持不变')}}><ArrowsClockwise size={17}/>换一个动作</button>}
+    {Array.from({length:m.sets},(_,i)=><div className="set-row" key={i}><span>第 {i+1} 组</span><strong>{m.reps} 次</strong><button className={`set-check ${session.checked.includes(m.exerciseId+'-'+i)?'done':''}`} onClick={()=>{const time=Date.now();if(update(s=>toggleTrainingSet(s.activeWorkout,m.exerciseId+'-'+i,time)))setNow(time)}}>{session.checked.includes(m.exerciseId+'-'+i)?'已完成':'完成这一组'}<Check size={18}/></button></div>)}
+    {!session.checked.some(k=>k.startsWith(m.exerciseId+'-'))&&<button className="text-link" onClick={()=>{const other=exercises.find(e=>!prescription.some(p=>p.exerciseId===e.id));if(other&&update(s=>{s.activeWorkout.prescription=structuredClone(prescription);s.activeWorkout.prescription[idx].exerciseId=other.id;s.activeWorkout.moves=s.activeWorkout.prescription.map(p=>p.exerciseId)}))notify('仅替换本次动作，安排和模板保持不变')}}><ArrowsClockwise size={17}/>换一个动作</button>}
   </Section>)}{!session.follow&&<div className="session-bottom"><span><Clock size={18}/>{rest?`休息计时 ${rest} 秒`:'按自己的节奏休息'}</span><Btn onClick={finish}>结束并保存训练<Check size={19}/></Btn></div>}</>;
 }

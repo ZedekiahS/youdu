@@ -10,7 +10,7 @@ export function migrateState(input,id='legacy-local'){
  for(const k of lists)s[k]||=[];
  for(const k of ['measurements','indicators','combos','deletedRecords','pendingMeals'])s[k]||=[];
  if(s.removedMeal){if(!s.meals.some(m=>m.id===s.removedMeal.id)&&!s.deletedRecords.some(d=>d.kind==='meals'&&d.record.id===s.removedMeal.id))s.deletedRecords.push({kind:'meals',record:s.removedMeal,deletedAt:null});delete s.removedMeal;}
- for(const k of ['chats','water','moods','completeness'])s[k]||={};
+ for(const k of ['chats','water','moods','completeness','cookingDrafts','shoppingChecked','ingredientChecks'])s[k]||={};
  delete s.recordContext;
  s.settings||={};s.settings.cloudAI=false;s.settings.sync=false;
  for(const k of owned)for(const r of s[k]||[])r.ownerId||=s.profileId;
@@ -18,7 +18,7 @@ export function migrateState(input,id='legacy-local'){
 }
 export function profileSnapshot(s){const copy=structuredClone(s);delete copy.otherProfiles;delete copy.loadError;if(copy.activeWorkout)pauseSession(copy.activeWorkout);return copy}
 // A single-profile backup reserves other members' allocations without exporting their records.
-export function backupSnapshot(state){const copy=profileSnapshot(state);for(const b of copy.batches)b.reservedPortions=Number(((b.reservedPortions||0)+batchEntries(state,b.id).filter(m=>m.profileId!==state.profileId).reduce((n,m)=>n+m.batchPortions,0)).toFixed(2));return copy}
+export function backupSnapshot(state){const copy=profileSnapshot(state);for(const d of Object.values(copy.cookingDrafts||{}))pauseSession(d);for(const b of copy.batches)b.reservedPortions=Number(((b.reservedPortions||0)+batchEntries(state,b.id).filter(m=>m.profileId!==state.profileId).reduce((n,m)=>n+m.batchPortions,0)).toFixed(2));return copy}
 export function switchProfile(s,id){const target=s.otherProfiles[id];if(!target)throw Error('未找到本机档案');const next=migrateState(target);next.otherProfiles={...s.otherProfiles,[s.profileId]:profileSnapshot(s)};delete next.otherProfiles[id];return next}
 export function validateBackup(input){
  if(input?.format!=='youdu-backup'||input.version!==2||!input.state)throw Error('只接受有度 v2 备份；原档案保持不变');
@@ -39,6 +39,7 @@ export function asNewProfile(backup,newId,makeId){
  const batchIds=new Map(s.batches.map(b=>[b.id,makeId()]));
  for(const b of s.batches){b.id=batchIds.get(b.id);b.detachedFromFamily=true;}
  for(const r of [...s.meals,...s.deletedRecords.filter(d=>d.kind==='meals').map(d=>d.record)]){if(r.batchId)r.batchId=batchIds.get(r.batchId)||r.batchId;for(const c of r.corrections||[])if(c.before.batchId)c.before.batchId=batchIds.get(c.before.batchId)||c.before.batchId;}
+ for(const d of Object.values(s.cookingDrafts)){d.id=makeId();pauseSession(d);}
  s.profileId=newId;s.profile.name+='（恢复）';s.settings.cloudAI=false;s.settings.sync=false;
  for(const k of owned)for(const r of s[k]){r.ownerId=newId;if(k==='reports')r.id=reportIds.get(r.id);if(k==='indicators')r.reportId=reportIds.get(r.reportId)||r.reportId;}
  for(const d of s.deletedRecords){d.record.ownerId=newId;if(d.kind==='indicators')d.record.reportId=reportIds.get(d.record.reportId)||d.record.reportId;}

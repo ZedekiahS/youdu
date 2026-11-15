@@ -105,3 +105,13 @@ export function remainingServings(state,batchId,excludeMealId) {
 export function portionItems(batch,portion) {
   return batch.items.map(i=>({...structuredClone(i),grams:Number((i.grams*portion/batch.servings).toFixed(3))}));
 }
+
+export function toggleTrainingSet(session,key,now=Date.now()){
+ if(session.checked.includes(key)){
+  session.checked=session.checked.filter(k=>k!==key);
+  if(session.manualRest?.key===key)delete session.manualRest;
+ }else{
+  session.checked.push(key);
+  session.manualRest={key,untilElapsed:sessionElapsed(session,now)+45000};
+ }
+}
